@@ -12,6 +12,7 @@ Biologos:
 
 -  Pedro Ajanel 🍃
 - Maria Guadalupe Ventura Ventura 🍃
+- Jatany Alondra 🍃
 
 Desarrollador : 
 
