@@ -35,4 +35,4 @@ Otras de las configuraciones importantes es nuestros archivos js, los cuales nos
  
  
  
-                                              L I N K : https://cmiranda14.github.io/Quick-Learning/
+                                     L I N K : https://cmiranda14.github.io/Quick-Learning/
