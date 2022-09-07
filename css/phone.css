@@ -1,0 +1,40 @@
+.bg{
+    width: 100%;
+    height: auto;
+}
+.carrete{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+
+}
+.logo{
+    position: fixed;
+    left: 6rem;
+    top: 20rem;
+}
+.circle1{
+    margin: auto;
+}
+.circles{
+    display: none;
+}
+.ShapeDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
