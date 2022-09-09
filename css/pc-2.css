@@ -10,10 +10,10 @@
     flex-direction: column;
     font-family: 'Fredoka One', cursive;
 }
-body{
+/*body{
     /*overflow-y: hidden;
-    overflow-x: hidden;*/
-}
+    overflow-x: hidden;
+}*/
 .ShapeDown{
     display: flex;
     flex-direction: row;
@@ -48,3 +48,4 @@ body{
     margin: auto;
 
 }
+

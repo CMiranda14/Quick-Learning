@@ -4,6 +4,7 @@ function home(){
     /**SECCIÓN UNO DEL PROYECTO BIO FOOD */
 
     let div =  '<section class="bg">' +
+
                     '<div class="shapeUp">' +
                         '<img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg" class="ShapeUp">' +
                     '</div>' +
@@ -27,15 +28,17 @@ function home(){
                         '<img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg">' +
                     '</div>' +
 
+
                     '<img src="https://raw.githubusercontent.com/maria4Q/APS/134b74cdce2dfe0b8e5b957bace503cca2b2505a/Presentaci%C3%B3nBio.svg" class="txt" >' +
 
                     '<div class="bio">' +
                         '<img src="https://raw.githubusercontent.com/maria4Q/APS/6f3274c497999e081997079205a5987e68ece689/bioF.svg" >' +
                     '</div>' +
+                    '<a href="inicio_sesión.html" class="start">' + '<img src="https://raw.githubusercontent.com/maria4Q/APS/7e19296b4bddadf2f5602d096aa87fd4dddbb579/start.svg" >' + '</a>' +
+                '</section>'
 
-                    '<a href="" class="start">' + '<img src="https://raw.githubusercontent.com/maria4Q/APS/7e19296b4bddadf2f5602d096aa87fd4dddbb579/start.svg" >' + '</a>' +
+                
 
-                '</section>' 
 
     main.innerHTML =  div; 
 }
