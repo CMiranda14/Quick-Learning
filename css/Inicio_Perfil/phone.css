@@ -1,0 +1,247 @@
+body{
+    background-color: #7C6BAF;
+}
+
+#perfil{
+    max-width:375px;
+    height:auto;
+    margin:auto;
+    display:flex;
+}
+
+.menu{
+    margin-top:7rem;
+    width: 100px;
+    height: 0px;
+    display: flex;
+    
+    text-align: center;
+    
+   
+}
+
+.vinculos{
+    font-size:10px;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+    margin-top:25rem;
+    color:#7C6BAF;
+    margin-left: -0.8rem;
+
+    padding:1rem 2rem 2rem 2rem;
+   
+   border-radius:30px;
+   
+   z-index:3;
+}
+
+.vinculos:hover{
+    background-color: #7C6BAF;
+    color:white;
+    border-radius:30px;
+    transition:0.3s;
+    padding:1rem 2rem 2rem 2rem;
+}
+
+.vinculos1{
+    font-size:0px;
+    text-decoration:none;
+    margin-top:13rem;
+    color:white;
+    padding:2rem;
+    font-weight: 800;
+    transition:0.3s;
+    border-radius:5px;
+    padding-left:2.5rem;
+    
+    
+}
+
+.vinculos1:hover{
+    background-color: #C5D751;
+    border-radius:0px 30px 30px 0px;
+    padding:2rem;
+    transition:0.3s;
+    padding-left:2.5rem;
+}
+
+.logo{
+    width: 0px;
+    height: 0px;
+    margin:auto;
+    margin-bottom: 3rem;
+    margin-left:2rem;
+}
+
+/****************************************/
+
+.caja_wireframes{
+    position:absolute;
+    width: 375px;
+    height:145rem;
+    background-color: #fff;
+    margin-top:30rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+}
+
+
+.bio_hola{
+    position:absolute;
+    margin-left:10rem;
+    margin-top:3rem;
+
+    width: 0px;
+    height: 0px;
+    cursor:pointer;
+
+}
+
+.bio_hola22{
+    position:absolute;
+    margin-left:15rem;
+    margin-top:-25rem;
+
+    width: 193.02px;
+    height: 184px;
+    
+    cursor:pointer;
+}
+
+.bio_holaa{
+    position:absolute;
+    margin-left:4rem;
+    margin-top:7rem;
+    cursor:pointer;
+    width: 128px;
+    height: 192px;
+
+}
+
+.bio_holab{
+    position:absolute;
+    margin-left:19rem;
+    margin-top:7rem;
+    cursor:pointer;
+    width: 0px;
+    height: 0px;
+
+}
+
+.bio_holab2{
+    position:absolute;
+    margin-left:19rem;
+    margin-top:7rem;
+    cursor:pointer;
+    width: 168px;
+    height: 144px;
+
+}
+
+.bio_holac{
+    position:absolute;
+    margin-left:4rem;
+    margin-top:27rem;
+    cursor:pointer;
+    width: 144px;
+    height: 147px;
+
+
+
+}
+
+.fondo_blanco{
+    margin-top:5rem;
+    position:absolute;
+
+    width:375px;
+    height:375px;   
+}
+
+.bio_holad{
+    position:absolute;
+    margin-left:19rem;
+    margin-top:20rem;
+    cursor:pointer;
+    width: 0px;
+    height: 0px;
+
+}
+
+.bio_holad2{
+    position:absolute;
+    margin-left:19rem;
+    margin-top:22rem;
+    cursor:pointer;
+    width: 155px;
+    height: 202px;
+
+}
+
+.title{
+    position:absolute;
+    margin-left:5rem;
+    margin-top:-8rem;
+    font-size:23px;
+
+}
+
+.title1{
+    position:absolute;
+    margin-left:5rem;
+    margin-top:-3rem;
+    font-size:20px;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    
+}
+
+
+
+.bio_hola2{
+    position:absolute;
+    margin-left:3rem;
+    margin-top:123rem;
+
+    width: 0px;
+    height: 0px;
+    cursor:pointer;
+
+}
+
+.bio_hola222{
+    position:absolute;
+    margin-left:1rem;
+    margin-top:123rem;
+
+    width: 352px;
+    height: 209px;
+    cursor:pointer;
+
+}
+
+.bio_hola3{
+    position:absolute;
+    margin-left:2rem;
+    margin-top:43rem;
+    cursor:pointer;
+
+    width: 311px;
+    height: 360px;
+
+
+}
+
+.bio_hola4{
+    position:absolute;
+    margin-left:3rem;
+    margin-top:83rem;
+    cursor:pointer;
+    width: 312px;
+    height: 410px;
+
+
+}
