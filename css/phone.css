@@ -1,0 +1,55 @@
+.logo{
+    margin: auto;
+    min-width: 19rem;
+  
+}
+.bio img{
+    width: 15rem;
+    margin: auto;
+}
+.bg-2{
+    background-color: #AB9ED3;
+    height: auto;
+}
+.bg{
+    background-color: #FBFBFB;
+    width: 100%;
+}
+.logo{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20rem;
+
+}
+.shapeUp{
+    margin-bottom: 4rem;
+    width: 100%;
+    /*position: fixed;*/
+
+}
+.ShapeDown{
+    /*margin-top: 8rem;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.carrete{
+    margin-bottom: 12rem;
+}
+.txt{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;   
+}
+.start img{
+    margin-bottom: 4rem;
+}
