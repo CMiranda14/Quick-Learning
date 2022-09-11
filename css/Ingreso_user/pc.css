@@ -39,8 +39,19 @@
     height: 682.24px;
 
     border-radius:0%;
-    background-color: #f58a4700;
+   
     
+}
+
+.fondo2{
+    position:absolute;
+    z-index: 2;
+    margin-left:0rem;
+    margin-top:0rem;
+    
+    width:0px;
+    height:0px;
+    border-radius:0; 
 }
 
 .cebolla{
@@ -76,23 +87,15 @@
 
 .fondo_verde{
     position:absolute;
-    z-index:3;
+   z-index: 3;
     margin-top:42rem;
-    margin-left:0; 
+    margin-left:0px; 
 
     width:100%;
     height:341.91px;
 }
 
-.fondo_verde2{
-    position:absolute;
-    z-index:3;
-    margin-top:0rem;
-    margin-left:0rem; 
 
-    width: 0px;
-    height:0px;
-}
 
 .title{
     position:absolute;
@@ -100,6 +103,7 @@
     margin-top:56rem;
     margin-left:60rem; 
     font-size:30px;
+    width: 35rem;
 }
 
 .entrada_text{
@@ -132,5 +136,62 @@
     font-size:5rem;
     text-decoration:none;
     padding-top:1rem;
+    font-weight: 800;
+}
+
+
+/**/
+.fondo_verde2{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+
+    width: 0px;
+    height:0px;
+}
+
+
+
+.title2{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+    font-size:0px;
+    width: 0rem;
+}
+
+.entrada_text2{
+    border:0;
+    outline:none;
+    margin-top:0rem;
+    margin-left:0rem; 
+    position:absolute;
+    z-index:3;
+    text-align:center;
+    width: 0px;
+    height: 0px;
+    font-size:0px;
+    border-radius: 0px;
+}
+
+
+.bt_home2{
+    background-color: blue;
+    width: 0rem;
+    height: 0rem;
+    border-radius: 100%;
+    z-index:3;
+    position:absolute;
+
+    margin-top:0rem;
+    margin-left:0rem;
+
+    text-align:center;
+    color:white;
+    font-size:0rem;
+    text-decoration:none;
+    padding-top:0rem;
     font-weight: 800;
 }
