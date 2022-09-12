@@ -1,55 +1,27 @@
-.bg{
-    background-color: #FBFBFB;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-.bg-2{
-    background-color: #AB9ED3;
-    height: auto;
-}
-.root{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Fredoka One', cursive;
-}
-/*body{
-    /*overflow-y: hidden;
-    overflow-x: hidden;
- }*/
-.ShapeDown{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-
+.home-page{
+    /*width: 3rem;*/
+    max-width: 900px;
+    min-width: 9000px;
+    margin: auto;
 }
 .logo{
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-width: 10rem;
-    display: none;
+    width: 50%;
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    cursor: pointer;
+.bio{
+    width: 50%;
+    margin-bottom: 1rem;
 }
-.circle1{
-    display: none;
-}
-.circles{
-    display: none;
+.txt{
+    width: 25%;
+
 }
 
 /*SECCION DOS DEL BIO FOOD*/
-.bio img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-
-}
-
 
 

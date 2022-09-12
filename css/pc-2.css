@@ -1,17 +1,13 @@
 .bg{
     background-color: #FBFBFB;
+    margin-bottom: 34.5rem;
 }
 .bg-2{
     background-color: #AB9ED3;
-    height: auto;
-}
-.root{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Fredoka One', cursive;
+    height: 73em;
 }
 /*body{
-    /*overflow-y: hidden;
+    overflow-y: hidden;
     overflow-x: hidden;
 }*/
 .ShapeDown{
@@ -19,7 +15,6 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
-
 }
 .logo{
     margin: auto;
@@ -27,25 +22,23 @@
     flex-direction: row;
     justify-content: center;
     height: 50%; 
+    margin-top:8rem;
 }
 .btn{
     display: flex;
     justify-content: center;
     margin: auto;
     cursor: pointer;
-}
-.circle1{
-    display: none;
-}
-.circles{
-    display: none;
-}
-/*SECCION DOS DEL BIO FOOD*/
-.bio img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
+    margin-top:3rem;
+    margin-bottom: 12.5rem;
 
 }
+.txt{
+    max-width: 20rem;
+}
 
+.bio{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top:5rem;
+}
