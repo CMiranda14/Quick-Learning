@@ -1,33 +1,30 @@
 .logo{
     margin: auto;
-    min-width: 19rem;
-  
+    min-width: 15rem;
 }
-.bio img{
-    width: 15rem;
+.bio{
+    min-width: 20rem;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
 }
 .bg-2{
     background-color: #AB9ED3;
+    height: 30rem;
+    padding-left: 3rem;
     height: auto;
 }
 .bg{
     background-color: #FBFBFB;
+    height: 38rem;
     width: 100%;
-}
-.logo{
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 20rem;
-
 }
 .shapeUp{
-    margin-bottom: 4rem;
     width: 100%;
-    /*position: fixed;*/
 
+    /*position: fixed;*/
 }
 .ShapeDown{
     /*margin-top: 8rem;*/
@@ -35,21 +32,27 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
+    margin-top: 3rem;
 
 }
-.carrete{
-    margin-bottom: 12rem;
-}
 .txt{
-    margin-left: 3rem;
-    margin-bottom: 2rem;
+   /* margin-bottom: 2rem;*/
+   min-width: 10rem;
 }
 .start{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 4rem;   
+    justify-content: flex-end;
+    margin-top: 1rem;  
+    width: 80%; 
 }
 .start img{
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+
 }
