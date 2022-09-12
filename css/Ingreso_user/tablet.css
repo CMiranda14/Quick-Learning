@@ -6,14 +6,15 @@
 }
 
 .Caja_shape_down{
-    max-width:1366px;
+   max-width:1366px;
+    height:auto;
 
     height:auto;
 }
 
 .shape_down{
-    margin-top:35rem;
-    margin-left:13rem;
+    margin-top:36rem;
+    margin-left:17rem;
     position:absolute;
     z-index:2;
 
@@ -22,8 +23,8 @@
 }
 
 .shape_down1{
-    margin-top:35rem;
-    margin-left:108rem;
+    margin-top:36rem;
+    margin-left:105rem;
     position:absolute;
     z-index:2;
 
@@ -40,8 +41,19 @@
     height: 575.24px;
 
     border-radius:0%;
-    background-color: #f58a4700;
+  
     
+}
+
+.fondo2{
+    position:absolute;
+    z-index: 2;
+    margin-left:0rem;
+    margin-top:0rem;
+    
+    width:0px;
+    height:0px;
+    border-radius:0; 
 }
 
 .cebolla{
@@ -79,21 +91,12 @@
     position:absolute;
     z-index:3;
     margin-top:37rem;
-    margin-left:0; 
+    margin-left:0rem; 
 
-    width:1366px;
+    width:100%;
     height:396px;
 }
 
-.fondo_verde2{
-    position:absolute;
-    z-index:3;
-    margin-top:0rem;
-    margin-left:0rem; 
-
-    width: 0px;
-    height:0px;
-}
 
 .title{
     position:absolute;
@@ -101,6 +104,7 @@
     margin-top:52rem;
     margin-left:55rem; 
     font-size:30px;
+    width: 30rem;
 }
 
 .entrada_text{
@@ -131,6 +135,63 @@
     text-align:center;
     color:white;
     font-size:3rem;
+    text-decoration:none;
+    padding-top:0rem;
+    font-weight: 800;
+}
+
+/****/
+
+.fondo_verde2{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+
+    width: 0px;
+    height:0px;
+}
+
+
+
+.title2{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+    font-size:0px;
+    width: 0rem;
+}
+
+.entrada_text2{
+    border:0;
+    outline:none;
+    margin-top:0rem;
+    margin-left:0rem; 
+    position:absolute;
+    z-index:3;
+    text-align:center;
+    width: 0px;
+    height: 0px;
+    font-size:0px;
+    border-radius: 0px;
+}
+
+
+.bt_home2{
+    background-color: blue;
+    width: 0rem;
+    height: 0rem;
+    border-radius: 100%;
+    z-index:3;
+    position:absolute;
+
+    margin-top:0rem;
+    margin-left:0rem;
+
+    text-align:center;
+    color:white;
+    font-size:0rem;
     text-decoration:none;
     padding-top:0rem;
     font-weight: 800;

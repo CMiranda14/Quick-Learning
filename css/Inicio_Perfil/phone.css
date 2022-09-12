@@ -11,7 +11,7 @@ body{
 
 .menu{
     margin-top:7rem;
-    width: 100px;
+    width: 50px;
     height: 0px;
     display: flex;
     
@@ -27,7 +27,7 @@ body{
     transition:0.3s;
     margin-top:25rem;
     color:#7C6BAF;
-    margin-left: -0.8rem;
+    margin-left: -0.3rem;
 
     padding:1rem 2rem 2rem 2rem;
    
@@ -49,11 +49,11 @@ body{
     text-decoration:none;
     margin-top:13rem;
     color:white;
-    padding:2rem;
+    padding:0rem;
     font-weight: 800;
     transition:0.3s;
     border-radius:5px;
-    padding-left:2.5rem;
+    padding-left:0rem;
     
     
 }
@@ -63,15 +63,16 @@ body{
     border-radius:0px 30px 30px 0px;
     padding:2rem;
     transition:0.3s;
-    padding-left:2.5rem;
+    padding-left:0rem;
 }
 
 .logo{
     width: 0px;
     height: 0px;
     margin:auto;
-    margin-bottom: 3rem;
-    margin-left:2rem;
+    margin-top:0rem;
+    margin-left:0rem;
+    
 }
 
 /****************************************/
@@ -79,7 +80,7 @@ body{
 .caja_wireframes{
     position:absolute;
     width: 375px;
-    height:145rem;
+    height:1530px;
     background-color: #fff;
     margin-top:30rem;
     margin-left:0rem;
@@ -143,10 +144,10 @@ body{
 .bio_holac{
     position:absolute;
     margin-left:4rem;
-    margin-top:27rem;
+    margin-top:25rem;
     cursor:pointer;
     width: 144px;
-    height: 147px;
+    height: 157px;
 
 
 
@@ -157,7 +158,7 @@ body{
     position:absolute;
 
     width:375px;
-    height:375px;   
+    height:1772px;   
 }
 
 .bio_holad{
@@ -182,7 +183,7 @@ body{
 
 .title{
     position:absolute;
-    margin-left:5rem;
+    margin-left:4rem;
     margin-top:-8rem;
     font-size:23px;
 
@@ -190,7 +191,7 @@ body{
 
 .title1{
     position:absolute;
-    margin-left:5rem;
+    margin-left:4rem;
     margin-top:-3rem;
     font-size:20px;
     font-family: 'Fredoka One', cursive;
@@ -215,7 +216,7 @@ body{
 .bio_hola222{
     position:absolute;
     margin-left:1rem;
-    margin-top:123rem;
+    margin-top:110rem;
 
     width: 352px;
     height: 209px;
@@ -238,7 +239,7 @@ body{
 .bio_hola4{
     position:absolute;
     margin-left:3rem;
-    margin-top:83rem;
+    margin-top:73rem;
     cursor:pointer;
     width: 312px;
     height: 410px;
