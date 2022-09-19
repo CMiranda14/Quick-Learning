@@ -48,6 +48,7 @@ function Perfil(){
                         <div class="caja_video_proteinas" id="caja_video_proteinas">
                         <h1 class="boton_cerrar_video_proteinas" id="boton_cerrar_video_proteinas">X</h1>
                         <h1 class="title_proteinas">video de proteinas</h1>
+                        <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/XPRSoH3yskw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
 
                         <div class="caja_proteinas_carne" id="caja_proteinas_carne">
