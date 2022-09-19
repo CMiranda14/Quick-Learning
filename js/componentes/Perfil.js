@@ -32,7 +32,40 @@ function Perfil(){
 
     let div1 = '<div class="caja_wireframes2" id="caja_wireframes2">'+'<h1 class="title1">'+'Carbohidratos'+'</h1>'+'</div>';
 
-    let div2 = '<div class="caja_wireframes3" id="caja_wireframes3">'+'<h1 class="title1">'+'Proteínas'+'</h1>'+'</div>';
+    /***CAJA PROTEINAS***/
+    let div2 = `<div class="caja_wireframes3" id="caja_wireframes3">
+                        <img class="capa7" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Capa%207.svg"></img>
+                        <h1 class="title_proteinas">Proteínas</h1>
+                        <img class="video_proteinas" id="video_proteinas" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Conoce%20tu%20dietadestock%20(1).svg"></img>
+                        <h1 class="categorias_proteinas">CATEGORÍAS</h1>
+                        <img class="proteinas_carne" id="proteinas_carne" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2013.svg"></img>
+                        <img class="proteinas_lacteos" id="proteinas_lacteos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2015.svg"></img>
+                        <img class="proteinas_pescado" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2014.svg"></img>
+                        <img class="proteinas_frutas" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2016.svg"></img>
+
+
+
+                        <div class="caja_video_proteinas" id="caja_video_proteinas">
+                        <h1 class="boton_cerrar_video_proteinas" id="boton_cerrar_video_proteinas">X</h1>
+                        <h1 class="title_proteinas">video de proteinas</h1>
+                        </div>
+
+                        <div class="caja_proteinas_carne" id="caja_proteinas_carne">
+                        <h1 class="boton_cerrar_caja_carne" id="boton_cerrar_caja_carne">←</h1>
+                        <h1 class="title_proteinas">Carnes</h1>
+                        </div>
+
+                        <div class="caja_proteinas_lacteos" id="caja_proteinas_lacteos">
+                        <h1 class="boton_cerrar_caja_lacteos" id="boton_cerrar_caja_lacteos">←</h1>
+                        <h1 class="title_proteinas">Lacteos</h1>
+                        </div>
+                                
+                </div>`
+                
+                ;
+
+
+
     let div3 = '<div class="caja_wireframes4" id="caja_wireframes4">'+'<h1 class="title1">'+'Lípidos'+'</h1>'+'</div>';
     let div4 = '<div class="caja_wireframes5" id="caja_wireframes5">'+'<h1 class="title1">'+'Vitaminas'+'</h1>'+'</div>';
     let div5 = '<div class="caja_wireframes6" id="caja_wireframes6">'+'<h1 class="title1">'+'By Quick Learning'+'</h1>'+'</div>';
@@ -79,7 +112,7 @@ function activar_desactivar1() {
 
 Inicio.addEventListener('click' ,activar_desactivar1);
 
-
+/*-----------------Activaciones Caja Proteinas------------*/
 function activar_desactivar2() {
     var x = document.getElementById("caja_wireframes3");
     var x1 = document.getElementById("caja_wireframes2");
@@ -96,6 +129,79 @@ function activar_desactivar2() {
 
 Proteínas.addEventListener('click' ,activar_desactivar2);
 
+
+
+function activar_video_proteinas() {
+    var x = document.getElementById("caja_video_proteinas");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+video_proteinas.addEventListener('click' ,activar_video_proteinas);
+
+function desactivar_video_proteinas() {
+    var x = document.getElementById("caja_video_proteinas");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_video_proteinas.addEventListener('click' ,desactivar_video_proteinas);
+
+/*----------------------------------------------------------------*/
+
+function activar_caja_carnes() {
+    var x = document.getElementById("caja_proteinas_carne");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+proteinas_carne.addEventListener('click' ,activar_caja_carnes);
+
+function desactivar_caja_carnes() {
+    var x = document.getElementById("caja_proteinas_carne");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_caja_carne.addEventListener('click' ,desactivar_caja_carnes);
+
+/*----------------------------------------------------------------*/
+
+function activar_caja_lacteos() {
+    var x = document.getElementById("caja_proteinas_lacteos");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+proteinas_lacteos.addEventListener('click' ,activar_caja_lacteos);
+
+function desactivar_caja_lacteos() {
+    var x = document.getElementById("caja_proteinas_lacteos");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_caja_lacteos.addEventListener('click' ,desactivar_caja_lacteos);
+
+/***************************************************************************/
 
 function activar_desactivar3() {
     var x = document.getElementById("caja_wireframes4");
