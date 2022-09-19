@@ -246,3 +246,92 @@ body{
 
 
 }
+
+/*******************************************/
+          /***CARBOHIDRATOS***/    
+/*******************************************/
+
+.caja_wireframes2{
+    position:absolute;
+    width: 375px;
+    height:1530px;
+    background-color: #fff;
+    margin-top:30rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:2;
+    display:none;
+}
+
+/*******************************************/
+           /***PROTEÌNAS***/   
+/*******************************************/
+
+.caja_wireframes3{
+    position:absolute;
+    width: 375px;
+    height:1530px;
+    background-color: #fff;
+    margin-top:30rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+    z-index:2;
+    display:none;
+}
+
+/*******************************************/
+            /***LÌPIDOS***/   
+/*******************************************/
+
+.caja_wireframes4{
+    position:absolute;
+    width: 375px;
+    height:1530px;
+    background-color: #fff;
+    margin-top:30rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:2;
+    display:none;
+}
+
+/*******************************************/
+           /***VITAMINAS***/   
+/*******************************************/
+
+.caja_wireframes5{
+    position:absolute;
+    width: 375px;
+    height:1530px;
+    background-color: #fff;
+    margin-top:30rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:2;
+    display:none;
+}
+
+/*******************************************/
+        /***BY QUICK LEARNING***/   
+/*******************************************/
+
+.caja_wireframes6{
+    position:absolute;
+    width: 375px;
+    height:1530px;
+    background-color: #fff;
+    margin-top:30rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:2;
+    display:none;
+}
