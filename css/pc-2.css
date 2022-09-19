@@ -5,6 +5,7 @@
     background-color: #AB9ED3;
     height: auto;
 }
+
 /*body{
     overflow-y: hidden;
     overflow-x: hidden;
@@ -29,6 +30,8 @@
     cursor: pointer;
 
 }
+
 .txt{
     max-width: 20rem;
+   
 }

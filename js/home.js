@@ -10,8 +10,10 @@ function home(){
 
                         '<img src="https://raw.githubusercontent.com/maria4Q/APS/ef3b00150a5e2fae78e48b5f0912054e7aa14db9/foodRecurso.svg" class="logo">' +
                 
-
+                    '<a href="bg-2>' +
                     '<img src="https://raw.githubusercontent.com/maria4Q/APS/f1d795c79d966d6a4b40d755cea1308a31eae136/Next.svg" class="btn">' +
+                    + '</a>'+
+
 
                     '<div class="ShapeDown">' +
                         '<img src="https://raw.githubusercontent.com/maria4Q/APS/3b6b3a33c87a73979ffd00afc9bb56449e75e4f6/Shape%20down.svg">' +
@@ -21,7 +23,7 @@ function home(){
 
      /**SECCIÓN DOS DEL PROYECTO BIO FOOD */
 
-                '<section class="bg-2">' +
+                '<section class="bg-2" id="#bg-2">' +
                     '<div class="ShapeDown">' +
                         '<img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg">' +
                     '</div>' +
