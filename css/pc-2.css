@@ -1,9 +1,10 @@
 .bg{
     background-color: #FBFBFB;
+    margin-bottom: 34.5rem;
 }
 .bg-2{
     background-color: #AB9ED3;
-    height: auto;
+    height: 73em;
 }
 
 /*body{
@@ -22,16 +23,28 @@
     flex-direction: row;
     justify-content: center;
     height: 50%; 
+    margin-top:8rem;
 }
 .btn{
     display: flex;
     justify-content: center;
     margin: auto;
     cursor: pointer;
+    margin-top:3rem;
+    margin-bottom: 12.5rem;
 
 }
 
 .txt{
     max-width: 20rem;
+<<<<<<< HEAD
    
+=======
+}
+
+.bio{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top:5rem;
+>>>>>>> 596c9815c011326ee68165f3e18f93c04b59510e
 }

@@ -1,0 +1,196 @@
+#sesion{
+    max-width:375px;
+    height:auto;
+    margin:auto;
+}
+
+.Caja_shape_down{
+    max-width:375px;
+    height:auto;
+    
+    margin:auto;
+}
+
+.shape_down{
+    margin-top:0rem;
+    margin-left:0rem;
+    position:absolute;
+    z-index:2;
+    width: 0px;
+    height: 0px;
+    
+}
+
+.shape_down1{
+    margin-top:0rem;
+    margin-left:0rem;
+    position:absolute;
+    z-index:2;
+    width: 0px;
+    height: 0px;
+    
+}
+
+.fondo{
+    position:absolute;
+    z-index: 2;
+    margin-left:0rem;
+    margin-top:0rem;
+    
+    width:0px;
+    height:0px;
+    border-radius:0; 
+}
+
+.fondo2{
+    position:absolute;
+    z-index: 2;
+    margin-left:0rem;
+    margin-top:9rem;
+    
+    width: 375px;
+    height:409.77px;
+    border-radius:0;
+
+    
+}
+
+.cebolla{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem;
+    transform: rotate(350deg);
+
+    width: 0px;
+    height: 0px;
+}
+
+.papa{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem;
+
+    width: 0px;
+    height: 0px;
+}
+
+.bio{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+
+    width: 0px;
+    height: 0px;
+}
+
+.fondo_verde{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+
+    width: 0px;
+    height:0px;
+}
+
+
+
+.title{
+    position:absolute;
+    z-index:3;
+    margin-top:0rem;
+    margin-left:0rem; 
+    font-size:0px;
+    width: 0rem;
+}
+
+.entrada_text{
+    border:0;
+    outline:none;
+    margin-top:0rem;
+    margin-left:0rem; 
+    position:absolute;
+    z-index:3;
+    text-align:center;
+    width: 0px;
+    height: 0px;
+    font-size:0px;
+    border-radius: 0px;
+}
+
+
+.bt_home{
+    background-color: blue;
+    width: 0rem;
+    height: 0rem;
+    border-radius: 0%;
+    z-index:3;
+    position:absolute;
+
+    margin-top:0rem;
+    margin-left:0rem;
+
+    text-align:center;
+    color:white;
+    font-size:0rem;
+    text-decoration:none;
+    padding-top:0rem;
+    font-weight: 0;
+}
+
+.fondo_verde2{
+    position:absolute;
+    z-index:3;
+    margin-top:33rem;
+    margin-left:0rem; 
+
+    width: 375px;
+    height:308px;
+}
+
+
+.title2{
+    position:absolute;
+    z-index:3;
+    margin-top:44rem;
+    margin-left:11rem; 
+    font-size:16px;
+    width: 15rem;
+}
+
+.entrada_text2{
+    border:0;
+    outline:none;
+    margin-top:47rem;
+    margin-left:70px; 
+    position:absolute;
+    z-index:3;
+    text-align:center;
+    width: 216px;
+    height: 38px;
+    font-size:25px;
+    border-radius: 35px;
+}
+
+
+.bt_home2{
+    background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    z-index:3;
+    position:absolute;
+
+    margin-top:52rem;
+    margin-left:15rem;
+
+    text-align:center;
+    color:white;
+    font-size:3rem;
+    text-decoration:none;
+    padding-top:0rem;
+    font-weight: 800;
+}

@@ -1,0 +1,321 @@
+body{
+    background-color: #7C6BAF;
+}
+
+#perfil{
+    max-width:1366px;
+    height:auto;
+
+    display:flex;
+}
+
+.menu{
+    margin-top:5rem;
+    width: 171px;
+    height: 459px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position:absolute;
+   
+}
+
+.vinculos{
+    font-size:18px;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+
+   padding:2.5rem;
+   border-radius:0px 30px 30px 0px;
+   padding-left:4rem;
+   margin:0rem;
+}
+
+.vinculos:hover{
+    background-color: #C5D751;
+    border-radius:0px 30px 30px 0px;
+    padding:2.5rem;
+    transition:0.3s;
+    padding-left:4rem;
+}
+
+.vinculos1{
+    font-size:15px;
+    text-decoration:none;
+    margin-top:13rem;
+    color:white;
+    padding:2rem;
+    font-weight: 800;
+    transition:0.3s;
+    border-radius:0px 30px 30px 0px;
+    padding-left:2.5rem;
+    
+}
+
+.vinculos1:hover{
+    background-color: #C5D751;
+    border-radius:0px 30px 30px 0px;
+    padding:2rem;
+    transition:0.3s;
+    padding-left:2.5rem;
+}
+
+.logo{
+    width: 138px;
+    height: 48.49px;
+    margin:auto;
+    margin-bottom: 3rem;
+    margin-left:2rem;
+}
+
+/****************************************/
+
+.caja_wireframes{
+    width: 1162px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:3rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+}
+
+
+.bio_hola{
+    position:absolute;
+    margin-left:10rem;
+    margin-top:3rem;
+
+    width: 129.11px;
+    height: 123.08px;
+
+}
+
+.bio_hola22{
+    position:absolute;
+    margin-left:28rem;
+    margin-top:-32rem;
+    cursor:pointer;
+    width: 0px;
+    height: 0px;
+
+}
+
+.bio_holaa{
+    position:absolute;
+    margin-left:11rem;
+    margin-top:22rem;
+    cursor:pointer;
+    width: 194px;
+    height: 265.47px;
+
+}
+
+.bio_holab{
+    position:absolute;
+    margin-left:32rem;
+    margin-top:22rem;
+    cursor:pointer;
+    width: 340.92px;
+    height: 139px;
+
+}
+
+.bio_holab2{
+    position:absolute;
+    margin-left:19rem;
+    margin-top:7rem;
+    cursor:pointer;
+    width: 0px;
+    height: 0px;
+
+}
+
+.bio_holac{
+    position:absolute;
+    margin-left:32rem;
+    margin-top:36rem;
+    cursor:pointer;
+    width: 175px;
+    height: 137.41px;
+
+
+
+}
+
+.fondo_blanco{
+    width:0;
+    height: 0;   
+}
+
+.bio_holad{
+    position:absolute;
+    margin-left:49rem;
+    margin-top:36rem;
+    cursor:pointer;
+    width: 175px;
+    height: 137.41px;
+
+}
+.bio_holad2{
+    position:absolute;
+    margin-left:19rem;
+    margin-top:20rem;
+    cursor:pointer;
+    width: 0px;
+    height: 0px;
+
+}
+
+.title{
+    position:absolute;
+    margin-left:25rem;
+    margin-top:10rem;
+    font-size:30px;
+
+}
+
+.title1{
+    position:absolute;
+    margin-left:11rem;
+    margin-top:18rem;
+    font-size:23px;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    
+}
+
+
+
+.bio_hola2{
+    position:absolute;
+    margin-left:8rem;
+    margin-top:50rem;
+    cursor:pointer;
+    width: 581.26px;
+    height: 199px;
+
+
+}
+
+.bio_hola222{
+    position:absolute;
+    margin-left:3rem;
+    margin-top:123rem;
+    cursor:pointer;
+    width: 0px;
+    height: 0px;
+
+
+}
+
+.bio_hola3{
+    position:absolute;
+    margin-left:70rem;
+    margin-top:3rem;
+  
+    cursor:pointer;
+    width: 334px;
+    height: 289px;
+
+
+}
+
+.bio_hola4{
+    position:absolute;
+    margin-left:73rem;
+    margin-top:35rem;
+    cursor:pointer;
+    width: 334px;
+    height: 360px;
+
+
+}
+
+/*******************************************/
+            /***CARBOHIDRATOS***/ 
+/*******************************************/
+
+.caja_wireframes2{
+    width: 1162px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:3rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+
+    z-index:6;
+    display:none;
+}
+
+/*******************************************/
+           /***PROTEÌNAS***/  
+/*******************************************/
+
+.caja_wireframes3{
+    width: 1162px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:3rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+
+    z-index:6;
+    display:none;
+}
+
+/*******************************************/
+            /***LÌPIDOS***/   
+/*******************************************/
+
+.caja_wireframes4{
+    width: 1162px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:3rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+
+    z-index:6;
+    display:none;
+}
+
+/*******************************************/
+           /***VITAMINAS***/   
+/*******************************************/
+
+.caja_wireframes5{
+    width: 1162px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:3rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+
+    z-index:6;
+    display:none;
+}
+
+/*******************************************/
+        /***BY QUICK LEARNING***/  
+/*******************************************/
+
+.caja_wireframes6{
+    width: 1162px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:3rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+
+    z-index:6;
+    display:none;
+}

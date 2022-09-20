@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: 'League Spartan', sans-serif;
+    font-size:10px;
+}
+
+:root{
+
+    --color1: #D9D9D9;
+    --color2:#B6B6B6;
+
+    --Texto_Principal:#000000;
+
+}
