@@ -1,3 +1,4 @@
+
 body{
     background-color: #7C6BAF;
 }
@@ -605,6 +606,8 @@ body{
     text-align: justify;
 }
 
+
+
 /*-------CAJA CARNES-------*/
 
 .caja_proteinas_carne{
@@ -707,3 +710,4 @@ body{
     z-index:6;
     display:none;
 }
+

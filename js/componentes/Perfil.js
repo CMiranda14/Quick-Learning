@@ -115,6 +115,7 @@ Perfil()
 
 
 
+
 function activar_desactivar() {
     var x = document.getElementById("caja_wireframes2");
     var x1 = document.getElementById("caja_wireframes3");
