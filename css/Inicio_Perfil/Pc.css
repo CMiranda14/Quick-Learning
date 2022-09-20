@@ -357,7 +357,7 @@ body{
 .caja_video_proteinas{
     width: 1342px;
     height: 700px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.936);
     margin-top:0rem;
     margin-left:0rem;
 
@@ -382,8 +382,228 @@ body{
     position:absolute;
     margin-top:7rem;
     margin-left:10rem;
+    width: 573px;
 }
 
+.title_cajavideo_proteinas{
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    margin-top:35rem;
+    margin-left:10rem;
+    position:absolute;
+    font-size:25px;
+
+}
+
+.texto_cajavideo_proteinas{
+    width: 254px;
+    height: 277px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:43rem;
+    margin-left:10rem;
+    text-align:justify;
+    font-weight: 500;
+
+}
+
+.grupo17_video{
+    width: 166px;
+    height: 310px;
+    margin-top:38rem;
+    margin-left:36rem;
+    position:absolute;
+}
+
+.grupo18_video{
+    width: 166px;
+    height: 310px;
+    margin-top:38rem;
+    margin-left:52rem;
+    position:absolute;
+}
+
+
+.pregunta1{
+    width: 384px;
+    height: 105px;
+    background-color: #C5D751;
+    position:absolute;
+    margin-top:3rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta1 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta1 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta1 p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta2{
+    width: 384px;
+    height: 105px;
+    background-color: #4AAEAD;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta2 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta2 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta2 p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta3{
+    width: 384px;
+    height: 137px;
+    background-color: #F3BD37;
+    position:absolute;
+    margin-top:27rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta3 img{
+    width: 82px;
+    height: 79px;
+    margin-top:3rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta3 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta3 p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta4{
+    width: 384px;
+    height: 105px;
+    background-color: #E27B38;
+    position:absolute;
+    margin-top:42rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta4 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta4 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta4 p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta5{
+    width: 384px;
+    height: 105px;
+    background-color: #7C6BAF;
+    position:absolute;
+    margin-top:54rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta5 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta5 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta5 p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
 
 /*-------CAJA CARNES-------*/
 

@@ -1,3 +1,6 @@
+import {matriz_video_proteinas} from './datas_bromatologia.js';
+
+
 function Perfil(){
     let perfil = document.querySelector("#perfil");
 
@@ -47,8 +50,40 @@ function Perfil(){
 
                         <div class="caja_video_proteinas" id="caja_video_proteinas">
                         <h1 class="boton_cerrar_video_proteinas" id="boton_cerrar_video_proteinas">X</h1>
-                        <h1 class="title_proteinas">video de proteinas</h1>
                         <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/XPRSoH3yskw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h1 class="title_cajavideo_proteinas">`+matriz_video_proteinas[0].titulo+`</h1>
+                        <h1 class="texto_cajavideo_proteinas">`+matriz_video_proteinas[0].texto+`</h1>
+                        <img class="grupo17_video" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/354ee937964c3882be5fa1a438a9be142e0539d8/Group%2017.svg"></img>
+                        <img class="grupo18_video" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/354ee937964c3882be5fa1a438a9be142e0539d8/Group%2018.svg"></img>
+
+                        <div class="preguntas_proteinas">
+                            <div class="pregunta1">
+                                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/3f95545e53cadff70212251c73288f94a92e8000/Group%2019.svg"></img>
+                                <h1>`+matriz_video_proteinas[1].titulo+`</h1>
+                                <p>`+matriz_video_proteinas[1].texto+`</p>
+                            </div>
+                            <div class="pregunta2">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/90406d1433395e0da8ddc730b29142f5dc72b750/Group%2020.svg"></img>
+                            <h1>`+matriz_video_proteinas[2].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[2].texto+`</p>
+                            </div>
+                            <div class="pregunta3">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/6878663ee7515678d142fe7b0c529af1c6d1f99a/Group%2021.svg"></img>
+                            <h1>`+matriz_video_proteinas[3].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[3].texto+`</p>
+                            </div>
+                            <div class="pregunta4">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/6878663ee7515678d142fe7b0c529af1c6d1f99a/Group%2022.svg"></img>
+                            <h1>`+matriz_video_proteinas[4].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[4].texto+`</p>
+                            </div>
+                            <div class="pregunta5">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/6878663ee7515678d142fe7b0c529af1c6d1f99a/Group%2023.svg"></img>
+                            <h1>`+matriz_video_proteinas[5].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[5].texto+`</p>
+                            </div>
+                        </div>
+
                         </div>
 
                         <div class="caja_proteinas_carne" id="caja_proteinas_carne">
