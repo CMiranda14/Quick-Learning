@@ -1,4 +1,4 @@
-import {matriz_video_proteinas, Guayaba, Aceitunas, Platano} from './datas_bromatologia.js';
+import {matriz_video_proteinas, Guayaba, Aceitunas, Platano, matriz_video_carbohidratos} from './datas_bromatologia.js';
 
 
 function Perfil(){
@@ -45,7 +45,33 @@ function Perfil(){
                 
                 <div class="caja_video_carbohidratos" id="caja_video_carbohidratos">
                 <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_video_carbohidratos">X</h1>
-                <h1 class="title_proteinas">Lacteos</h1>
+                <iframe class="video_sintesis_carbohidratos" width="573" height="262" src="https://www.youtube.com/embed/XPRSoH3yskw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1 class="title_cajavideo_carbohidratos">`+matriz_video_carbohidratos[0].titulo+`</h1>
+                <h1 class="texto_cajavideo_carbohidratos">`+matriz_video_carbohidratos[0].texto+`</h1>
+                <img class="grupo17_video_carbohidratos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/8755cd074d0c138975a9c8f8a57c073d604515d1/Carbs.svg"></img>
+
+                <div class="preguntas_proteinas">
+                <div class="pregunta1Carb">
+                    <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/d2dcac905bc4b9b826ae7c0ebad6e1dcec149f6c/Group%2022%20(2).svg"></img>
+                    <h1>`+matriz_video_carbohidratos[1].titulo+`</h1>
+                    <p>`+matriz_video_carbohidratos[1].texto+`</p>
+                </div>
+                <div class="pregunta2Carb">
+                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/d2dcac905bc4b9b826ae7c0ebad6e1dcec149f6c/Group%2023%20(2).svg"></img>
+                <h1>`+matriz_video_carbohidratos[2].titulo+`</h1>
+                <p>`+matriz_video_carbohidratos[2].texto+`</p>
+                </div>
+                <div class="pregunta3Carb">
+                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/d2dcac905bc4b9b826ae7c0ebad6e1dcec149f6c/Group%2024%20(1).svg"></img>
+                <h1>`+matriz_video_carbohidratos[3].titulo+`</h1>
+                <p>`+matriz_video_carbohidratos[3].texto+`</p>
+                </div>
+                <div class="pregunta4Carb">
+                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/d2dcac905bc4b9b826ae7c0ebad6e1dcec149f6c/Group%2026%20(1).svg"></img>
+                <h1>`+matriz_video_carbohidratos[4].titulo+`</h1>
+                <p>`+matriz_video_carbohidratos[4].texto+`</p>
+                </div>
+                </div>
                 </div>
 
                 <div class="caja_video_cerales" id="caja_video_cerales">

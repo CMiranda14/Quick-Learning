@@ -1,3 +1,14 @@
+export const matriz_video_carbohidratos =[
+
+    {titulo:'¿CUÁNTOS CARBOHIDRATOS NECESITAS CONSUMIR?',	texto:'La cantidad recomendada varía dependiendo de factores como la edad, género, actividad física, estado de salud y estado nutricional. Sin embargo, en general cerca de la mitad (50 a 65%) de la energía que el cuerpo necesita cada día debería provenir de carbohidratos, principalmente de los complejos, dejando solo un pequeño porcentaje (menos del 10%) para energía que venga de azúcares añadidos a los alimentos.'},
+    {titulo:'¿QUÉ SON LOS CARBOHIDRATOS?',	texto:'Los carbohidratos, llamados también hidratos de carbono, son unas biomoléculas formadas por tres elementos fundamentales: el carbono, el hidrógeno y el oxígeno.'},
+    {titulo:'¿POR QUÉ SON IMPORTANTES?',	texto:'Su principal función en el organismo de los seres vivos es la de contribuir en el almacenamiento y en la obtención de energía de forma inmediata, sobre todo al cerebro y al sistema nervioso.'},
+    {titulo:'¿DÓNDE LAS ENCUENTRO?',	texto:'Algunos alimentos que son ricos en carbohidratos simples son las frutas y verduras, la leche y los productos derivados de esta como el queso o el yogur, así como en los azúcares y productos refinado. En cuanto a los carbohidratos complejos, se incluyen alimentos como legumbres, verduras ricas en almidón y panes y otros productos que incluyan cereales integrales.'},
+    {titulo:'¿SABÍAS ESTO?',	texto:'Existen cuatro tipos de carbohidratos, en función de su estructura química: los monosacáridos, los disacáridos, los oligosacáridos y los polisacáridos.'},
+];
+
+
+
 export const matriz_video_proteinas =[
 
     {titulo:'¿CUÁNTAS PROTEÍNAS NECESITAS CONSUMIR?',	texto:'Es recomendable consumir proteínas de origen animal y vegetal, junto a una dieta balanceada que contenga todos los grupos de alimentos:La necesitas depende de las actividades diarias de cada persona, su etapa de vida y su peso. Es por es que tus necesidades proteicas son individuales. En general, se recomienda 1g de proteína por kilo en adultos sanos, por ejemplo'},

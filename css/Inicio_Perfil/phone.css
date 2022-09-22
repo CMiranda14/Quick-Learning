@@ -353,6 +353,191 @@ body{
     cursor:pointer;
 }
 
+.video_sintesis_carbohidratos{
+    position:absolute;
+    margin-top:11rem;
+    margin-left:3rem;
+    width: 312px;
+}
+
+.title_cajavideo_carbohidratos{
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    margin-top:101rem;
+    margin-left:1.5rem;
+    position:absolute;
+    font-size:15px;
+    text-align:center;
+
+}
+
+.texto_cajavideo_carbohidratos{
+    width: 284px;
+    height: 277px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:107rem;
+    margin-left:4.5rem;
+    text-align:justify;
+    font-weight: 500;
+
+}
+
+.grupo17_video_carbohidratos{
+    width: 296px;
+    height: 186.9px;
+    margin-top:129rem;
+    margin-left:4rem;
+    position:absolute;
+}
+
+
+.pregunta1Carb{
+    width: 312px;
+    height: 115px;
+    background-color: #C5D751;
+    position:absolute;
+    margin-top:39rem;
+    margin-left:3rem;
+    border-radius:30px;
+}
+
+.pregunta1Carb img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta1Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta1Carb p{
+    width: 18rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta2Carb{
+    width: 312px;
+    height: 120px;
+    background-color: #4AAEAD;
+    position:absolute;
+    margin-top:52rem;
+    margin-left:3rem;
+    border-radius:30px;
+}
+
+.pregunta2Carb img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta2Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta2Carb p{
+    width: 18rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta3Carb{
+    width: 312px;
+    height: 197px;
+    background-color: #F3BD37;
+    position:absolute;
+    margin-top:65.5rem;
+    margin-left:3rem;
+    border-radius:30px;
+}
+
+.pregunta3Carb img{
+    width: 102px;
+    height: 119px;
+    margin-top:3rem;
+    margin-left:0.5rem;
+    position:absolute;
+}
+
+.pregunta3Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta3Carb p{
+    width: 18rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta4Carb{
+    width: 312px;
+    height: 118px;
+    background-color: #E27B38;
+    position:absolute;
+    margin-top:87rem;
+    margin-left:3rem;
+    border-radius:30px;
+}
+
+.pregunta4Carb img{
+    width: 92px;
+    height: 89px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta4Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta4Carb p{
+    width: 18rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+
 /*----CAJA CEREALES-----*/
 
 .caja_video_cerales{
