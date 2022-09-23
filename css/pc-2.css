@@ -58,11 +58,21 @@
 .bio{
     max-width: 466px;
     margin-top: -3rem;
+    margin-left: 60rem;
     margin-bottom: 4rem;
 }
 .start img{
     max-width: 23rem;
     margin: 4rem;
+}
+.txt-pc{
+    max-width: 100rem;
+    position: absolute;
+    top: 8;
+    left: 50rem;
+    /*margin-left: 8rem;
+    max-width: 100rem;
+    margin-bottom: 40rem;*/
 }
 
 

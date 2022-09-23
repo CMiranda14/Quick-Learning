@@ -252,6 +252,372 @@ body{
     display:none;
 }
 
+.caja_wireframes2{
+    width: 1342px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:1rem;
+    margin-left:18rem;
+
+    border-radius:40px;
+
+    z-index:6;
+    display:none;
+}
+
+.capa7{
+    width: 118.48px;
+    height: 123px;
+    position:absolute;
+    margin-top:2rem;
+    margin-left:12rem;
+}
+
+.title_carbohidratos{
+    position:absolute;
+    font-size:30px;
+    margin-top:8rem;
+    margin-left:27rem;
+}
+
+.video_carbohidratos{
+    width: 461px;
+    height: 521px;
+    margin-top:16rem;
+    margin-left:12rem;
+    position:absolute;
+    cursor: pointer;
+    
+}
+
+.categorias_carbohidratos{
+    position:absolute;
+    font-size:25px;
+    margin-top:2rem;
+    margin-left:70rem;
+
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+}
+
+.carbohidratos_cereales{
+    position:absolute;
+    width: 320.43px;
+    height: 331px;
+    margin-top:6.5rem;
+    margin-left:68rem;
+    cursor: pointer;
+
+}
+
+.carbohidratos_frutas{
+    position:absolute;
+    width: 193px;
+    height: 331px;
+    margin-top:6.5rem;
+    margin-left:100rem;
+    cursor: pointer;
+   
+}
+
+.carbohidratos_legumbres{
+    position:absolute;
+    width: 537.49px;
+    height: 291px;
+    margin-top:39rem;
+    margin-left:68rem;
+    cursor: pointer;
+    
+}
+
+
+/*----CAJA VIDEO CARBOHIDRATOS-----*/
+
+.caja_video_carbohidratos{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_video_carbohidratos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
+.video_sintesis_carbohidratos{
+    position:absolute;
+    margin-top:7rem;
+    margin-left:10rem;
+    width: 573px;
+}
+
+.title_cajavideo_carbohidratos{
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    margin-top:35rem;
+    margin-left:10rem;
+    position:absolute;
+    font-size:23px;
+
+}
+
+.texto_cajavideo_carbohidratos{
+    width: 264px;
+    height: 277px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:43rem;
+    margin-left:10rem;
+    text-align:justify;
+    font-weight: 500;
+
+}
+
+.grupo17_video_carbohidratos{
+    width: 299.3px;
+    height: 176.11px;
+    margin-top:42rem;
+    margin-left:38rem;
+    position:absolute;
+}
+
+.pregunta1Carb{
+    width: 384px;
+    height: 105px;
+    background-color: #C5D751;
+    position:absolute;
+    margin-top:9rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta1Carb img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta1Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta1Carb p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta2Carb{
+    width: 384px;
+    height: 105px;
+    background-color: #4AAEAD;
+    position:absolute;
+    margin-top:21rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta2Carb img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta2Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta2Carb p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta3Carb{
+    width: 384px;
+    height: 147px;
+    background-color: #F3BD37;
+    position:absolute;
+    margin-top:33rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta3Carb img{
+    width: 82px;
+    height: 132px;
+    margin-top:0.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta3Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta3Carb p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta4Carb{
+    width: 384px;
+    height: 105px;
+    background-color: #E27B38;
+    position:absolute;
+    margin-top:49rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta4Carb img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta4Carb h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta4Carb p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+/*----CAJA CEREALES-----*/
+
+.caja_video_cerales{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_cerales{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
+/*----CAJA FRUTAS-----*/
+
+.caja_video_frutas{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_frutas{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
+/*----CAJA LEGUMBRES-----*/
+
+.caja_video_legumbres{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_legumbres{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
 /*******************************************/
            /***PROTEÌNAS***/  
 /*******************************************/
@@ -946,6 +1312,391 @@ body{
 
 
 
+
+/*------CAJA FRUTAS Y VERDURAS------*/
+
+.caja_proteinas_FruVerd{
+    width: 1342px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_caja_FruVerd{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:2rem;
+    margin-left:4rem;
+
+    cursor:pointer;
+}
+
+.logo_frutasyvegetales{
+    width: 228.37px;
+    height: 180px;
+    position:absolute;
+    margin-top:5rem;
+    margin-left:8rem;
+}
+
+.title_proteinas_fruverd{
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    position:absolute;
+    margin-top:10rem;
+    margin-left:30rem;
+    width: 15rem;;
+}
+
+/*Guayaba*/
+.caja_guayaba{
+    width: 400px;
+    height: 405px;
+    position:absolute;
+    margin-top:23rem;
+    margin-left:13rem;
+    background-color: white;
+    border-radius:30px;
+    box-shadow: 0px 12px 24px 8px rgba(246, 246, 246, 0.851);
+}
+
+.Gimg1{
+    width: 231px;
+    height: 130px;
+    position:absolute;
+    margin-top:2rem;
+    margin-left:8rem;
+}
+
+.Gimg2{
+    width: 23px;
+    height: 23px;
+    position:absolute;
+    margin-top:20rem;
+    margin-left:9rem;
+}
+
+.gp2{
+    font-size:15px;
+    position:absolute;
+    margin-top:21rem;
+    margin-left:12rem;
+}
+
+.gp3{
+    font-size:15px;
+    position:absolute;
+    margin-top:21rem;
+    margin-left:27rem;
+}
+
+.Gimg3{
+    width: 21px;
+    height: 21.95px;
+    position:absolute;
+    margin-top:20.3rem;
+    margin-left:24rem;
+}
+
+.Gimg4{
+    width: 8px;
+    height: 32px;
+    position:absolute;
+    margin-top:25rem;
+    margin-left:6rem;
+}
+
+.gp4{
+    font-size:15px;
+    position:absolute;
+    margin-top:25.5rem;
+    margin-left:8rem;
+    width: 4rem;
+}
+
+.Gimg5{
+    width: 8px;
+    height: 32px;
+    position:absolute;
+    margin-top:25rem;
+    margin-left:16rem;
+}
+
+.gp5{
+    font-size:15px;
+    position:absolute;
+    margin-top:25.5rem;
+    margin-left:18rem;
+    width: 4rem;;
+}
+
+.Gimg6{
+    width: 8px;
+    height: 32px;
+    position:absolute;
+    margin-top:25rem;
+    margin-left:25rem;
+}
+
+.gp6{
+    font-size:15px;
+    position:absolute;
+    margin-top:25.5rem;
+    margin-left:27rem;
+    width: 4rem;;
+}
+
+.titulo_guayaba{
+    position:absolute;
+    margin-top:17rem;
+    margin-left:16rem;
+    font-size:18px;
+    font-weight: 800;
+    
+}
+
+.GVit{
+    font-size:14px;
+    position:absolute;
+    margin-top:30rem;
+    margin-left:7rem;
+}
+
+.gp7{
+    font-size:12px;
+    position:absolute;
+    margin-top:32rem;
+    margin-left:7rem;
+    border: 0.5px solid #C5D751;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.gp8{
+    font-size:12px;
+    position:absolute;
+    margin-top:32rem;
+    margin-left:15rem;
+    border: 0.5px solid #C5D751;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.gp9{
+    font-size:12px;
+    position:absolute;
+    margin-top:32rem;
+    margin-left:23rem;
+    border: 0.5px solid #C5D751;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.gp10{
+    font-size:12px;
+    position:absolute;
+    margin-top:35.5rem;
+    margin-left:7rem;
+    border: 0.5px solid #C5D751;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+/*Aceituna*/
+.caja_Aceitunas{
+    width: 602px;
+    height: 280px;
+    position:absolute;
+    margin-top:4rem;
+    margin-left:60rem;
+    background-color: white;
+    border-radius:30px;
+    box-shadow: 0px 12px 24px 8px rgba(246, 246, 246, 0.851);
+}
+
+.Aceimg1{
+    width: 105px;
+    height: 105px;
+    position:absolute;
+    margin-top:2rem;
+    margin-left:2rem;
+}
+
+.Aceimg2{
+    width: 23px;
+    height: 23px;
+    position:absolute;
+    margin-top:7rem;
+    margin-left:15rem;
+}
+
+.Aceimg3{
+    width: 21px;
+    height: 21.95px;
+    position:absolute;
+    margin-top:7rem;
+    margin-left:30rem;
+}
+
+.titulo_aceituna{
+    position:absolute;
+    margin-top:4rem;
+    margin-left:15rem;
+    font-size:18px;
+    font-weight: 800;
+}
+
+.Acep2{
+    font-size:15px;
+    position:absolute;
+    margin-top:8rem;
+    margin-left:18rem; 
+}
+
+.Acep3{
+    font-size:15px;
+    position:absolute;
+    margin-top:8rem;
+    margin-left:33rem; 
+}
+
+.Aceimg4{
+    width: 8px;
+    height: 32px;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:4rem;
+}
+
+.Aceimg5{
+    width: 8px;
+    height: 32px;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:15rem;
+}
+
+.Aceimg6{
+    width: 8px;
+    height: 32px;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:28rem;
+}
+
+.Acep4{
+    font-size:15px;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:6rem;
+    width: 4rem;
+}
+
+.Acep5{
+    font-size:15px;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:17rem;
+    width: 4rem;
+}
+
+.Acep6{
+    font-size:15px;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:30rem;
+    width: 4rem;
+}
+
+.AceVit{
+    font-size:14px;
+    position:absolute;
+    margin-top:20rem;
+    margin-left:6rem;
+}
+
+.Acep7{
+    font-size:12px;
+    position:absolute;
+    margin-top:22rem;
+    margin-left:6rem;
+    border: 0.5px solid #4AAEAD;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.Acep8{
+    font-size:12px;
+    position:absolute;
+    margin-top:22rem;
+    margin-left:14rem;
+    border: 0.5px solid #4AAEAD;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+/*platano*/
+
+.caja_platano{
+    width: 602px;
+    height: 280px;
+    position:absolute;
+    margin-top:35rem;
+    margin-left:60rem;
+    background-color: white;
+    border-radius:30px;
+    box-shadow: 0px 12px 24px 8px rgba(246, 246, 246, 0.851); 
+}
+
+.plap7{
+    font-size:12px;
+    position:absolute;
+    margin-top:22rem;
+    margin-left:6rem;
+    border: 0.5px solid #F3BD37;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.plap8{
+    font-size:12px;
+    position:absolute;
+    margin-top:22rem;
+    margin-left:14rem;
+    border: 0.5px solid #F3BD37;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.plap9{
+    font-size:12px;
+    position:absolute;
+    margin-top:22rem;
+    margin-left:22rem;
+    border: 0.5px solid #F3BD37;
+    border-radius: 25px;
+    padding:0.8rem;
+}
+
+.plap10{
+    font-size:12px;
+    position:absolute;
+    margin-top:22rem;
+    margin-left:30rem;
+    border: 0.5px solid #F3BD37;
+    border-radius: 25px;
+    padding:0.8rem;
+}
 
 /*******************************************/
             /***LÌPIDOS***/   
