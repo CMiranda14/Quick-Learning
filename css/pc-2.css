@@ -1,50 +1,62 @@
-.bg{
-    background-color: #FBFBFB;
-    margin-bottom: 34.5rem;
-}
-.bg-2{
-    background-color: #AB9ED3;
-    height: 73em;
+#home-page{
+    max-width:1920px;
+    height: auto;
+    margin:auto;
 }
 
-/*body{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}*/
+.contenedor{
+    max-width:1920px;  
+    margin:auto;
+}
+.bg{
+    background-color: #FBFBFB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .ShapeDown{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
+    margin-top: 25rem;
 }
-.logo{
-    margin: auto;
+.ShapeDown-2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height: 50%; 
-    margin-top:8rem;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 0rem;
+
+}
+.logo{
+    margin: 6rem;
+    max-height: 30rem;
+    margin-bottom: 5rem;
+}
+.foodP{
+    display: none;
+
 }
 .btn{
     display: flex;
     justify-content: center;
     margin: auto;
     cursor: pointer;
-    margin-top:3rem;
-    margin-bottom: 12.5rem;
+    min-width: 3rem;
 
 }
+/*SECCION DOS HOME-PAGE*/
 
-.txt{
-    max-width: 20rem;
-<<<<<<< HEAD
-   
-=======
+.bg-2{
+    background-color: #AB9ED3;
+    height: 700px;
+
+    width: 100%;
 }
 
 .bio{
-    width: 100%;
-    margin-bottom: 1rem;
-    margin-top:5rem;
->>>>>>> 596c9815c011326ee68165f3e18f93c04b59510e
+    max-width: 466px;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
 }

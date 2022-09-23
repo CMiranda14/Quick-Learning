@@ -295,6 +295,7 @@ body{
     font-size:30px;
     margin-top:8rem;
     margin-left:27rem;
+    
 }
 
 .video_proteinas{
@@ -358,7 +359,7 @@ body{
 .caja_video_proteinas{
     width: 1342px;
     height: 700px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.936);
     margin-top:0rem;
     margin-left:0rem;
 
@@ -383,8 +384,228 @@ body{
     position:absolute;
     margin-top:7rem;
     margin-left:10rem;
+    width: 573px;
 }
 
+.title_cajavideo_proteinas{
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 100;
+    margin-top:35rem;
+    margin-left:10rem;
+    position:absolute;
+    font-size:25px;
+
+}
+
+.texto_cajavideo_proteinas{
+    width: 254px;
+    height: 277px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:43rem;
+    margin-left:10rem;
+    text-align:justify;
+    font-weight: 500;
+
+}
+
+.grupo17_video{
+    width: 166px;
+    height: 310px;
+    margin-top:38rem;
+    margin-left:36rem;
+    position:absolute;
+}
+
+.grupo18_video{
+    width: 166px;
+    height: 310px;
+    margin-top:38rem;
+    margin-left:52rem;
+    position:absolute;
+}
+
+
+.pregunta1{
+    width: 384px;
+    height: 105px;
+    background-color: #C5D751;
+    position:absolute;
+    margin-top:3rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta1 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta1 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta1 p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta2{
+    width: 384px;
+    height: 105px;
+    background-color: #4AAEAD;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta2 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta2 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta2 p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta3{
+    width: 384px;
+    height: 137px;
+    background-color: #F3BD37;
+    position:absolute;
+    margin-top:27rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta3 img{
+    width: 82px;
+    height: 79px;
+    margin-top:3rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta3 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta3 p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta4{
+    width: 384px;
+    height: 105px;
+    background-color: #E27B38;
+    position:absolute;
+    margin-top:42rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta4 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta4 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta4 p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta5{
+    width: 384px;
+    height: 105px;
+    background-color: #7C6BAF;
+    position:absolute;
+    margin-top:54rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta5 img{
+    width: 82px;
+    height: 79px;
+    margin-top:1rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta5 h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta5 p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
 
 
 
@@ -414,10 +635,234 @@ body{
     cursor:pointer;
 }
 
+.title_carne{
+    position:absolute;
+    margin-left:26rem;
+    margin-top:10rem;
+    font-size:3.5rem;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 400;
+}
+
+.carne{
+    top: 5rem;
+    left:8rem;
+    position:absolute;
+}
+.cerdo{
+    border-radius: 29px;
+    position:absolute;
+    top: 2rem;
+    left: 55rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 74rem;
+    height: 300px;
+}
+.imgCerd{
+    margin: 1.5rem;
+    max-width: 120px;
+}
+.ti{
+    top: 4rem;
+    left:16rem;
+    position:absolute;
+
+}
+.calorias{
+    top: 7rem;
+    left:16rem;
+    position:absolute;
+}
+.kcal{
+    top: 7.5rem;
+    left: 19rem;
+    position:absolute;
+    font-size: 2rem;
+}
+.lb{
+    top: 7rem;
+    left: 37rem;
+    position:absolute;
+}
+.peso{
+    top: 7.5rem;
+    left: 40rem;
+    position:absolute;
+    font-size: 2rem;
+}
+.pr{
+    top: 14rem;
+    left: 7rem;
+    position:absolute;
+
+}
+.pr-text{
+    top: 14rem;
+    left: 9rem;
+    position:absolute;
+    font-size: 2rem;
+}
+.text{
+    top: 16rem;
+    left: 9rem;
+    position:absolute;
+    font-size: 2rem;
+}
+.div-lip{
+    top: 0rem;
+    left: 15rem;
+    position:absolute;
+    width: 10rem;
+}
+.div-carb{
+    top: 0rem;
+    background-color: #7C6BAF;
+    left: 28rem;
+    position:absolute;
+    width: 10rem;
+}
+.text-vit{
+    top: 20rem;
+    left: 7rem;
+    position:absolute;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.vitaminas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    top: 20rem;
+    left: 7rem;
+    position:absolute;
+    font-size: 1.5rem;
+
+}
+.vitaminas p{
+    border: 1px solid #C5D751;
+    border-radius: 25px;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    padding: 0.7rem;
+
+}
+.res{
+    border-radius: 29px;
+    position:absolute;
+    top: 36rem;
+    left: 55rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 74rem;
+    height: 300px;
+
+}
+.pollo{
+    border-radius: 29px;
+    position:absolute;
+    top: 22rem;
+    left: 7rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 46rem;
+    height: 44rem;
+}
+.imgpollo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 200px;
+}
+.imgpollo-2{
+    display: none;
+}
+.title-Po{
+    top: 17rem;
+    left: 6rem;
+    position:absolute;
+
+}
+.calorias_pollo{
+    position:absolute;
+    top: 19.5rem;
+    left: 5rem;
+
+
+}
+.Kcal_P{
+    top: 20rem;
+    left: 8rem;
+    position:absolute;
+    font-size: 2rem;
+    bottom: 2rem;
+}
+.lb-p{
+    position:absolute;
+    top: 19.5rem;
+    left: 25rem;
+}
+.peso-p{
+    top: 20rem;
+    left: 28rem;
+    position:absolute;
+    font-size: 2rem;
+}
+
+.div-proteinas{
+    top: 10rem;
+    left: -3rem;
+    position:absolute;
+}
+.div-lipidos{
+    top: 10rem;
+    left: 10rem;
+    position:absolute;
+}
+.div-carbohidratos{
+    top: 10rem;
+    left: 20rem;
+    position:absolute;
+}
+.text-vtm{
+    top: 30rem;
+    left: 4rem;
+    position:absolute;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.vitaminas-P{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    top: 32rem;
+    left: 4rem;
+    position:absolute;
+    font-size: 1.5rem;
+
+}
+.vitaminas-P p{
+    border: 1px solid #C5D751;
+    border-radius: 25px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding: 0.7rem;
+
+}
+
 /*------CAJA LACTEOS------*/
 
 .caja_proteinas_lacteos{
-    width: 1342px;
+    width: 1340px;
     height: 700px;
     background-color: #fff;
     margin-top:0rem;
@@ -439,6 +884,69 @@ body{
 
     cursor:pointer;
 }
+.leche{
+    border-radius: 29px;
+    position:absolute;
+    top: 2rem;
+    left: 55rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 74rem;
+    height: 300px;
+}
+.crema{
+    border-radius: 29px;
+    position:absolute;
+    top: 36rem;
+    left: 55rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 74rem;
+    height: 300px;
+
+}
+.yogurt{
+    border-radius: 29px;
+    position:absolute;
+    top: 22rem;
+    left: 7rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 46rem;
+    height: 44rem;
+}
+/*-------- CAJA PESCADOS -------------*/
+.caja_proteinas_pescados{
+    width: 1342px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_caja_pescados{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:2rem;
+    margin-left:4rem;
+
+    cursor:pointer;
+}
+
+
 
 /*******************************************/
             /***LÌPIDOS***/

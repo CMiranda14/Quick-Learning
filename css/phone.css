@@ -1,58 +1,73 @@
-.logo{
-    margin: auto;
-    min-width: 15rem;
-}
-.bio{
-    min-width: 20rem;
-    max-width: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-}
-.bg-2{
-    background-color: #AB9ED3;
-    height: 30rem;
-    padding-left: 3rem;
+#home-page{
+    max-width:375px;
     height: auto;
+    margin:auto;
+}
+
+.contenedor{
+    max-width:375px;  
+    margin:auto;
 }
 .bg{
     background-color: #FBFBFB;
-    height: 38rem;
     width: 100%;
-}
-.shapeUp{
-    width: 100%;
-
-    /*position: fixed;*/
+    display: flex;
+    flex-direction: column;
 }
 .ShapeDown{
-    /*margin-top: 8rem;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
-    margin-top: 3rem;
-
+    margin-top: 25rem;
 }
-.txt{
-   /* margin-bottom: 2rem;*/
-   min-width: 10rem;
-}
-.start{
+.ShapeDown-2{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 1rem;  
-    width: 80%; 
+    width: 100%;
+    margin-top: 0rem;
+
 }
-.start img{
-    margin-bottom: 2rem;
+.logo{
+    margin: 6rem;
+    max-height: 30rem;
+    margin-bottom: 5rem;
+}
+.foodP{
+    display: none;
+
 }
 .btn{
     display: flex;
     justify-content: center;
     margin: auto;
     cursor: pointer;
+    min-width: 3rem;
 
 }
+/*SECCION DOS HOME-PAGE*/
+
+.bg-2{
+    background-color: #AB9ED3;
+    height: 700px;
+    width: 100%;
+}
+
+.bio{
+    width: 266px;
+    margin-top: -3rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.txt-pc{
+    max-width: 30rem;
+    margin: 2rem;
+}
+.start img{
+    max-width: 23rem;
+    margin: 3rem;
+}
+
+
+

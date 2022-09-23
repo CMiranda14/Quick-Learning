@@ -1,3 +1,11 @@
+import {matriz_video_proteinas} from './datas_bromatologia.js';
+import {Cerdo} from './datas_bromatologia.js';
+import {res} from './datas_bromatologia.js';
+import {pollo} from './datas_bromatologia.js';
+import {leche}  from './datas_bromatologia.js';
+import {Crema} from './datas_bromatologia.js';
+import {yogurt} from './datas_bromatologia.js';
+
 function Perfil(){
     let perfil = document.querySelector("#perfil");
 
@@ -33,8 +41,323 @@ function Perfil(){
     let div1 = '<div class="caja_wireframes2" id="caja_wireframes2">'+'<h1 class="title1">'+'Carbohidratos'+'</h1>'+'</div>';
 
     /***CAJA PROTEINAS***/
- 
-    let div2 = '<div class="caja_wireframes3" id="caja_wireframes3">'+'<h1 class="title1">'+'Proteínas'+'</h1>'+'</div>';
+
+    let div2 = `<div class="caja_wireframes3" id="caja_wireframes3">
+                        <img class="capa7" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Capa%207.svg"></img>
+                        <h1 class="title_proteinas">Proteínas</h1>
+                        <img class="video_proteinas" id="video_proteinas" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Conoce%20tu%20dietadestock%20(1).svg"></img>
+                        <h1 class="categorias_proteinas">CATEGORÍAS</h1>
+                        <img class="proteinas_carne" id="proteinas_carne" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2013.svg"></img>
+                        <img class="proteinas_lacteos" id="proteinas_lacteos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2015.svg"></img>
+                        <img class="proteinas_pescado" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2014.svg"></img>
+                        <img class="proteinas_frutas" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Group%2016.svg"></img>
+
+
+
+                        <div class="caja_video_proteinas" id="caja_video_proteinas">
+                            <h1 class="boton_cerrar_video_proteinas" id="boton_cerrar_video_proteinas">X</h1>
+                            <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/XPRSoH3yskw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h1 class="title_cajavideo_proteinas">`+matriz_video_proteinas[0].titulo+`</h1>
+                            <h1 class="texto_cajavideo_proteinas">`+matriz_video_proteinas[0].texto+`</h1>
+                            <img class="grupo17_video" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/354ee937964c3882be5fa1a438a9be142e0539d8/Group%2017.svg"></img>
+                            <img class="grupo18_video" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/354ee937964c3882be5fa1a438a9be142e0539d8/Group%2018.svg"></img>
+
+                        <div class="preguntas_proteinas">
+                            <div class="pregunta1">
+                                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/3f95545e53cadff70212251c73288f94a92e8000/Group%2019.svg"></img>
+                                <h1>`+matriz_video_proteinas[1].titulo+`</h1>
+                                <p>`+matriz_video_proteinas[1].texto+`</p>
+                            </div>
+                            <div class="pregunta2">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/90406d1433395e0da8ddc730b29142f5dc72b750/Group%2020.svg"></img>
+                            <h1>`+matriz_video_proteinas[2].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[2].texto+`</p>
+                            </div>
+                            <div class="pregunta3">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/6878663ee7515678d142fe7b0c529af1c6d1f99a/Group%2021.svg"></img>
+                            <h1>`+matriz_video_proteinas[3].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[3].texto+`</p>
+                            </div>
+                            <div class="pregunta4">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/6878663ee7515678d142fe7b0c529af1c6d1f99a/Group%2022.svg"></img>
+                            <h1>`+matriz_video_proteinas[4].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[4].texto+`</p>
+                            </div>
+                            <div class="pregunta5">
+                            <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/6878663ee7515678d142fe7b0c529af1c6d1f99a/Group%2023.svg"></img>
+                            <h1>`+matriz_video_proteinas[5].titulo+`</h1>
+                            <p>`+matriz_video_proteinas[5].texto+`</p>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <div class="caja_proteinas_carne" id="caja_proteinas_carne">
+                            <h1 class="boton_cerrar_caja_carne" id="boton_cerrar_caja_carne">←</h1>
+                            <img class="carne" src="https://raw.githubusercontent.com/maria4Q/APS/5191924bc62f3786da3f1781190928e464a1a62b/carne.svg"></img>
+                            <h1 class="title_carne">CARNES</h1>
+                            
+                            <div class="cerdo">
+                             <img class="imgCerd" src="https://raw.githubusercontent.com/maria4Q/APS/990dced6fc0a56edd3d3a080679c79c2fae8700a/imCarne.svg"></img>
+                             <h1 class="ti">`+Cerdo[0].nombre+`</h1>
+                             <img class="calorias" src="https://raw.githubusercontent.com/maria4Q/APS/db24cbf45740e95c02ace9939e10e1cae003de47/calorias.svg"></img>
+                             <p class="kcal">`+Cerdo[0].calorias+`</p>
+                             <img class="lb" src="https://raw.githubusercontent.com/maria4Q/APS/faa6b49c5d54b53f0530ef658a4c08b848ec2e87/lb.svg"></img>
+                             <p class="peso">`+Cerdo[0].libras+`</p>
+                             
+                             <img class="pr" src="https://github.com/maria4Q/APS/blob/main/proteina.png?raw=true"></img>
+                             <p class="pr-text">`+Cerdo[0].proteina+`</p>
+                             <p class="text">Proteinas</p>
+                            
+                             <div class="div-lip">
+                                <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                <p class="pr-text">`+Cerdo[0].lipidos+`</p>
+                                <p class="text">Lípidos</p>
+                             </div>
+                             <div class="div-carb">
+                                <img class="pr" src="https://github.com/maria4Q/APS/blob/main/carbo.png?raw=true"></img>
+                                <p class="pr-text">`+Cerdo[0].carbohidratos+`</p>
+                                <p class="text">Carbohidratos</p>
+                             </div>
+
+                             <p class="text-vit">Vitaminas</p>
+                          
+                            
+                             <div class="vitaminas">
+                                <p>`+Cerdo[0].vitaminas+`</p>
+                                <p>`+Cerdo[0].vitamina2+`</p>
+                                <p>`+Cerdo[0].vitamina3+`</p>
+                                <p>`+Cerdo[0].vitamina4+`</p>
+                                <p>`+Cerdo[0].vitamina5+`</p>
+                                <p>`+Cerdo[0].vitamina6+`</p>
+                             </div>
+
+                            </div>
+
+
+
+                            <div class="res">
+                                <img class="imgCerd" src="https://raw.githubusercontent.com/maria4Q/APS/39ae1d7c40ad3721b79861fc46a7b83249dce05d/res.svg"></img>
+                                <h1 class="ti">`+res[0].nombre+`</h1>
+                                <img class="calorias" src="https://raw.githubusercontent.com/maria4Q/APS/db24cbf45740e95c02ace9939e10e1cae003de47/calorias.svg"></img>
+                                <p class="kcal">`+res[0].calorias+`</p>
+                                <img class="lb" src="https://raw.githubusercontent.com/maria4Q/APS/faa6b49c5d54b53f0530ef658a4c08b848ec2e87/lb.svg"></img>
+                                <p class="peso">`+res[0].libras+`</p>
+                            
+                                <img class="pr" src="https://github.com/maria4Q/APS/blob/main/proteina.png?raw=true"></img>
+                                <p class="pr-text">`+res[0].proteina+`</p>
+                                <p class="text">Proteinas</p>
+                           
+                                <div class="div-lip">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+res[0].lipidos+`</p>
+                                    <p class="text">Lípidos</p>
+                                </div>
+
+                                <div class="div-carb">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/carbo.png?raw=true"></img>
+                                    <p class="pr-text">`+res[0].carbohidratos+`</p>
+                                    <p class="text">Carbohidratos</p>
+                                </div>
+
+                                <p class="text-vit">Vitaminas</p>
+                         
+
+                                <div class="vitaminas">
+                                    <p>`+res[0].vitamina+`</p>
+                                    <p>`+res[0].vitamina1+`</p>
+                                    <p>`+res[0].vitamina2+`</p>
+                                    <p>`+res[0].vitamina3+`</p>
+                                    <p>`+res[0].vitamina4+`</p>
+                                    <p>`+res[0].vitamina5+`</p>
+                                </div>
+                           </div>
+
+
+                
+                            <div class="pollo">
+                                <img class="imgpollo" src="https://raw.githubusercontent.com/maria4Q/APS/3c2bd6a3ec571080855705e68e2cce131d53b42d/pollo.svg"></img>
+                                <img class="imgpollo-2" src="https://raw.githubusercontent.com/maria4Q/APS/a80b03b3e8531f15afda30af60382a470e68d9d3/polloSmall.svg"></img>
+                                <h1 class="title-Po">`+pollo[0].nombre+`</h1>
+                                <img class="calorias_pollo" src="https://raw.githubusercontent.com/maria4Q/APS/db24cbf45740e95c02ace9939e10e1cae003de47/calorias.svg"></img>
+                                <p class="Kcal_P">`+pollo[0].calorias+`</p>
+                                <img class="lb-p" src="https://raw.githubusercontent.com/maria4Q/APS/faa6b49c5d54b53f0530ef658a4c08b848ec2e87/lb.svg"></img>
+                                <p class="peso-p">`+pollo[0].libras+`</p>
+
+                        
+                                <div class="div-proteinas">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/proteina.png?raw=true"></img>
+                                    <p class="pr-text">`+pollo[0].proteina+`</p>
+                                    <p class="text">Proteinas</p>
+                                </div>
+
+                                <div class="div-lipidos">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+pollo[0].lipidos+`</p>
+                                    <p class="text">Lípidos</p>
+                                </div>
+
+                                
+                                <div class="div-carbohidratos">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+pollo[0].carbohidratos+`</p>
+                                    <p class="text">Carbohidratos</p>
+                                </div>
+
+                                <p class="text-vtm">Vitaminas</p>
+
+                                <div class="vitaminas-P">
+                                    <p>`+res[0].vitamina+`</p>
+                                    <p>`+res[0].vitamina1+`</p>
+                                    <p>`+res[0].vitamina2+`</p>
+                                    <p>`+res[0].vitamina3+`</p>
+                                    <p>`+res[0].vitamina4+`</p>
+                                    <p>`+res[0].vitamina5+`</p>
+                                </div>
+                            </div>
+                         
+                        </div>
+
+                        <div class="caja_proteinas_lacteos" id="caja_proteinas_lacteos">
+                            <h1 class="boton_cerrar_caja_lacteos" id="boton_cerrar_caja_lacteos">←</h1>
+                            <img class="img-leche" src="https://raw.githubusercontent.com/maria4Q/APS/4126cf7706ccab6a4c6ee4e2532ecf1e1b45db32/milk.svg"></img>
+                            <h1 class="title_leche">LÁCTEOS Y</h1>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h1 class="title_leche">DERIVADOS</h1>
+
+                            <div class="leche">
+                                <img class="imgCerd" src="https://raw.githubusercontent.com/maria4Q/APS/e1a8803ef808ef2162f9cebb96b9217673116667/LecheP.svg"></img>
+                                <h1 class="ti">`+leche[0].nombre+`</h1>
+                                <img class="calorias" src="https://raw.githubusercontent.com/maria4Q/APS/db24cbf45740e95c02ace9939e10e1cae003de47/calorias.svg"></img>
+                                <p class="kcal">`+leche[0].calorias+`</p>
+                                <img class="lb" src="https://raw.githubusercontent.com/maria4Q/APS/faa6b49c5d54b53f0530ef658a4c08b848ec2e87/lb.svg"></img>
+                                <p class="peso">`+leche[0].libras+`</p>
+
+
+                                <img class="pr" src="https://github.com/maria4Q/APS/blob/main/proteina.png?raw=true"></img>
+                                <p class="pr-text">`+leche[0].proteina+`</p>
+                                <p class="text">Proteinas</p>
+                        
+                                <div class="div-lip">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+leche[0].lipidos+`</p>
+                                    <p class="text">Lípidos</p>
+                                </div>
+
+                                <div class="div-carb">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/carbo.png?raw=true"></img>
+                                    <p class="pr-text">`+leche[0].carbohidratos+`</p>
+                                    <p class="text">Carbohidratos</p>
+                                </div>
+
+                                   
+                                <p class="text-vit">Vitaminas</p>
+                         
+
+                                <div class="vitaminas">
+                                    <p>`+leche[0].vitamina1+`</p>
+                                    <p>`+leche[0].vitamina2+`</p>
+                                    <p>`+leche[0].vitamina3+`</p>
+                                    <p>`+leche[0].vitamina4+`</p>
+                                    <p>`+leche[0].vitamina5+`</p>  
+                                </div>
+
+                            </div>
+
+                            <div class="crema">
+                                <img class="imgCerd" src="https://raw.githubusercontent.com/maria4Q/APS/9cdf824c9b8ef0be703ad7d6bddf09192c425979/crema.svg"></img>
+                                <h1 class="ti">`+Crema[0].nombre+`</h1>
+                                <img class="calorias" src="https://raw.githubusercontent.com/maria4Q/APS/db24cbf45740e95c02ace9939e10e1cae003de47/calorias.svg"></img>
+                                <p class="kcal">`+Crema[0].calorias+`</p>
+                                <img class="lb" src="https://raw.githubusercontent.com/maria4Q/APS/faa6b49c5d54b53f0530ef658a4c08b848ec2e87/lb.svg"></img>
+                                <p class="peso">`+Crema[0].libras+`</p>
+
+
+                                <img class="pr" src="https://github.com/maria4Q/APS/blob/main/proteina.png?raw=true"></img>
+                                <p class="pr-text">`+Crema[0].proteina+`</p>
+                                <p class="text">Proteinas</p>
+
+                                <div class="div-lip">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+Crema[0].lipidos+`</p>
+                                    <p class="text">Lípidos</p>
+                                </div>
+
+                                <div class="div-carb">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/carbo.png?raw=true"></img>
+                                    <p class="pr-text">`+Crema[0].carbohidratos+`</p>
+                                    <p class="text">Carbohidratos</p>
+                                </div>
+
+                                <p class="text-vit">Vitaminas</p>
+                         
+
+                                <div class="vitaminas">
+                                    <p>`+Crema[0].vitamina1+`</p>
+                                    <p>`+Crema[0].vitamina2+`</p>
+                                    <p>`+Crema[0].vitamina3+`</p>
+                                    <p>`+Crema[0].vitamina4+`</p>
+                                    <p>`+Crema[0].vitamina5+`</p>
+                                    <p>`+Crema[0].vitamina6+`</p>
+                                </div>
+
+                            </div>
+
+                            <div class="yogurt">
+                                <img class="imgpollo" src="https://raw.githubusercontent.com/maria4Q/APS/148ffa55e34384fe9964ac41d4db4f68948de3d8/yogurt.svg"></img>
+                                <h1 class="title-Po">`+yogurt[0].nombre+`</h1>
+                            
+                                <img class="calorias_pollo" src="https://raw.githubusercontent.com/maria4Q/APS/db24cbf45740e95c02ace9939e10e1cae003de47/calorias.svg"></img>
+                                <p class="Kcal_P">`+yogurt[0].calorias+`</p>
+                                <img class="lb-p" src="https://raw.githubusercontent.com/maria4Q/APS/faa6b49c5d54b53f0530ef658a4c08b848ec2e87/lb.svg"></img>
+                                <p class="peso-p">`+yogurt[0].libras+`</p>
+
+                                <div class="div-proteinas">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/proteina.png?raw=true"></img>
+                                    <p class="pr-text">`+yogurt[0].proteina+`</p>
+                                    <p class="text">Proteinas</p>
+                                </div>
+
+                                <div class="div-lipidos">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+yogurt[0].lipidos+`</p>
+                                    <p class="text">Lípidos</p>
+                                </div>
+
+                                <div class="div-carbohidratos">
+                                    <img class="pr" src="https://github.com/maria4Q/APS/blob/main/li.png?raw=true"></img>
+                                    <p class="pr-text">`+yogurt[0].carbohidratos+`</p>
+                                    <p class="text">Carbohidratos</p>
+                                </div>
+
+                                <p class="text-vtm">Vitaminas</p>
+
+                                <div class="vitaminas-P">
+                                    <p>`+yogurt[0].vitamina1+`</p>
+                                    <p>`+yogurt[0].vitamina2+`</p>
+                                    <p>`+yogurt[0].vitamina3+`</p>
+                                    <p>`+yogurt[0].vitamina4+`</p>
+                                    <p>`+yogurt[0].vitamina5+`</p>
+                                </div>
+                            </div>  
+                        </div>
+
+                        <div class="caja_proteinas_pescados" id="caja_proteinas_pescados">
+                            <h1 class="boton_cerrar_caja_pescados" id="boton_cerrar_caja_pescados">←</h1>
+                            <h1 class="title_proteinas">Pescados</h1>
+                        </div>
+
+
+                                
+                </div>`
+                
+                ;
+
+
+
 
     let div3 = '<div class="caja_wireframes4" id="caja_wireframes4">'+'<h1 class="title1">'+'Lípidos'+'</h1>'+'</div>';
     let div4 = '<div class="caja_wireframes5" id="caja_wireframes5">'+'<h1 class="title1">'+'Vitaminas'+'</h1>'+'</div>';
@@ -173,6 +496,31 @@ function desactivar_caja_lacteos() {
 boton_cerrar_caja_lacteos.addEventListener('click' ,desactivar_caja_lacteos);
 
 /***************************************************************************/
+
+
+function activar_caja_pescados() {
+    var x = document.getElementById("caja_proteinas_pescados");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+proteinas_pescado.addEventListener('click' ,activar_caja_pescados);
+
+function desactivar_caja_pescados() {
+    var x = document.getElementById("caja_proteinas_pescados");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_caja_pescados.addEventListener('click' ,desactivar_caja_pescados);
+
+/***************************************************************************** */
 
 function activar_desactivar3() {
     var x = document.getElementById("caja_wireframes4");
