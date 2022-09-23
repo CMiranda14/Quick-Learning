@@ -51,12 +51,18 @@
 .bg-2{
     background-color: #AB9ED3;
     height: 700px;
-
     width: 100%;
 }
+
 
 .bio{
     max-width: 466px;
     margin-top: -3rem;
     margin-bottom: 4rem;
 }
+.start img{
+    max-width: 23rem;
+    margin: 4rem;
+}
+
+
