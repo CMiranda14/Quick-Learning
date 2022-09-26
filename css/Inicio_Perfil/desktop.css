@@ -1394,6 +1394,22 @@ body{
 
     cursor:pointer;
 }
+
+.img-leche{
+    top: 8rem;
+    left:12rem;
+    position:absolute;
+}
+.title_leche{
+    position:absolute;
+    margin-left:15rem;
+    margin-top:26rem;
+    font-size:2rem;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 400;
+}
+
 .leche{
     border-radius: 29px;
     position:absolute;
@@ -1858,6 +1874,26 @@ body{
 
     z-index:6;
     display:none;
+}
+
+.video_lipidos{
+    width: 461px;
+    height: 521px;
+    margin-top:16rem;
+    margin-left:12rem;
+    position:absolute;
+    cursor: pointer;
+    
+}
+
+.lipidos_aceites{
+    position:absolute;
+    width: 188px;
+    height: 289px;
+    margin-top:6.5rem;
+    margin-left:103rem;
+    cursor: pointer;
+   
 }
 
 /*******************************************/

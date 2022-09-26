@@ -120,6 +120,7 @@ body{
     width: 128px;
     height: 192px;
     transition:0.3s;
+
 }
 
 .bio_holaa:hover{
@@ -130,7 +131,10 @@ body{
     width: 138px;
     height: 202px;
     transition:0.3s;
+
 }
+
+
 
 .bio_holab{
     position:absolute;
@@ -150,6 +154,7 @@ body{
     width: 168px;
     height: 144px;
     transition:0.3s;
+
 }
 
 .bio_holab2:hover{
@@ -160,7 +165,9 @@ body{
     width: 178px;
     height: 154px;
     transition:0.3s;
+
 }
+
 
 .bio_holac{
     position:absolute;
@@ -172,6 +179,7 @@ body{
     transition:0.3s;
 }
 
+
 .bio_holac:hover{
     position:absolute;
     margin-left:4rem;
@@ -181,6 +189,7 @@ body{
     height: 167px;
     transition:0.3s;
 }
+
 
 .fondo_blanco{
     margin-top:5rem;
@@ -208,6 +217,7 @@ body{
     width: 155px;
     height: 202px;
     transition:0.3s;
+
 }
 
 .bio_holad2:hover{
@@ -218,7 +228,10 @@ body{
     width: 165px;
     height: 212px;
     transition:0.3s;
+
 }
+
+
 
 .title{
     position:absolute;
@@ -263,6 +276,7 @@ body{
 
 }
 
+
 .bio_hola222:hover{
     position:absolute;
     margin-left:0.5rem;
@@ -284,6 +298,7 @@ body{
     height: 360px;
 }
 
+
 .bio_hola3:hover{
     position:absolute;
     margin-left:1.5rem;
@@ -294,6 +309,7 @@ body{
     height: 370px;
 }
 
+
 .bio_hola4{
     position:absolute;
     margin-left:3rem;
@@ -302,6 +318,7 @@ body{
     width: 312px;
     height: 410px;
     transition:0.3s;
+
 
 }
 
@@ -314,7 +331,9 @@ body{
     height: 420px;
     transition:0.3s;
 
+
 }
+
 
 /*******************************************/
           /***CARBOHIDRATOS***/    
@@ -357,6 +376,7 @@ body{
     position:absolute;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .video_carbohidratos:hover{
@@ -367,7 +387,10 @@ body{
     position:absolute;
     cursor: pointer;
     transition:0.3s;
+
 }
+
+
 
 .categorias_carbohidratos{
     position:absolute;
@@ -388,6 +411,7 @@ body{
     margin-left:5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .carbohidratos_cereales:hover{
@@ -398,7 +422,9 @@ body{
     margin-left:4rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
 
 .carbohidratos_frutas{
     position:absolute;
@@ -408,6 +434,7 @@ body{
     margin-left:22rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .carbohidratos_frutas:hover{
@@ -418,7 +445,10 @@ body{
     margin-left:22.5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
+
 
 .carbohidratos_legumbres{
     position:absolute;
@@ -428,6 +458,7 @@ body{
     margin-left:5.8rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .carbohidratos_legumbres:hover{
@@ -438,7 +469,10 @@ body{
     margin-left:5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
+
 
 /*----CAJA VIDEO CARBOHIDRATOS-----*/
 
@@ -769,6 +803,7 @@ body{
     position:absolute;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .video_proteinas:hover{
@@ -779,7 +814,10 @@ body{
     position:absolute;
     cursor: pointer;
     transition:0.3s;
+
 }
+
+
 
 .categorias_proteinas{
     position:absolute;
@@ -800,6 +838,7 @@ body{
     margin-left:5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .proteinas_carne:hover{
@@ -810,7 +849,10 @@ body{
     margin-left:4.5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
+
 
 .proteinas_lacteos{
     position:absolute;
@@ -820,6 +862,7 @@ body{
     margin-left:22rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .proteinas_lacteos:hover{
@@ -830,7 +873,9 @@ body{
     margin-left:21.5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
 
 .proteinas_pescado{
     position:absolute;
@@ -840,6 +885,7 @@ body{
     margin-left:4.8rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .proteinas_pescado:hover{
@@ -850,7 +896,9 @@ body{
     margin-left:4.3rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
 
 .proteinas_frutas{
     position:absolute;
@@ -860,6 +908,7 @@ body{
     margin-left:18.5rem;
     cursor: pointer;
     transition:0.3s;
+
 }
 
 .proteinas_frutas:hover{
@@ -870,7 +919,10 @@ body{
     margin-left:18rem;
     cursor: pointer;
     transition:0.3s;
+
 }
+
+
 
 
 /*----CAJA VIDEO PROTEINAS-----*/
@@ -1478,6 +1530,7 @@ body{
 
     cursor:pointer;
 }
+
 
 
 /*------CAJA FRUTAS Y VERDURAS------*/

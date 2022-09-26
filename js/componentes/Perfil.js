@@ -50,7 +50,7 @@ function Perfil(){
                 
                 <div class="caja_video_carbohidratos" id="caja_video_carbohidratos">
                 <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_video_carbohidratos">X</h1>
-                <iframe class="video_sintesis_carbohidratos" width="573" height="262" src="https://www.youtube.com/embed/XPRSoH3yskw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video_sintesis_carbohidratos" width="573" height="262" src="https://www.youtube.com/embed/2KVCAIzNmFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h1 class="title_cajavideo_carbohidratos">`+matriz_video_carbohidratos[0].titulo+`</h1>
                 <h1 class="texto_cajavideo_carbohidratos">`+matriz_video_carbohidratos[0].texto+`</h1>
                 <img class="grupo17_video_carbohidratos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/8755cd074d0c138975a9c8f8a57c073d604515d1/Carbs.svg"></img>
@@ -964,7 +964,29 @@ function Perfil(){
 
 
 
-    let div3 = '<div class="caja_wireframes4" id="caja_wireframes4">'+'<h1 class="title1">'+'Lípidos'+'</h1>'+'</div>';
+    let div3 = `<div class="caja_wireframes4" id="caja_wireframes4">
+        <img class="capa7" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/4877c4bbc8128d827454db186b06a7d09c77bbc0/Capa%207.svg"></img>
+        <h1 class="title_proteinas">Lípidos</h1>
+        <img class="video_lipidos" id="video_lipidos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/658a099b81072a448742fb58ce0550a555673244/Group%2027.svg"></img>
+        <h1 class="categorias_proteinas">CATEGORÍAS</h1>
+        <img class="lipidos_aceites" id="lipidos_aceites"  src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/658a099b81072a448742fb58ce0550a555673244/aceites%20y%20grasas.svg"></img>
+        <img class="lipidos_frutas" id="lipidos_frutas"  src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/658a099b81072a448742fb58ce0550a555673244/Frutas%20y%20verduras.svg"></img>
+
+
+        <div class="caja_video_lipidos" id="caja_video_lipidos">
+        <h1 class="boton_cerrar_video_lipidos" id="boton_cerrar_video_lipidos">X</h1>
+        </div>
+
+        <div class="caja_aceites_lipidos" id="caja_aceites_lipidos">
+        <h1 class="boton_cerrar_aceites_lipidos" id="boton_cerrar_aceites_lipidos">←</h1>
+        </div>
+
+        <div class="caja_lfrutasverd" id="caja_lfrutasverd">
+        <h1 class="boton_cerrar_frutas_lipidos" id="boton_cerrar_frutas_lipidos">←</h1>
+        </div>
+
+    </div>`;
+
     let div4 = '<div class="caja_wireframes5" id="caja_wireframes5">'+'<h1 class="title1">'+'Vitaminas'+'</h1>'+'</div>';
     let div5 = '<div class="caja_wireframes6" id="caja_wireframes6">'+'<h1 class="title1">'+'By Quick Learning'+'</h1>'+'</div>';
 
@@ -1247,6 +1269,8 @@ function desactivar_caja_FrutasVerduras() {
 boton_cerrar_caja_FruVerd.addEventListener('click' ,desactivar_caja_FrutasVerduras);
 
 /***************************************************************************/
+/*--------------------------------------------------------*/
+/*-----------------Activaciones Caja Lipidos------------*/
 
 function activar_desactivar3() {
     var x = document.getElementById("caja_wireframes4");
@@ -1264,6 +1288,78 @@ function activar_desactivar3() {
 
 Lípidos.addEventListener('click' ,activar_desactivar3);
 
+/****************************************************************/
+function activar_video_lipidos() {
+    var x = document.getElementById("caja_video_lipidos");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+video_lipidos.addEventListener('click' ,activar_video_lipidos);
+
+function desactivar_video_lipidos() {
+    var x = document.getElementById("caja_video_lipidos");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_video_lipidos.addEventListener('click' ,desactivar_video_lipidos);
+
+/****************************************************************/
+function activar_aceites_lipidos() {
+    var x = document.getElementById("caja_aceites_lipidos");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+lipidos_aceites.addEventListener('click' ,activar_aceites_lipidos);
+
+function desactivar_aceites_lipidos() {
+    var x = document.getElementById("caja_aceites_lipidos");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_aceites_lipidos.addEventListener('click' ,desactivar_aceites_lipidos);
+
+/****************************************************************/
+function activar_frutas_lipidos() {
+    var x = document.getElementById("caja_lfrutasverd");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+lipidos_frutas.addEventListener('click' ,activar_frutas_lipidos);
+
+function desactivar_frutas_lipidos() {
+    var x = document.getElementById("caja_lfrutasverd");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_frutas_lipidos.addEventListener('click' ,desactivar_frutas_lipidos);
+
+
+/****************************************************************/
+
 function activar_desactivar4() {
     var x = document.getElementById("caja_wireframes5");
     var x1 = document.getElementById("caja_wireframes2");
@@ -1279,7 +1375,7 @@ function activar_desactivar4() {
 }
 
 Vitaminas.addEventListener('click' ,activar_desactivar4);
-
+/****************************************************************/
 function activar_desactivar5() {
     var x = document.getElementById("caja_wireframes6");
     var x1 = document.getElementById("caja_wireframes2");
