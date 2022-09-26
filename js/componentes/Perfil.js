@@ -1,9 +1,11 @@
+
 import {avena, harina, arroz, arverja} from './datas_bromatologia.js';
 import {Cerdo, pollo, res, frijol} from './datas_bromatologia.js';
 import {leche, Crema, yogurt, lentejas}  from './datas_bromatologia.js';
 import {sardinas, Salmón, MojarraFresca} from './datas_bromatologia.js';
 import { manzana, mango, papa } from './datas_bromatologia.js';
-import {matriz_video_proteinas, Guayaba, Aceitunas, Platano, matriz_video_carbohidratos} from './datas_bromatologia.js';
+import {matriz_video_proteinas, Guayaba, Aceitunas, Platano, matriz_video_carbohidratos, matriz_video_lipidos} from './datas_bromatologia.js';
+
 
 
 function Perfil(){
@@ -50,7 +52,7 @@ function Perfil(){
                 
                 <div class="caja_video_carbohidratos" id="caja_video_carbohidratos">
                 <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_video_carbohidratos">X</h1>
-                <iframe class="video_sintesis_carbohidratos" width="573" height="262" src="https://www.youtube.com/embed/2KVCAIzNmFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/MimSVw7tJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h1 class="title_cajavideo_carbohidratos">`+matriz_video_carbohidratos[0].titulo+`</h1>
                 <h1 class="texto_cajavideo_carbohidratos">`+matriz_video_carbohidratos[0].texto+`</h1>
                 <img class="grupo17_video_carbohidratos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_carbohidratos/8755cd074d0c138975a9c8f8a57c073d604515d1/Carbs.svg"></img>
@@ -475,7 +477,7 @@ function Perfil(){
 
                         <div class="caja_video_proteinas" id="caja_video_proteinas">
                         <h1 class="boton_cerrar_video_proteinas" id="boton_cerrar_video_proteinas">X</h1>
-                        <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/XPRSoH3yskw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/hzEWebkU5ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h1 class="title_cajavideo_proteinas">`+matriz_video_proteinas[0].titulo+`</h1>
                         <h1 class="texto_cajavideo_proteinas">`+matriz_video_proteinas[0].texto+`</h1>
                         <img class="grupo17_video" src="https://raw.githubusercontent.com/CMiranda14/img_aps_prote-nas/354ee937964c3882be5fa1a438a9be142e0539d8/Group%2017.svg"></img>
@@ -975,6 +977,36 @@ function Perfil(){
 
         <div class="caja_video_lipidos" id="caja_video_lipidos">
         <h1 class="boton_cerrar_video_lipidos" id="boton_cerrar_video_lipidos">X</h1>
+
+        <div class="preguntas_proteinas">
+        <iframe class="video_sintesis_proteinas" width="573" height="262" src="https://www.youtube.com/embed/JTV7Hf6CQ5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1 class="title_cajavideo_lipidos">`+matriz_video_lipidos[0].titulo+`</h1>
+                <h1 class="texto_cajavideo_lipidos">`+matriz_video_lipidos[0].texto+`</h1>
+                <h1 class="texto_cajavideo_lipidos1">`+matriz_video_lipidos[0].texto2+`</h1>
+                <h1 class="texto_cajavideo_lipidos2">`+matriz_video_lipidos[0].texto3+`</h1>
+                <img class="img_lipidos" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/181a5837eef7b798dd5fa9b6cc227eee6414c3ce/fats.svg"></img>
+
+                <div class="pregunta1CarbL">
+                    <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/8d20b1b91487d5e69344a17e1e64b3cf525e8c10/Group%2028.svg"></img>
+                    <h1>`+matriz_video_lipidos[1].titulo+`</h1>
+                    <p>`+matriz_video_lipidos[1].texto+`</p>
+                </div>
+                <div class="pregunta2CarbL">
+                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/8d20b1b91487d5e69344a17e1e64b3cf525e8c10/Group%2029.svg"></img>
+                <h1>`+matriz_video_lipidos[2].titulo+`</h1>
+                <p>`+matriz_video_lipidos[2].texto+`</p>
+                </div>
+                <div class="pregunta3CarbL">
+                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/8d20b1b91487d5e69344a17e1e64b3cf525e8c10/Group%2030.svg"></img>
+                <h1>`+matriz_video_lipidos[3].titulo+`</h1>
+                <p>`+matriz_video_lipidos[3].texto+`</p>
+                </div>
+                <div class="pregunta4CarbL">
+                <img src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/8d20b1b91487d5e69344a17e1e64b3cf525e8c10/Group%2031.svg"></img>
+                <h1>`+matriz_video_lipidos[4].titulo+`</h1>
+                <p>`+matriz_video_lipidos[4].texto+`</p>
+                </div>
+                </div>
         </div>
 
         <div class="caja_aceites_lipidos" id="caja_aceites_lipidos">

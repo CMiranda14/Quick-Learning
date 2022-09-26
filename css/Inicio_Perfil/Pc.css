@@ -963,6 +963,8 @@ body{
     margin-top:7rem;
     margin-left:10rem;
     width: 573px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 8px rgba(212, 209, 209, 0.744);
 }
 
 .title_cajavideo_proteinas{
@@ -1465,15 +1467,15 @@ body{
 }
 
 .img-leche{
-    top: 8rem;
+    top: 2rem;
     left:12rem;
     position:absolute;
 }
 .title_leche{
     position:absolute;
-    margin-left:15rem;
-    margin-top:26rem;
-    font-size:2rem;
+    margin-left:29rem;
+    margin-top:8rem;
+    font-size:3rem;
     font-family: 'Fredoka One', cursive;
     color:#7C6BAF;
     font-weight: 400;
@@ -1952,8 +1954,19 @@ body{
     margin-left:12rem;
     position:absolute;
     cursor: pointer;
-    
+    transition:0.3s;
 }
+
+.video_lipidos:hover{
+    width: 471px;
+    height: 531px;
+    margin-top:15rem;
+    margin-left:12rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
+}
+
 
 .lipidos_aceites{
     position:absolute;
@@ -1962,7 +1975,17 @@ body{
     margin-top:6.5rem;
     margin-left:68rem;
     cursor: pointer;
-   
+    transition:0.3s;
+}
+
+.lipidos_aceites:hover{
+    position:absolute;
+    width: 511px;
+    height: 391px;
+    margin-top:5.5rem;
+    margin-left:67rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .lipidos_frutas{
@@ -1972,7 +1995,17 @@ body{
     margin-top:47rem;
     margin-left:69rem;
     cursor: pointer;
-   
+    transition:0.3s;
+}
+
+.lipidos_frutas:hover{
+    position:absolute;
+    width: 498.28px;
+    height: 229px;
+    margin-top:46rem;
+    margin-left:68rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 /*----CAJA VIDEO LIPIDOS-----*/
@@ -2000,6 +2033,205 @@ body{
 
     cursor:pointer;
 }
+
+.texto_cajavideo_lipidos{
+    width: 554px;
+    height: 277px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:42rem;
+    margin-left:10rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.texto_cajavideo_lipidos1{
+    width: 554px;
+    height: 50px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:52rem;
+    margin-left:10rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.img_lipidos{
+    width: 0px;
+    height: 0px;
+    position:absolute;
+    margin-left:0rem;
+    margin-top:0rem;
+}
+
+.texto_cajavideo_lipidos2{
+    width: 554px;
+    height: 50px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:58rem;
+    margin-left:10rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.pregunta1CarbL{
+    width: 384px;
+    height: 125px;
+    background-color: #C5D751;
+    position:absolute;
+    margin-top:5rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+
+.title_cajavideo_lipidos{
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    margin-top: 36rem;
+    margin-left: 11rem;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pregunta1CarbL img{
+    width: 82px;
+    height: 99px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta1CarbL h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta1CarbL p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta2CarbL{
+    width: 384px;
+    height: 145px;
+    background-color: #4AAEAD;
+    position:absolute;
+    margin-top:19rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta2CarbL img{
+    width: 82px;
+    height: 118px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta2CarbL h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta2CarbL p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta3CarbL{
+    width: 384px;
+    height: 127px;
+    background-color: #F3BD37;
+    position:absolute;
+    margin-top:35rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta3CarbL img{
+    width: 82px;
+    height: 99px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta3CarbL h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta3CarbL p{
+    width: 26rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta4CarbL{
+    width: 384px;
+    height: 105px;
+    background-color: #E27B38;
+    position:absolute;
+    margin-top:49rem;
+    margin-left:80rem;
+    border-radius:30px;
+}
+
+.pregunta4CarbL img{
+    width: 82px;
+    height: 79px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta4CarbL h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta4CarbL p{
+    width: 26rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+
 
 /*Aceites Lipidos*/
 

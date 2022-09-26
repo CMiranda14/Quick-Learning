@@ -19,6 +19,15 @@ export const matriz_video_proteinas =[
     {titulo:'¿SABÍAS ESTO?',	texto:'De acuerdo con la Biblioteca Nacional de Medicina de los Estados Unidos, la ingesta recomendada de proteínas para los adultos saludables, y en una diera de 2,000 calorías, es de 100 gramos. Esto representa el 20% de un total de calorías diarias.'},
 ];
 
+export const matriz_video_lipidos =[
+
+    {titulo:'¿CUÁNTAS LÍPIDOS NECESITAS CONSUMIR?',	texto:'Hay que tener en cuenta que el porcentaje de grasas que puede ingerir una persona, varía dependiendo de su metabolismo y su forma física. Y por supuesto, si hacemos ejercicio físico también puede cambiar, es decir, una persona sedentaria no puede ingerir el mismo porcentaje de grasas que una que corre a diario 10 kilómetros.', texto2:"Según la Organización Mundial de la Salud (OMS), reducir el consumo total de grasa a menos del 30% de la ingesta calórica diaria contribuye a prevenir el aumento de peso en la población adulta." , texto3:"Por lo que podemos deducir que la grasa total debe suponer entre un 30-35% de la energía total de la dieta. En lo que se refiere al colesterol, se recomienda no sobrepasar los 300 mg por persona y día."},
+    {titulo:'¿QUÉ SON LOS LÍPIDOS?',	texto:'Los lípidos son un grupo heterogéneo de compuestos orgánicos. Dentro de ellos se encuentran las grasas, que se dividen en saturadas e insaturadas. Su estructura química varía y sus propiedades y funciones también dependiendo de los ácidos que contengan.'},
+    {titulo:'¿POR QUÉ SON IMPORTANTES?',	texto:'Las grasas son necesarias para nuestro organismo, ya que proveen ácidos grasos esenciales que nuestro cuerpo no podría fabricar. Además, cumplen diversas funciones vitales como, por ejemplo, almacenar energía, sirven de estructura para producir hormonas y otras sustancias y facilitan el transporte de varias vitaminas.'},
+    {titulo:'¿DÓNDE LAS ENCUENTRO?',	texto:'Encontramos este nutriente en alimentos como la manteca, tocino, mantequilla, nata, yema de huevo, carne magra, leche, aceite de coco, pescado y aceite de pescado, algas o alimentos como lácteos enriquecidos en Omega 3'},
+    {titulo:'¿SABÍAS ESTO?',	texto:'Las grasas de la dieta son fundamentales para apreciar el gusto y aroma de los alimentos, y contribuyen a la sensación de saciedad tras la ingestión de los mismos.'},
+
+];
 
 /****BASE DE DATOS DE carbohidratos ****/
 
