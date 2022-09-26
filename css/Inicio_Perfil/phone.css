@@ -111,6 +111,7 @@ body{
     cursor:pointer;
 }
 
+
 .bio_holaa{
     position:absolute;
     margin-left:4rem;
@@ -118,7 +119,17 @@ body{
     cursor:pointer;
     width: 128px;
     height: 192px;
+    transition:0.3s;
+}
 
+.bio_holaa:hover{
+    position:absolute;
+    margin-left:4rem;
+    margin-top:6rem;
+    cursor:pointer;
+    width: 138px;
+    height: 202px;
+    transition:0.3s;
 }
 
 .bio_holab{
@@ -138,7 +149,17 @@ body{
     cursor:pointer;
     width: 168px;
     height: 144px;
+    transition:0.3s;
+}
 
+.bio_holab2:hover{
+    position:absolute;
+    margin-left:18rem;
+    margin-top:6rem;
+    cursor:pointer;
+    width: 178px;
+    height: 154px;
+    transition:0.3s;
 }
 
 .bio_holac{
@@ -148,9 +169,17 @@ body{
     cursor:pointer;
     width: 144px;
     height: 157px;
+    transition:0.3s;
+}
 
-
-
+.bio_holac:hover{
+    position:absolute;
+    margin-left:4rem;
+    margin-top:25rem;
+    cursor:pointer;
+    width: 154px;
+    height: 167px;
+    transition:0.3s;
 }
 
 .fondo_blanco{
@@ -174,11 +203,21 @@ body{
 .bio_holad2{
     position:absolute;
     margin-left:19rem;
-    margin-top:22rem;
+    margin-top:23rem;
     cursor:pointer;
     width: 155px;
     height: 202px;
+    transition:0.3s;
+}
 
+.bio_holad2:hover{
+    position:absolute;
+    margin-left:18rem;
+    margin-top:22rem;
+    cursor:pointer;
+    width: 165px;
+    height: 212px;
+    transition:0.3s;
 }
 
 .title{
@@ -217,9 +256,20 @@ body{
     position:absolute;
     margin-left:1rem;
     margin-top:110rem;
-
+    transition:0.3s;
     width: 352px;
     height: 209px;
+    cursor:pointer;
+
+}
+
+.bio_hola222:hover{
+    position:absolute;
+    margin-left:0.5rem;
+    margin-top:109rem;
+    transition:0.3s;
+    width: 362px;
+    height: 219px;
     cursor:pointer;
 
 }
@@ -229,11 +279,19 @@ body{
     margin-left:2rem;
     margin-top:43rem;
     cursor:pointer;
-
+    transition:0.3s;
     width: 311px;
     height: 360px;
+}
 
-
+.bio_hola3:hover{
+    position:absolute;
+    margin-left:1.5rem;
+    margin-top:42rem;
+    cursor:pointer;
+    transition:0.3s;
+    width: 321px;
+    height: 370px;
 }
 
 .bio_hola4{
@@ -243,7 +301,18 @@ body{
     cursor:pointer;
     width: 312px;
     height: 410px;
+    transition:0.3s;
 
+}
+
+.bio_hola4:hover{
+    position:absolute;
+    margin-left:2.5rem;
+    margin-top:72rem;
+    cursor:pointer;
+    width: 322px;
+    height: 420px;
+    transition:0.3s;
 
 }
 
@@ -287,6 +356,17 @@ body{
     margin-left:6rem;
     position:absolute;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.video_carbohidratos:hover{
+    width: 271px;
+    height: 331px;
+    margin-top:12rem;
+    margin-left:5.5rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .categorias_carbohidratos{
@@ -307,6 +387,17 @@ body{
     margin-top:50rem;
     margin-left:5rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.carbohidratos_cereales:hover{
+    position:absolute;
+    width: 180.43px;
+    height: 191px;
+    margin-top:49.5rem;
+    margin-left:4rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .carbohidratos_frutas{
@@ -316,6 +407,17 @@ body{
     margin-top:49.5rem;
     margin-left:22rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.carbohidratos_frutas:hover{
+    position:absolute;
+    width: 118px;
+    height: 199px;
+    margin-top:48.5rem;
+    margin-left:22.5rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .carbohidratos_legumbres{
@@ -325,6 +427,17 @@ body{
     margin-top:63rem;
     margin-left:5.8rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.carbohidratos_legumbres:hover{
+    position:absolute;
+    width: 288px;
+    height: 268px;
+    margin-top:63rem;
+    margin-left:5rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 /*----CAJA VIDEO CARBOHIDRATOS-----*/
@@ -655,6 +768,17 @@ body{
     margin-left:6rem;
     position:absolute;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.video_proteinas:hover{
+    width: 271px;
+    height: 331px;
+    margin-top:12rem;
+    margin-left:5.5rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .categorias_proteinas{
@@ -675,6 +799,17 @@ body{
     margin-top:50rem;
     margin-left:5rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.proteinas_carne:hover{
+    position:absolute;
+    width: 180.43px;
+    height: 191px;
+    margin-top:49.5rem;
+    margin-left:4.5rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .proteinas_lacteos{
@@ -684,6 +819,17 @@ body{
     margin-top:48.5rem;
     margin-left:22rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.proteinas_lacteos:hover{
+    position:absolute;
+    width: 118px;
+    height: 199px;
+    margin-top:47.5rem;
+    margin-left:21.5rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .proteinas_pescado{
@@ -693,6 +839,17 @@ body{
     margin-top:69.5rem;
     margin-left:4.8rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.proteinas_pescado:hover{
+    position:absolute;
+    width: 168px;
+    height: 148px;
+    margin-top:69.5rem;
+    margin-left:4.3rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 .proteinas_frutas{
@@ -702,6 +859,17 @@ body{
     margin-top:68rem;
     margin-left:18.5rem;
     cursor: pointer;
+    transition:0.3s;
+}
+
+.proteinas_frutas:hover{
+    position:absolute;
+    width: 193px;
+    height: 190px;
+    margin-top:67.5rem;
+    margin-left:18rem;
+    cursor: pointer;
+    transition:0.3s;
 }
 
 
