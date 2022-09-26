@@ -1414,6 +1414,26 @@ body{
     display:none;
 }
 
+.video_lipidos{
+    width: 461px;
+    height: 521px;
+    margin-top:16rem;
+    margin-left:12rem;
+    position:absolute;
+    cursor: pointer;
+    
+}
+
+.lipidos_aceites{
+    position:absolute;
+    width: 188px;
+    height: 289px;
+    margin-top:6.5rem;
+    margin-left:103rem;
+    cursor: pointer;
+   
+}
+
 /*******************************************/
            /***VITAMINAS***/   
 /*******************************************/

@@ -111,6 +111,7 @@ body{
     cursor:pointer;
 }
 
+
 .bio_holaa{
     position:absolute;
     margin-left:4rem;
@@ -118,8 +119,10 @@ body{
     cursor:pointer;
     width: 128px;
     height: 192px;
-
+    transition:0.3s;
 }
+
+
 
 .bio_holab{
     position:absolute;
@@ -138,8 +141,9 @@ body{
     cursor:pointer;
     width: 168px;
     height: 144px;
-
+    transition:0.3s;
 }
+
 
 .bio_holac{
     position:absolute;
@@ -148,10 +152,10 @@ body{
     cursor:pointer;
     width: 144px;
     height: 157px;
-
-
-
+    transition:0.3s;
 }
+
+
 
 .fondo_blanco{
     margin-top:5rem;
@@ -174,12 +178,14 @@ body{
 .bio_holad2{
     position:absolute;
     margin-left:19rem;
-    margin-top:22rem;
+    margin-top:23rem;
     cursor:pointer;
     width: 155px;
     height: 202px;
-
+    transition:0.3s;
 }
+
+
 
 .title{
     position:absolute;
@@ -217,24 +223,25 @@ body{
     position:absolute;
     margin-left:1rem;
     margin-top:110rem;
-
+    transition:0.3s;
     width: 352px;
     height: 209px;
     cursor:pointer;
 
 }
 
+
 .bio_hola3{
     position:absolute;
     margin-left:2rem;
     margin-top:43rem;
     cursor:pointer;
-
+    transition:0.3s;
     width: 311px;
     height: 360px;
-
-
 }
+
+
 
 .bio_hola4{
     position:absolute;
@@ -243,9 +250,10 @@ body{
     cursor:pointer;
     width: 312px;
     height: 410px;
-
+    transition:0.3s;
 
 }
+
 
 /*******************************************/
           /***CARBOHIDRATOS***/    
@@ -287,7 +295,10 @@ body{
     margin-left:6rem;
     position:absolute;
     cursor: pointer;
+    transition:0.3s;
 }
+
+
 
 .categorias_carbohidratos{
     position:absolute;
@@ -307,7 +318,9 @@ body{
     margin-top:50rem;
     margin-left:5rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
 
 .carbohidratos_frutas{
     position:absolute;
@@ -316,7 +329,10 @@ body{
     margin-top:49.5rem;
     margin-left:22rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
+
 
 .carbohidratos_legumbres{
     position:absolute;
@@ -325,7 +341,10 @@ body{
     margin-top:63rem;
     margin-left:5.8rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
+
 
 /*----CAJA VIDEO CARBOHIDRATOS-----*/
 
@@ -655,7 +674,10 @@ body{
     margin-left:6rem;
     position:absolute;
     cursor: pointer;
+    transition:0.3s;
 }
+
+
 
 .categorias_proteinas{
     position:absolute;
@@ -675,7 +697,10 @@ body{
     margin-top:50rem;
     margin-left:5rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
+
 
 .proteinas_lacteos{
     position:absolute;
@@ -684,7 +709,9 @@ body{
     margin-top:48.5rem;
     margin-left:22rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
 
 .proteinas_pescado{
     position:absolute;
@@ -693,7 +720,9 @@ body{
     margin-top:69.5rem;
     margin-left:4.8rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
 
 .proteinas_frutas{
     position:absolute;
@@ -702,7 +731,10 @@ body{
     margin-top:68rem;
     margin-left:18.5rem;
     cursor: pointer;
+    transition:0.3s;
 }
+
+
 
 
 /*----CAJA VIDEO PROTEINAS-----*/
@@ -962,8 +994,8 @@ body{
 /*-------CAJA CARNES-------*/
 
 .caja_proteinas_carne{
-    width: 1342px;
-    height: 700px;
+    width: 375px;
+    height: 90rem;
     background-color: #fff;
     margin-top:0rem;
     margin-left:0rem;
@@ -979,17 +1011,239 @@ body{
     position:absolute;
     font-weight: 100;
     font-size:25px;
-    margin-top:2rem;
-    margin-left:4rem;
+    margin-top:6rem;
+    margin-left:1.6rem;
 
     cursor:pointer;
 }
+.title_carne{
+    position:absolute;
+    margin-left:15rem;
+    margin-top:21rem;
+    font-size:2rem;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 400;
+}
+.cerdo{
+    border-radius: 29px;
+    position:absolute;
+    top: 26rem;
+    left: 3.5rem;
+ 
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
 
+    width: 312px;
+    height: 252px;
+}
+.res{
+    border-radius: 29px;
+    position:absolute;
+    top: 55rem;
+    left: 3.5rem;
+  
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 312px;
+    height: 252px;
+
+}
+.pollo{
+    border-radius: 29px;
+    position:absolute;
+    top: 85rem;
+    left: 3.5rem;
+    
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 312px;
+    height: 252px;
+}
+.imgpollo-2{
+    margin: 1.5rem;;
+    max-width: 75px;
+}
+.imgpollo{
+    display: none;
+}
+.title-Po{
+    top: 3rem;
+    left:10rem;
+    position:absolute;
+    font-size: 15px;
+
+}
+.calorias_pollo{
+    top: 5rem;
+    left:10rem;
+    position:absolute;
+
+
+}
+.Kcal_P{
+    top: 5.8rem;
+    left: 13rem;
+    position:absolute;
+    font-size: 12px;
+}
+.carne{
+    top: 4rem;
+    left:10rem;
+    position:absolute;
+}
+.lb-p{
+    top: 5rem;
+    left: 24rem;
+    position:absolute;
+}
+.peso-p{
+    top: 5.8rem;
+    left: 27rem;
+    position:absolute;
+    font-size: 12px;
+}
+.div-proteinas{
+    top: -1rem;
+    left: 0.4rem;
+    position:absolute;
+}
+.div-lipidos{
+    top: -1rem;
+    left: 10rem;
+    position:absolute;
+}
+.div-carbohidratos{
+    top: -1rem;
+    left: 18rem;
+    position:absolute;
+}
+.text-vtm{
+    top: 14rem;
+    left: 3rem;
+    position:absolute;
+    font-size: 12px;
+    font-weight: 600;
+}
+.vitaminas-P{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    top: 13rem;
+    left: 3rem;
+    position:absolute;
+    font-size: 10px;
+}
+.vitaminas-P p{
+    border: 1px solid #C5D751;
+    border-radius: 25px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    padding: 0.7rem;
+}
+
+
+
+.imgCerd{
+    margin: 1.5rem;
+    max-width: 75px;
+}
+.ti{
+    top: 3rem;
+    left:10rem;
+    position:absolute;
+    font-size: 15px;
+
+}
+.calorias{
+    top: 5rem;
+    left:10rem;
+    position:absolute;
+}
+.kcal{
+    top: 5.8rem;
+    left: 13rem;
+    position:absolute;
+    font-size: 12px;
+  
+}.lb{
+    top: 5rem;
+    left: 24rem;
+    position:absolute;
+}
+.peso{
+    top: 5.8rem;
+    left: 27rem;
+    position:absolute;
+    font-size: 12px;
+}
+.pr{
+    top: 10rem;
+    left: 3rem;
+    position:absolute;
+
+}
+.pr-text{
+    top: 11rem;
+    left: 5rem;
+    position:absolute;
+    font-size: 12px;
+}
+.text{
+    top: 12rem;
+    left: 5rem;
+    position:absolute;
+    font-size: 12px;
+}
+.div-lip{
+    top: 0rem;
+    left: 10rem;
+    position:absolute;
+    width: 10rem;
+}
+.div-carb{
+    top: 0rem;
+    background-color: #7C6BAF;
+    left: 17rem;
+    position:absolute;
+    width: 10rem;
+}
+.text-vit{
+    top: 14rem;
+    left: 3rem;
+    position:absolute;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.vitaminas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    top: 13rem;
+    left: 3rem;
+    position:absolute;
+    font-size: 10px;
+
+}
+.vitaminas p{
+    border: 1px solid #C5D751;
+    border-radius: 25px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    padding: 0.7rem;
+
+}
 /*------CAJA LACTEOS------*/
 
 .caja_proteinas_lacteos{
-    width: 1342px;
-    height: 700px;
+    width: 375px;
+    height: 90rem;
     background-color: #fff;
     margin-top:0rem;
     margin-left:0rem;
@@ -1005,11 +1259,90 @@ body{
     position:absolute;
     font-weight: 100;
     font-size:25px;
+    margin-top:6rem;
+    margin-left:4rem;
+
+    cursor:pointer;
+}
+.img-leche{
+    top: 8rem;
+    left:12rem;
+    position:absolute;
+}
+.title_leche{
+    position:absolute;
+    margin-left:15rem;
+    margin-top:26rem;
+    font-size:2rem;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 400;
+}
+.leche{
+    border-radius: 29px;
+    position:absolute;
+    top: 35rem;
+    left: 3.5rem;
+ 
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 312px;
+    height: 252px;
+}
+.crema{
+    border-radius: 29px;
+    position:absolute;
+    top: 65rem;
+    left: 3.5rem;
+  
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 312px;
+    height: 252px;
+
+}
+.yogurt{
+    border-radius: 29px;
+    position:absolute;
+    top: 95rem;
+    left: 3.5rem;
+    
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
+    width: 312px;
+    height: 252px;
+}
+/*------CAJA PESCADO------*/
+.caja_proteinas_pescados{
+    width: 1342px;
+    height: 700px;
+    background-color: #fff;
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_caja_pescados{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
     margin-top:2rem;
     margin-left:4rem;
 
     cursor:pointer;
 }
+
 
 /*------CAJA FRUTAS Y VERDURAS------*/
 
@@ -1396,6 +1729,7 @@ body{
     border-radius: 25px;
     padding:0.8rem;
 }
+
 
 /*******************************************/
             /***LÌPIDOS***/   

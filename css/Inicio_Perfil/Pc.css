@@ -1426,6 +1426,114 @@ body{
     display:none;
 }
 
+.video_lipidos{
+    width: 461px;
+    height: 521px;
+    margin-top:16rem;
+    margin-left:12rem;
+    position:absolute;
+    cursor: pointer;
+    
+}
+
+.lipidos_aceites{
+    position:absolute;
+    width: 501px;
+    height: 381px;
+    margin-top:6.5rem;
+    margin-left:68rem;
+    cursor: pointer;
+   
+}
+
+.lipidos_frutas{
+    position:absolute;
+    width: 488.28px;
+    height: 219px;
+    margin-top:47rem;
+    margin-left:69rem;
+    cursor: pointer;
+   
+}
+
+/*----CAJA VIDEO LIPIDOS-----*/
+
+.caja_video_lipidos{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_video_lipidos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
+/*Aceites Lipidos*/
+
+.caja_aceites_lipidos{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_aceites_lipidos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
+/*Frutas Lipidos*/
+
+.caja_lfrutasverd{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_frutas_lipidos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:10rem;
+
+    cursor:pointer;
+}
+
 /*******************************************/
            /***VITAMINAS***/  
 /*******************************************/
