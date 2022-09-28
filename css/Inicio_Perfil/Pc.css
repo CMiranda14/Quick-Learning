@@ -760,14 +760,68 @@ body{
 .arroz{
     border-radius: 29px;
     position:absolute;
-    top: 22rem;
-    left: 7rem;
+    top: 23rem;
+    left: 13rem;
     -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
 
-    width: 46rem;
-    height: 44rem;
+    width: 400px;
+    height: 405px;
+}
+.title-arroz{
+    top: 16rem;
+    left:16rem;
+    position:absolute;
+    font-size: 18px;
+}
+.imgArroz{
+    top: 2.5rem;
+    left:13rem;
+    position:absolute;
+}
+.title_cereales{
+    position:absolute;
+    margin-left:30rem;
+    margin-top: 8rem;
+    font-size:30px;
+    font-family: 'Fredoka One', cursive;
+    color:#7C6BAF;
+    font-weight: 400;
+}
+/*VITAMINAS COLOR BLUE*/
+.vitaminas-Az{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 22rem;
+    left: 6.5rem;
+    position: absolute;
+    font-size: 12px;
+}
+.vitaminas-Az p{
+    border: 1px solid #4AAEAD;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.7rem;
+}
+/*VITAMINAS COLOR YELLOW*/
+.vitaminas-Ama{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 23rem;
+    left: 7rem;
+    position: absolute;
+    font-size: 12px;
+}
+.vitaminas-Ama p{
+    border: 1px solid #F3BD37;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.7rem;
 }
 /*----CAJA FRUTAS-----*/
 
@@ -829,12 +883,12 @@ body{
     cursor:pointer;
 }
 .title_legumbres{
-    position:absolute;
-    margin-left:28rem;
-    margin-top:10rem;
-    font-size:3.5rem;
+    position: absolute;
+    left: 23rem;
+    margin-top: 10rem;
+    font-size: 30px;
     font-family: 'Fredoka One', cursive;
-    color:#7C6BAF;
+    color: #7C6BAF;
     font-weight: 400;
 }
 
@@ -1366,14 +1420,14 @@ body{
     top: 20rem;
     left: 7rem;
     position:absolute;
-    font-size: 2rem;
+    font-size: 14px;
     font-weight: 600;
 }
 .vitaminas{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    top: 20rem;
+    top: 22rem;
     left: 7rem;
     position:absolute;
     font-size: 1.5rem;
@@ -1473,7 +1527,7 @@ body{
     top: 30rem;
     left: 4rem;
     position:absolute;
-    font-size: 2rem;
+    font-size: 14px;
     font-weight: 600;
 }
 .vitaminas-P{
@@ -1483,13 +1537,13 @@ body{
     top: 32rem;
     left: 4rem;
     position:absolute;
-    font-size: 1.5rem;
+    font-size: 12px;
 
 }
 .vitaminas-P p{
     border: 1px solid #C5D751;
     border-radius: 25px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 2rem;
     padding: 0.7rem;
 
