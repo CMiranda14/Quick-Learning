@@ -13,6 +13,15 @@ function Perfil(){
 
     let div = '<div class="menu">'+     
         '<img class="logo" src="https://raw.githubusercontent.com/CMiranda14/img_aps/405fb7cbd67362ed30a64f0ca7747deebf078260/Logo.svg"></img>'+
+
+        `<div class="busqueda" id="mheader">
+            <h1 class="lupa">🔍︎
+                <ul>
+                    <li id="proteinas_frutas2" >Frutas y Verduras</li>
+                </ul>     
+            </h1>
+        </div>`+
+
         '<a class="vinculos" href="#" id="Inicio">Incio</a>'+
         '<a class="vinculos" href="#" id="Carbohidratos">Carbohidratos</a>'+
         '<a class="vinculos" href="#" id="Proteínas">Proteínas</a>'+
@@ -38,6 +47,78 @@ function Perfil(){
     '<img class="bio_hola222" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/35f760b22a1be9a5e5cf9cc3977e61b3a1f1c224/conoce%20tu%20dieta%20ideal%20(1).svg"></img>'+
     '<img class="bio_hola3" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/4dac670d40d340a3e2335df5dfe964ab75a41b98/Pir%C3%A1mide.svg"></img>'+
     '<img class="bio_hola4" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/d2d440d00d14e0e480af03add483b276e4a7bae0/calor%C3%ADas.svg"></img>'+
+
+
+    `<div class="caja_proteinas_FruVerd" id="caja_proteinas_FruVerd2">
+                        <h1 class="boton_cerrar_caja_FruVerd" id="boton_cerrar_caja_FruVerd2">←</h1>
+                        <img class="logo_frutasyvegetales" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/bb92e1aaae6cc8f06d5c8ab37d9091708dfa0746/Group%2013%20(1).svg"></img>
+                        <h1 class="title_proteinas_fruverd">FRUTAS Y VEGETALES</h1>
+
+                            <div class="caja_guayaba">
+                            <img class="Gimg1" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/3114dd64c0ad5d7b55cd1a50b6dcbc98292aa229/Group%2014%20(1).svg"></img>
+                            <img class="Gimg2" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/3114dd64c0ad5d7b55cd1a50b6dcbc98292aa229/image%2037.svg"></img>
+                            <img class="Gimg3" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/3114dd64c0ad5d7b55cd1a50b6dcbc98292aa229/Subtract.svg"></img>
+                            <p class="titulo_guayaba">`+Guayaba[0].nombre+`</p>
+                            <p class="gp2">`+Guayaba[0].calorias+`</p>
+                            <p class="gp3">`+Guayaba[0].libras+`</p>
+                            <img class="Gimg4" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/a5fb0ba5e21e1c741b2de3ed717a650d8ba23a6e/Group%2015%20(1).svg"></img>
+                            <img class="Gimg5" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/a5fb0ba5e21e1c741b2de3ed717a650d8ba23a6e/Group%2016%20(1).svg"></img>
+                            <img class="Gimg6" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/a5fb0ba5e21e1c741b2de3ed717a650d8ba23a6e/Group%2017%20(1).svg"></img>
+                            <p class="gp4"><strong>`+Guayaba[0].proteina+`</strong> Proteína</p>
+                            <p class="gp5"><strong>`+Guayaba[0].lipidos+`</strong> Lipidos</p>
+                            <p class="gp6"><strong>`+Guayaba[0].carbohidratos+`</strong> Carbohidratos</p> 
+                            <h1 class="GVit">Vitaminas</h1>
+                            
+                            <p class="gp7">`+Guayaba[0].vitaminas+`</p>
+                            <p class="gp8"> `+Guayaba[0].vitamina2+`</p>
+                            <p class="gp9"> `+Guayaba[0].vitamina3+`</p>
+                            <p class="gp10"> `+Guayaba[0].vitamina4+`</p>
+   
+                            </div>
+
+                          <div class="caja_Aceitunas">
+                            <img class="Aceimg1" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/687d91aba65c0d434c3783ed858acc2b464ace56/Group%2018%20(1).svg"></img>
+                            <img class="Aceimg2" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/3114dd64c0ad5d7b55cd1a50b6dcbc98292aa229/image%2037.svg"></img>
+                            <img class="Aceimg3" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/687d91aba65c0d434c3783ed858acc2b464ace56/Subtract%20(1).svg"></img>
+                            <p class="titulo_aceituna">`+Aceitunas[0].nombre+`</p>
+                            <p class="Acep2">`+Aceitunas[0].calorias+`</p>
+                            <p class="Acep3">`+Aceitunas[0].libras+`</p>
+                            <img class="Aceimg4" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/81e199bbd4ef6502c278305ee12c5aa2fef7186e/Group%2019%20(1).svg"></img>
+                            <img class="Aceimg5" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/81e199bbd4ef6502c278305ee12c5aa2fef7186e/Group%2022%20(1).svg"></img>
+                            <img class="Aceimg6" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/81e199bbd4ef6502c278305ee12c5aa2fef7186e/Group%2021%20(1).svg"></img>
+                            <p class="Acep4"><strong>`+Aceitunas[0].proteina+`</strong> Proteína</p>
+                            <p class="Acep5"><strong>`+Aceitunas[0].lipidos+`</strong> Lipidos</p>
+                            <p class="Acep6"><strong>`+Aceitunas[0].carbohidratos+`</strong> Carbohidratos</p>
+                            <h1 class="AceVit">Vitaminas</h1>
+                            
+                            <p class="Acep7">`+Aceitunas[0].vitaminas+`</p>
+                            <p class="Acep8"> `+Aceitunas[0].vitamina2+`</p>
+        
+                           </div>   
+                           
+                           <div class="caja_platano">
+                            <img class="Aceimg1" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/415ba2aed28e31a6e4bcde0c30471e06d7733ec6/Group%2023%20(1).svg"></img>
+                            <img class="Aceimg2" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/3114dd64c0ad5d7b55cd1a50b6dcbc98292aa229/image%2037.svg"></img>
+                            <img class="Aceimg3" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/415ba2aed28e31a6e4bcde0c30471e06d7733ec6/Subtract%20(2).svg"></img>
+                            <p class="titulo_aceituna">`+Platano[0].nombre+`</p>
+                            <p class="Acep2">`+Platano[0].calorias+`</p>
+                            <p class="Acep3">`+Platano[0].libras+`</p>
+                            <img class="Aceimg4" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/fe72a2c6da371e85e2a8d993f9e63ee8dd369b2a/Group%2024.svg"></img>
+                            <img class="Aceimg5" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/fe72a2c6da371e85e2a8d993f9e63ee8dd369b2a/Group%2025.svg"></img>
+                            <img class="Aceimg6" src="https://raw.githubusercontent.com/CMiranda14/img_aps_frutasVegetaless/fe72a2c6da371e85e2a8d993f9e63ee8dd369b2a/Group%2026.svg"></img>
+                            <p class="Acep4"><strong>`+Platano[0].proteina+`</strong> Proteína</p>
+                            <p class="Acep5"><strong>`+Platano[0].lipidos+`</strong> Lipidos</p>
+                            <p class="Acep6"><strong>`+Platano[0].carbohidratos+`</strong> Carbohidratos</p>
+                            <h1 class="AceVit">Vitaminas</h1>
+                            
+                            <p class="plap7">`+Platano[0].vitaminas+`</p>
+                            <p class="plap8"> `+Platano[0].vitamina2+`</p>
+                            <p class="plap9"> `+Platano[0].vitamina3+`</p>
+                            <p class="plap10"> `+Platano[0].vitamina4+`</p>
+        
+                           </div> 
+                        </div>`+
+
     '</div>';
 
     /***CAJA CARBOHIDRATOS***/
@@ -1069,7 +1150,7 @@ Inicio.addEventListener('click' ,activar_desactivar1);
 
 function activar_video_carbohidratos() {
     var x = document.getElementById("caja_video_carbohidratos");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1093,7 +1174,7 @@ boton_cerrar_video_carbohidratos.addEventListener('click' ,desactivar_video_carb
 
 function activar_cereales() {
     var x = document.getElementById("caja_video_cerales");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1117,7 +1198,7 @@ boton_cerrar_cerales.addEventListener('click' ,desactivar_cereales);
 
 function activar_Frutas2() {
     var x = document.getElementById("caja_video_frutas");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1141,7 +1222,7 @@ boton_cerrar_frutas.addEventListener('click' ,desactivar_Frutas2);
 
 function activar_legumbres() {
     var x = document.getElementById("caja_video_legumbres");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1184,7 +1265,7 @@ Proteínas.addEventListener('click' ,activar_desactivar2);
 
 function activar_video_proteinas() {
     var x = document.getElementById("caja_video_proteinas");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1208,7 +1289,7 @@ boton_cerrar_video_proteinas.addEventListener('click' ,desactivar_video_proteina
 
 function activar_caja_carnes() {
     var x = document.getElementById("caja_proteinas_carne");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1232,7 +1313,7 @@ boton_cerrar_caja_carne.addEventListener('click' ,desactivar_caja_carnes);
 
 function activar_caja_lacteos() {
     var x = document.getElementById("caja_proteinas_lacteos");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1280,7 +1361,7 @@ boton_cerrar_caja_pescados.addEventListener('click' ,desactivar_caja_pescado);
 
 function activar_caja_FrutasVerduras() {
     var x = document.getElementById("caja_proteinas_FruVerd");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1288,6 +1369,8 @@ function activar_caja_FrutasVerduras() {
 }
 
 proteinas_frutas.addEventListener('click' ,activar_caja_FrutasVerduras);
+
+
 
 function desactivar_caja_FrutasVerduras() {
     var x = document.getElementById("caja_proteinas_FruVerd");
@@ -1299,6 +1382,28 @@ function desactivar_caja_FrutasVerduras() {
 }
 
 boton_cerrar_caja_FruVerd.addEventListener('click' ,desactivar_caja_FrutasVerduras);
+
+function activar_caja_FrutasVerduras2() {
+    var x = document.getElementById("caja_proteinas_FruVerd2");
+    if (x.style.display = "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+proteinas_frutas2.addEventListener('click' ,activar_caja_FrutasVerduras2);
+
+function desactivar_caja_FrutasVerduras2() {
+    var x = document.getElementById("caja_proteinas_FruVerd2");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+boton_cerrar_caja_FruVerd2.addEventListener('click' ,desactivar_caja_FrutasVerduras2);
 
 /***************************************************************************/
 /*--------------------------------------------------------*/
@@ -1323,7 +1428,7 @@ Lípidos.addEventListener('click' ,activar_desactivar3);
 /****************************************************************/
 function activar_video_lipidos() {
     var x = document.getElementById("caja_video_lipidos");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1346,7 +1451,7 @@ boton_cerrar_video_lipidos.addEventListener('click' ,desactivar_video_lipidos);
 /****************************************************************/
 function activar_aceites_lipidos() {
     var x = document.getElementById("caja_aceites_lipidos");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -1369,7 +1474,7 @@ boton_cerrar_aceites_lipidos.addEventListener('click' ,desactivar_aceites_lipido
 /****************************************************************/
 function activar_frutas_lipidos() {
     var x = document.getElementById("caja_lfrutasverd");
-    if (x.style.display === "none") {
+    if (x.style.display = "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
