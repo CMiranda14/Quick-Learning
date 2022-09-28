@@ -36,7 +36,7 @@
                     <img class="bio" src="https://raw.githubusercontent.com/maria4Q/APS/320dc4a6e6d0fb1b353f8810662bda114a0869c9/bio-pc.svg" >
     
 
-                    <a href="inicio_sesión.html" class="start"><img src="https://github.com/maria4Q/APS/blob/main/inciar.png?raw=true" ></a>
+                    <a href="perfil.html" class="start"><img src="https://github.com/maria4Q/APS/blob/main/inciar.png?raw=true" ></a>
                  
 
                 </div>

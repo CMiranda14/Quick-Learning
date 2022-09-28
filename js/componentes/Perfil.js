@@ -34,7 +34,7 @@ function Perfil(){
     '<img class="bio_hola" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/f618c2a9669e41c7555435a6fe173ce80995ea85/Biohola.svg"></img>'+
     '<img class="bio_hola22" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/8f62b13cd82612ac95924239d6a5c6a1621f9c72/Bio.svg"></img>'+
 
-    '<h1 class="title">'+'Hola, xName'+'</h1>'+
+    '<h1 class="title">'+'¡Hola qué tal tu día!'+'</h1>'+
     '<h1 class="title1">'+'CONOCE BIO FOOD'+'</h1>'+
 
     '<img class="bio_holaa" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/bcab587be01655f4cc97941959361b74eecca54e/%C2%BFQu%C3%A9%20es%20bio%20food_que%20es%20bio.svg"></img>'+
