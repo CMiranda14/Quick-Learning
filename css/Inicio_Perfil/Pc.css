@@ -22,6 +22,59 @@ body{
    
 }
 
+.busqueda{
+    position:absolute;
+    margin-top:7rem;
+    margin-left:5rem;
+    background-color:white;
+    text-align:center;
+    border-radius:30px;
+    width: 8rem;
+    height: 4rem;
+    cursor:pointer;
+}
+
+
+.lupa{
+    color:#AB9ED3;
+    font-size:25px;
+    width: 100%;
+    height: 100%;
+}
+
+.lupa:hover{
+    color:#bba9f0;
+    background-color:#fdfff1; 
+    border-radius: 30px;
+
+}
+
+.lupa ul li{
+    list-style:none;
+    font-size:15px;
+    display:none;
+    position:absolute;
+    transition:0.3s;
+    margin-top:0.5rem;
+    width:8rem;
+    height:4rem;
+    background-color:white;
+    border-radius:5px;
+    padding-top:1rem;
+}
+
+
+.lupa:hover > ul li{
+    display:block;
+    transition:0.3s;
+    
+}
+
+.lupa li:hover{
+    background-color:#c3d451;
+    color:#fdfff1;
+}
+
 .vinculos{
     font-size:18px;
     text-decoration:none;
@@ -46,7 +99,7 @@ body{
 .vinculos1{
     font-size:15px;
     text-decoration:none;
-    margin-top:13rem;
+    margin-top:10rem;
     color:white;
     padding:2rem;
     font-weight: 800;
@@ -70,6 +123,7 @@ body{
     margin:auto;
     margin-bottom: 3rem;
     margin-left:2rem;
+    margin-bottom:9rem;
 }
 
 .caja_wireframes{
