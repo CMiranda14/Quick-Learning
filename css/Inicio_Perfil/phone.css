@@ -408,6 +408,85 @@ body{
 
 }
 
+/******************************/
+/***¿QUÉ ES BIO FOOD?***/
+.caja_bio_holaa{
+    width: 375px;
+    height:1640px;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+/******************************/
+/***¿QUIEN ES BIO?***/
+.caja_bio_holab{
+    width: 375px;
+    height:1640px;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***NUESTRO OBJETIVO***/
+.caja_bio_holac{
+    width: 375px;
+    height:1640px;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***NUESTRO EQUIPO***/
+.caja_bio_holad{
+    width: 375px;
+    height:1640px;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***CONOCE LOS NUTRIENTES DE LOS ALIMENTOS***/
+.caja_bio_hola2{
+    width: 375px;
+    height:1640px;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem;
+    margin-left:0rem;
+
+    border-radius:0px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
 
 /*******************************************/
           /***CARBOHIDRATOS***/    
@@ -2515,7 +2594,7 @@ body{
 .caja_aceites_lipidos{
     width: 375px;
     height:1640px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin-top:0rem;
     margin-left:0rem;
 
@@ -2539,7 +2618,7 @@ body{
 .caja_lfrutasverd{
     width: 375px;
     height:1640px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin-top:0rem;
     margin-left:0rem;
 

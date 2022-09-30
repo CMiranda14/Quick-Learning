@@ -1,12 +1,14 @@
+body{
+    width: 100%;
+}
 #home-page{
     max-width:1366px;
     height: auto;
-    margin:auto;
 }
 
 .contenedor {
     max-width:1366px; 
-    margin:auto;
+   /* margin:auto;*/
 }
 .bg{
     background-color: #FBFBFB;
@@ -48,21 +50,64 @@
 }
 /*SECCION DOS HOME-PAGE*/
 
+
+
 .bg-2{
     background-color: #AB9ED3;
     height: 700px;
     width: 100%;
 }
-
+.bioPhone{
+    position:absolute;
+    width: 0px;
+    height: 0px;
+}
 .bio{
-    max-width: 466px;
-    margin-top: -3rem;
-    margin-left: 5rem;
-    margin-bottom: 4rem;
-}
-.start img{
-    max-width: 23rem;
-}
+    width: 60rem;
+    height: 60rem;
+    position: relative;
+    margin-left: 33%;
 
+}
+.txt-pc{
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    left: 15rem;
+}
+.txt-phone{
+    position:absolute;
+    width: 0px;
+    height: 0px;
+}
+.Bienvenida img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: 10rem;
+    height: 12rem;
+    margin-top: 0rem;
+
+}
+/*.inicioPc img{  
+    width: 30rem;
+     height: 63px;
+     position: absolute;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     width: 50%;
+     margin-left: 10rem;
+     height: 12rem;
+     margin-top: 0rem;
+     background-color: black;
+  
+  }*/
+ 
+.inicio img{
+   width: 0px; 
+   height: 0px;
+}
 
 

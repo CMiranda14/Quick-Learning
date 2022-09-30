@@ -29,19 +29,24 @@
                         <img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg">
                     </div>
 
-                    <img src="https://raw.githubusercontent.com/maria4Q/APS/849ff68bef1fa17a012de65c502c9de36ea26e75/bienvenida-pc.svg" class="txt-pc" >
-                    
-                
+                    <div class="Bienvenida">
+                        <img src="https://raw.githubusercontent.com/maria4Q/APS/849ff68bef1fa17a012de65c502c9de36ea26e75/bienvenida-pc.svg">
+                    </div>
+
+                    <img class="txt-phone" src="https://raw.githubusercontent.com/maria4Q/APS/28f7710efd6cc87cd3735d88534dc2ab517a6f79/txtPhone.svg">
 
                     <img class="bio" src="https://raw.githubusercontent.com/maria4Q/APS/320dc4a6e6d0fb1b353f8810662bda114a0869c9/bio-pc.svg" >
-    
+                    <img class="bioPhone" src="https://raw.githubusercontent.com/maria4Q/APS/ebe762e0c3193a89d5a6db0079943db7beb7880b/bioPhone.svg" >
+                    
+                    <div class="inicio">
+                        <a href="perfil.html"><img src="https://raw.githubusercontent.com/maria4Q/APS/6e10d1cf9a1a25281d68f20039220e4b4b623713/buttonPhone.svg" ></a>
+                    </div>
 
-                    <a href="perfil.html" class="start"><img src="https://github.com/maria4Q/APS/blob/main/inciar.png?raw=true" ></a>
-                 
-
+                    <div class="inicioPc">
+                        <a href="perfil.html"><img src="https://raw.githubusercontent.com/maria4Q/APS/24d6103dc2754d49a3309a2265b56aaca5ddaa12/buttonPc.svg" ></a>
+                    </div>
+                    
                 </div>
-                 
-               </div>
-
+            
             </div>
  `;

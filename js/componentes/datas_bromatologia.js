@@ -401,3 +401,111 @@ export const Guayaba = [
     }
 
 ]
+
+/***DATAS LIPIDOS ****/
+
+/*-------ACEITES Y GRASAS------------*/
+export const AceiteOliva = [
+    {
+        nombre: 'Aceite de oliva',
+        calorias: '884kcal-884cal',
+        libras: '1L',
+        proteina: '0g',
+        lipidos:'100g',
+        carbohidratos: '0g',
+        vitaminas: 'Vitamina A',
+        vitamina2: 'Vitamina D',
+        vitamina3: 'Vitamina E',
+        vitamina4: 'Vitamina K',
+    }
+]
+
+export const Margarina = [
+    {
+        nombre: 'Margarina',
+        calorias: '175kcal - 175cal',
+        libras: '1L',
+        proteina: '0g',
+        lipidos:'19.56g',
+        carbohidratos: '0.4g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B3',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina D',
+        vitamina5: 'Vitamina E',
+
+
+    }
+]
+
+export const Mayonesa = [
+    {
+        nombre: 'Mayonesa',
+        calorias: '390kcal - 390cal',
+        libras: '1L',
+        proteina: '0.9g',
+        lipidos:'33.4g',
+        carbohidratos: '23.9g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B1',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina B12',
+        vitamina5: 'Vitamina E',
+        vitamina6: 'Vitamina K',
+
+
+    }
+]
+
+/***FRUTA Y VEGETALES */
+
+
+export const Aceitunas2 = [
+    {
+        nombre: 'Aceituna',
+        calorias: '0.126kcal-124cal',
+        libras: '1lb',
+        proteina: '1.4g',
+        lipidos:'12.7g',
+        carbohidratos: '4.1g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina E',
+    }
+]
+
+export const coco = [
+    {
+        nombre: 'coco',
+        calorias: '1481kcal - 354cal',
+        libras: '1Lb',
+        proteina: '3.33g',
+        lipidos:'33.496g',
+        carbohidratos: '15.23g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B3',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina D',
+        vitamina5: 'Vitamina E',
+
+
+    }
+]
+
+export const Aguacate = [
+    {
+        nombre: 'Aguacate',
+        calorias: '160kcal - 72.64cal',
+        libras: '1Lb',
+        proteina: '2g',
+        lipidos:'14.66g',
+        carbohidratos: '8.53g',
+        vitamina1: 'Vitamina B3',
+        vitamina2: 'Vitamina B5',
+        vitamina3: 'Vitamina B6',
+        vitamina4: 'Vitamina c',
+        vitamina5: 'Vitamina E',
+        vitamina6: 'Vitamina K',
+
+
+    }
+]

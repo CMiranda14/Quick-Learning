@@ -372,6 +372,86 @@ body{
     transition:0.3s;
 }
 
+/******************************/
+/***¿QUÉ ES BIO FOOD?***/
+.caja_bio_holaa{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***¿QUIEN ES BIO?***/
+.caja_bio_holab{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***NUESTRO OBJETIVO***/
+.caja_bio_holac{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***NUESTRO EQUIPO***/
+.caja_bio_holad{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
+/******************************/
+/***CONOCE LOS NUTRIENTES DE LOS ALIMENTOS***/
+.caja_bio_hola2{
+    width: 1342px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.936);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    border-radius:40px;
+
+    z-index:7;
+    display:none;
+    position:absolute;  
+}
+
 /*******************************************/
             /***CARBOHIDRATOS***/ 
 /*******************************************/
@@ -875,6 +955,7 @@ body{
     top: 5.5rem;
     left: 8rem;
 }
+
 .title_frutas{
     position:absolute;
     margin-left:31rem;
@@ -1670,6 +1751,24 @@ body{
     margin-right: 2rem;
     padding: 0.7rem;
 
+}
+.vitaminas-AzP{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    top: 33rem;
+    left: 4rem;
+    position:absolute;
+    font-size: 12px;
+    /*top: 32rem;
+    left: 4rem;*/
+}
+.vitaminas-AzP p{
+    border: 1px solid #4AAEAD;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.7rem;
 }
 
 /*------CAJA LACTEOS------*/
@@ -2484,7 +2583,7 @@ body{
 .caja_aceites_lipidos{
     width: 1342px;
     height: 700px;
-    background-color: rgba(255, 255, 255, 0.936);
+    background-color: white;
     margin-top:0rem;
     margin-left:0rem;
 
@@ -2510,7 +2609,7 @@ body{
 .caja_lfrutasverd{
     width: 1342px;
     height: 700px;
-    background-color: rgba(255, 255, 255, 0.936);
+    background-color: white;
     margin-top:0rem;
     margin-left:0rem;
 
