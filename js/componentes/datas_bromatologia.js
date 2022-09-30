@@ -19,6 +19,15 @@ export const matriz_video_proteinas =[
     {titulo:'¿SABÍAS ESTO?',	texto:'De acuerdo con la Biblioteca Nacional de Medicina de los Estados Unidos, la ingesta recomendada de proteínas para los adultos saludables, y en una diera de 2,000 calorías, es de 100 gramos. Esto representa el 20% de un total de calorías diarias.'},
 ];
 
+export const matriz_video_lipidos =[
+
+    {titulo:'¿CUÁNTAS LÍPIDOS NECESITAS CONSUMIR?',	texto:'Hay que tener en cuenta que el porcentaje de grasas que puede ingerir una persona, varía dependiendo de su metabolismo y su forma física. Y por supuesto, si hacemos ejercicio físico también puede cambiar, es decir, una persona sedentaria no puede ingerir el mismo porcentaje de grasas que una que corre a diario 10 kilómetros.', texto2:"Según la Organización Mundial de la Salud (OMS), reducir el consumo total de grasa a menos del 30% de la ingesta calórica diaria contribuye a prevenir el aumento de peso en la población adulta." , texto3:"Por lo que podemos deducir que la grasa total debe suponer entre un 30-35% de la energía total de la dieta. En lo que se refiere al colesterol, se recomienda no sobrepasar los 300 mg por persona y día."},
+    {titulo:'¿QUÉ SON LOS LÍPIDOS?',	texto:'Los lípidos son un grupo heterogéneo de compuestos orgánicos. Dentro de ellos se encuentran las grasas, que se dividen en saturadas e insaturadas. Su estructura química varía y sus propiedades y funciones también dependiendo de los ácidos que contengan.'},
+    {titulo:'¿POR QUÉ SON IMPORTANTES?',	texto:'Las grasas son necesarias para nuestro organismo, ya que proveen ácidos grasos esenciales que nuestro cuerpo no podría fabricar. Además, cumplen diversas funciones vitales como, por ejemplo, almacenar energía, sirven de estructura para producir hormonas y otras sustancias y facilitan el transporte de varias vitaminas.'},
+    {titulo:'¿DÓNDE LAS ENCUENTRO?',	texto:'Encontramos este nutriente en alimentos como la manteca, tocino, mantequilla, nata, yema de huevo, carne magra, leche, aceite de coco, pescado y aceite de pescado, algas o alimentos como lácteos enriquecidos en Omega 3'},
+    {titulo:'¿SABÍAS ESTO?',	texto:'Las grasas de la dieta son fundamentales para apreciar el gusto y aroma de los alimentos, y contribuyen a la sensación de saciedad tras la ingestión de los mismos.'},
+
+];
 
 /****BASE DE DATOS DE carbohidratos ****/
 
@@ -391,4 +400,112 @@ export const Guayaba = [
 
     }
 
+]
+
+/***DATAS LIPIDOS ****/
+
+/*-------ACEITES Y GRASAS------------*/
+export const AceiteOliva = [
+    {
+        nombre: 'Aceite de oliva',
+        calorias: '884kcal-884cal',
+        libras: '1L',
+        proteina: '0g',
+        lipidos:'100g',
+        carbohidratos: '0g',
+        vitaminas: 'Vitamina A',
+        vitamina2: 'Vitamina D',
+        vitamina3: 'Vitamina E',
+        vitamina4: 'Vitamina K',
+    }
+]
+
+export const Margarina = [
+    {
+        nombre: 'Margarina',
+        calorias: '175kcal - 175cal',
+        libras: '1L',
+        proteina: '0g',
+        lipidos:'19.56g',
+        carbohidratos: '0.4g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B3',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina D',
+        vitamina5: 'Vitamina E',
+
+
+    }
+]
+
+export const Mayonesa = [
+    {
+        nombre: 'Mayonesa',
+        calorias: '390kcal - 390cal',
+        libras: '1L',
+        proteina: '0.9g',
+        lipidos:'33.4g',
+        carbohidratos: '23.9g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B1',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina B12',
+        vitamina5: 'Vitamina E',
+        vitamina6: 'Vitamina K',
+
+
+    }
+]
+
+/***FRUTA Y VEGETALES */
+
+
+export const Aceitunas2 = [
+    {
+        nombre: 'Aceituna',
+        calorias: '0.126kcal-124cal',
+        libras: '1lb',
+        proteina: '1.4g',
+        lipidos:'12.7g',
+        carbohidratos: '4.1g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina E',
+    }
+]
+
+export const coco = [
+    {
+        nombre: 'coco',
+        calorias: '1481kcal - 354cal',
+        libras: '1Lb',
+        proteina: '3.33g',
+        lipidos:'33.496g',
+        carbohidratos: '15.23g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B3',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina D',
+        vitamina5: 'Vitamina E',
+
+
+    }
+]
+
+export const Aguacate = [
+    {
+        nombre: 'Aguacate',
+        calorias: '160kcal - 72.64cal',
+        libras: '1Lb',
+        proteina: '2g',
+        lipidos:'14.66g',
+        carbohidratos: '8.53g',
+        vitamina1: 'Vitamina B3',
+        vitamina2: 'Vitamina B5',
+        vitamina3: 'Vitamina B6',
+        vitamina4: 'Vitamina c',
+        vitamina5: 'Vitamina E',
+        vitamina6: 'Vitamina K',
+
+
+    }
 ]

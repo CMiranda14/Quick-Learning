@@ -1,11 +1,11 @@
 #home-page{
-    max-width:1920px;
+    max-width:375px;
     height: auto;
     margin:auto;
 }
 
 .contenedor{
-    max-width:1920px;  
+    max-width:375px;  
     margin:auto;
 }
 .bg{
@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 100%;
-    margin-top: 25rem;
+    margin-top: 1rem;
 }
 .ShapeDown-2{
     display: flex;
@@ -44,6 +44,7 @@
     margin: auto;
     cursor: pointer;
     min-width: 3rem;
+    margin-top: 16rem;
 
 }
 /*SECCION DOS HOME-PAGE*/
@@ -53,21 +54,34 @@
     height: 700px;
     width: 100%;
 }
-
 .bio{
-    width: 266px;
-    margin-top: -3rem;
-    margin-left: 5rem;
-    margin-bottom: 4rem;
+    position:absolute;
+    width: 0px;
+    height: 0px;
 }
-.txt-pc{
-    max-width: 30rem;
-    margin: 2rem;
+.bioPhone{
+    margin: auto;
+    display: flex;
+    margin-top: 5rem;
 }
-.start img{
-    max-width: 23rem;
-    margin: 3rem;
+.Bienvenida img{
+    position:absolute;
+    width: 0px;
+    height: 0px;
 }
-
+.txt-phone{
+    margin: auto;
+    display: flex;
+    margin-top: 5rem;
+}
+.inicio img{
+    margin: auto;
+    display: flex;
+    margin-top: 1rem; 
+}
+.inicioPc img{
+   width: 0px; 
+   height: 0px;
+}
 
 

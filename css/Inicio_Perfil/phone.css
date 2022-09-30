@@ -111,6 +111,7 @@ body{
     cursor:pointer;
 }
 
+
 .bio_holaa{
     position:absolute;
     margin-left:4rem;
@@ -118,8 +119,22 @@ body{
     cursor:pointer;
     width: 128px;
     height: 192px;
+    transition:0.3s;
 
 }
+
+.bio_holaa:hover{
+    position:absolute;
+    margin-left:4rem;
+    margin-top:6rem;
+    cursor:pointer;
+    width: 138px;
+    height: 202px;
+    transition:0.3s;
+
+}
+
+
 
 .bio_holab{
     position:absolute;
@@ -138,8 +153,21 @@ body{
     cursor:pointer;
     width: 168px;
     height: 144px;
+    transition:0.3s;
 
 }
+
+.bio_holab2:hover{
+    position:absolute;
+    margin-left:18rem;
+    margin-top:6rem;
+    cursor:pointer;
+    width: 178px;
+    height: 154px;
+    transition:0.3s;
+
+}
+
 
 .bio_holac{
     position:absolute;
@@ -148,10 +176,20 @@ body{
     cursor:pointer;
     width: 144px;
     height: 157px;
-
-
-
+    transition:0.3s;
 }
+
+
+.bio_holac:hover{
+    position:absolute;
+    margin-left:4rem;
+    margin-top:25rem;
+    cursor:pointer;
+    width: 154px;
+    height: 167px;
+    transition:0.3s;
+}
+
 
 .fondo_blanco{
     margin-top:5rem;
@@ -174,12 +212,26 @@ body{
 .bio_holad2{
     position:absolute;
     margin-left:19rem;
-    margin-top:22rem;
+    margin-top:23rem;
     cursor:pointer;
     width: 155px;
     height: 202px;
+    transition:0.3s;
 
 }
+
+.bio_holad2:hover{
+    position:absolute;
+    margin-left:18rem;
+    margin-top:22rem;
+    cursor:pointer;
+    width: 165px;
+    height: 212px;
+    transition:0.3s;
+
+}
+
+
 
 .title{
     position:absolute;
@@ -217,9 +269,21 @@ body{
     position:absolute;
     margin-left:1rem;
     margin-top:110rem;
-
+    transition:0.3s;
     width: 352px;
     height: 209px;
+    cursor:pointer;
+
+}
+
+
+.bio_hola222:hover{
+    position:absolute;
+    margin-left:0.5rem;
+    margin-top:109rem;
+    transition:0.3s;
+    width: 362px;
+    height: 219px;
     cursor:pointer;
 
 }
@@ -229,12 +293,22 @@ body{
     margin-left:2rem;
     margin-top:43rem;
     cursor:pointer;
-
+    transition:0.3s;
     width: 311px;
     height: 360px;
-
-
 }
+
+
+.bio_hola3:hover{
+    position:absolute;
+    margin-left:1.5rem;
+    margin-top:42rem;
+    cursor:pointer;
+    transition:0.3s;
+    width: 321px;
+    height: 370px;
+}
+
 
 .bio_hola4{
     position:absolute;
@@ -243,9 +317,23 @@ body{
     cursor:pointer;
     width: 312px;
     height: 410px;
+    transition:0.3s;
 
 
 }
+
+.bio_hola4:hover{
+    position:absolute;
+    margin-left:2.5rem;
+    margin-top:72rem;
+    cursor:pointer;
+    width: 322px;
+    height: 420px;
+    transition:0.3s;
+
+
+}
+
 
 /*******************************************/
           /***CARBOHIDRATOS***/    
@@ -287,7 +375,22 @@ body{
     margin-left:6rem;
     position:absolute;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.video_carbohidratos:hover{
+    width: 271px;
+    height: 331px;
+    margin-top:12rem;
+    margin-left:5.5rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
+
 
 .categorias_carbohidratos{
     position:absolute;
@@ -307,7 +410,21 @@ body{
     margin-top:50rem;
     margin-left:5rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.carbohidratos_cereales:hover{
+    position:absolute;
+    width: 180.43px;
+    height: 191px;
+    margin-top:49.5rem;
+    margin-left:4rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
 
 .carbohidratos_frutas{
     position:absolute;
@@ -316,7 +433,22 @@ body{
     margin-top:49.5rem;
     margin-left:22rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.carbohidratos_frutas:hover{
+    position:absolute;
+    width: 118px;
+    height: 199px;
+    margin-top:48.5rem;
+    margin-left:22.5rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
+
 
 .carbohidratos_legumbres{
     position:absolute;
@@ -325,7 +457,22 @@ body{
     margin-top:63rem;
     margin-left:5.8rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.carbohidratos_legumbres:hover{
+    position:absolute;
+    width: 288px;
+    height: 268px;
+    margin-top:63rem;
+    margin-left:5rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
+
 
 /*----CAJA VIDEO CARBOHIDRATOS-----*/
 
@@ -904,7 +1051,22 @@ body{
     margin-left:6rem;
     position:absolute;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.video_proteinas:hover{
+    width: 271px;
+    height: 331px;
+    margin-top:12rem;
+    margin-left:5.5rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
+
 
 .categorias_proteinas{
     position:absolute;
@@ -924,7 +1086,22 @@ body{
     margin-top:50rem;
     margin-left:5rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.proteinas_carne:hover{
+    position:absolute;
+    width: 180.43px;
+    height: 191px;
+    margin-top:49.5rem;
+    margin-left:4.5rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
+
 
 .proteinas_lacteos{
     position:absolute;
@@ -933,7 +1110,21 @@ body{
     margin-top:48.5rem;
     margin-left:22rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.proteinas_lacteos:hover{
+    position:absolute;
+    width: 118px;
+    height: 199px;
+    margin-top:47.5rem;
+    margin-left:21.5rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
 
 .proteinas_pescado{
     position:absolute;
@@ -942,7 +1133,21 @@ body{
     margin-top:69.5rem;
     margin-left:4.8rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.proteinas_pescado:hover{
+    position:absolute;
+    width: 168px;
+    height: 148px;
+    margin-top:69.5rem;
+    margin-left:4.3rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
 
 .proteinas_frutas{
     position:absolute;
@@ -951,7 +1156,22 @@ body{
     margin-top:68rem;
     margin-left:18.5rem;
     cursor: pointer;
+    transition:0.3s;
+
 }
+
+.proteinas_frutas:hover{
+    position:absolute;
+    width: 193px;
+    height: 190px;
+    margin-top:67.5rem;
+    margin-left:18rem;
+    cursor: pointer;
+    transition:0.3s;
+
+}
+
+
 
 
 /*----CAJA VIDEO PROTEINAS-----*/
@@ -1527,6 +1747,7 @@ body{
 }
 
 
+
 /*------CAJA FRUTAS Y VERDURAS------*/
 
 .caja_proteinas_FruVerd{
@@ -1930,6 +2151,337 @@ body{
 
     z-index:2;
     display:none;
+}
+
+
+.video_lipidos{
+    width: 261px;
+    height: 321px;
+    margin-top:13rem;
+    margin-left:5.5rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.video_lipidos:hover{
+    width: 271px;
+    height: 331px;
+    margin-top:12.5rem;
+    margin-left:5rem;
+    position:absolute;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.lipidos_aceites{
+    position:absolute;
+    width: 363px;
+    height: 202px;
+    margin-top:50rem;
+    margin-left:0.5rem;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.lipidos_aceites:hover{
+    position:absolute;
+    width: 373px;
+    height: 212px;
+    margin-top:49.5rem;
+    margin-left:0rem;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.lipidos_frutas{
+    position:absolute;
+    width: 260px;
+    height: 262px;
+    margin-top:65rem;
+    margin-left:6rem;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.lipidos_frutas:hover{
+    position:absolute;
+    width: 270px;
+    height: 272px;
+    margin-top:64.5rem;
+    margin-left:5.5rem;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+/*----CAJA VIDEO LIPIDOS-----*/
+
+.caja_video_lipidos{
+    width: 375px;
+    height:1640px;
+    background-color: rgb(255, 255, 255);
+    margin-top:0rem;
+    margin-left:0rem;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_video_lipidos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:6rem;
+    margin-left:4rem;
+
+    cursor:pointer;
+}
+
+.texto_cajavideo_lipidos{
+    width: 320px;
+    height: 277px;
+    font-size: 17px;
+    position:absolute;
+    margin-top:105rem;
+    margin-left:3rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.texto_cajavideo_lipidos1{
+    width: 320px;
+    height: auto;
+    font-size: 17px;
+    position:absolute;
+    margin-top:120rem;
+    margin-left:3rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.texto_cajavideo_lipidos2{
+    width: 320px;
+    height: auto;
+    font-size: 17px;
+    position:absolute;
+    margin-top:130rem;
+    margin-left:3rem;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.img_lipidos{
+    width: 279.04px;
+    height: 215px;
+    position:absolute;
+    margin-left:4rem;
+    margin-top:140rem;
+}
+
+.pregunta1CarbL{
+    width: 320px;
+    height: 145px;
+    background-color: #C5D751;
+    position:absolute;
+    margin-top:40rem;
+    margin-left:2.5rem;
+    border-radius:30px;
+}
+
+.pregunta1CarbL img{
+    width: 82px;
+    height: 99px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta1CarbL h1{
+    margin-top:1.5rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta1CarbL p{
+    width: 20rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.title_cajavideo_lipidos{
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    margin-top: 101.5rem;
+    margin-left: 2.5rem;
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pregunta2CarbL{
+    width: 320px;
+    height: 170px;
+    background-color: #4AAEAD;
+    position:absolute;
+    margin-top:55.5rem;
+    margin-left:2.5rem;
+    border-radius:30px;
+}
+
+.pregunta2CarbL img{
+    width: 82px;
+    height: 118px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta2CarbL h1{
+    margin-top:1.5rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta2CarbL p{
+    width: 20rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta3CarbL{
+    width: 320px;
+    height: 137px;
+    background-color: #F3BD37;
+    position:absolute;
+    margin-top:73.5rem;
+    margin-left:2.5rem;
+    border-radius:30px;
+}
+
+.pregunta3CarbL img{
+    width: 82px;
+    height: 99px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta3CarbL h1{
+    margin-top:1.5rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta3CarbL p{
+    width: 20rem;
+    margin-top:4rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+.pregunta4CarbL{
+    width: 320px;
+    height: 115px;
+    background-color: #E27B38;
+    position:absolute;
+    margin-top:88rem;
+    margin-left:2.5rem;
+    border-radius:30px;
+}
+
+.pregunta4CarbL img{
+    width: 82px;
+    height: 79px;
+    margin-top:1.5rem;
+    margin-left:1rem;
+    position:absolute;
+}
+
+.pregunta4CarbL h1{
+    margin-top:1rem;
+    margin-left:11rem;
+    color:white;
+    font-size:12px;
+    position:absolute;
+}
+
+.pregunta4CarbL p{
+    width: 20rem;
+    margin-top:3rem;
+    margin-left:11rem;
+    color:white;
+    font-size:13px;
+    position:absolute;
+    text-align: justify;
+}
+
+
+
+/*Aceites Lipidos*/
+
+.caja_aceites_lipidos{
+    width: 375px;
+    height:1640px;
+    background-color: white;
+    margin-top:0rem;
+    margin-left:0rem;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_aceites_lipidos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:6rem;
+    margin-left:4rem;
+
+    cursor:pointer;
+}
+
+/*Frutas Lipidos*/
+
+.caja_lfrutasverd{
+    width: 375px;
+    height:1640px;
+    background-color: white;
+    margin-top:0rem;
+    margin-left:0rem;
+
+    z-index:7;
+    display:none;
+    position:absolute;
+}
+
+.boton_cerrar_frutas_lipidos{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:6rem;
+    margin-left:4rem;
+
+    cursor:pointer;
 }
 
 /*******************************************/
