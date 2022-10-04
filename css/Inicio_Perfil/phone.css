@@ -423,13 +423,85 @@ body{
     display:none;
     position:absolute;
 }
+.shapeUp img{
+    position: relative;
+    width: 0px;
+    height: 0px;
+  
+}
+.BioFood{
+    Width: 0px;
+    Height: 0px;
+}
+.BFphone{
+    Width: 333px;
+    Height: 109.66px;
+    margin-top: 12rem;
+    margin-left: 2rem;
+
+}
+.FondoV{
+    width: 0px;
+    width: 0px;
+}
+.FondoVPhone{
+    position: absolute;
+    top: 112rem;
+    left: 0rem;
+}
+.info{
+   width: 0px;
+   height: 0px;
+}
+.infoPhone{
+    Width: 358px;
+    position: absolute;
+    Height: 769px;
+    top: 30rem;
+    left: 1rem;
+}
+.cientifica{
+    Width: 0px;
+    Height: 0px;
+}
+.cientificaPhone{
+    position: absolute;
+    Width: 309px;
+    Height: 204px;
+    left: 4rem;
+    top: 113rem;
+}
+.disciplinada{
+    Width: 0px;
+    Height: 0px; 
+}
+.disciplinadaPhone{
+    position: absolute;
+    Width: 309px;
+    Height: 204px;
+    left: 4rem;
+    top: 133rem;
+    margin: 0px;
+}
+.creativa{
+    Width: 0px;
+    Height: 0px;
+}
+.creativaPhone{
+    position: absolute;
+    Width: 309px;
+    Height: 204px;
+    left: 4rem;
+    top: 153rem;
+}
+
 
 /******************************/
 /***¿QUIEN ES BIO?***/
 .caja_bio_holab{
     width: 375px;
     height:1640px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FBFBFB;
     margin-top:1rem;
     margin-left:0rem;
 
@@ -438,6 +510,58 @@ body{
     z-index:7;
     display:none;
     position:absolute;  
+}
+.BIO{
+    Width: 0px;
+    Height: 0px;
+
+}
+.BIO-2{
+    Width: 252px;
+    Height: 182px;
+    position: absolute;
+    left: 6rem;
+    top: 10rem;
+}
+.BIOImg{
+    Width: 0px;
+    Height: 0px;
+
+}
+.BIOImg-2{
+    Width: 359px;
+    Height: 359px;
+    position: absolute;
+    top: 30rem;
+}
+.Shape{
+    width: 0px;
+    height: 0px;
+}
+.ShapeIzq{
+    top: 30rem;
+    left: 0px;
+    position: absolute;
+}
+.ShapeDerecha{
+    top: 50rem;
+    left: 253px;
+    position: absolute;
+}
+.txtPC{
+    Width: 0px;
+    Height: 0px;
+}
+.txtPhone{
+    Width: 375px;
+    Height: 301px;
+    position: absolute;
+    left: 0px;
+    top: 63rem;
+}
+.Down{
+    width: 0px;
+    height: 0px;
 }
 
 /******************************/
@@ -455,12 +579,32 @@ body{
     display:none;
     position:absolute;  
 }
+.fondoGreen{
+    height: 0px;
+    width: 0px;
+}
+.fondoPhone{
+    Width: 375px;
+    Height: 872px;
+}
+.objetivo{
+    width: 0px;
+    height: 0px;
+}
+.objetivoPhone{
+    position: absolute;
+    top: 10rem;
+
+}
+
+
+
 
 /******************************/
 /***NUESTRO EQUIPO***/
 .caja_bio_holad{
     width: 375px;
-    height:1640px;
+    height:1740px;
     background-color: rgb(255, 255, 255);
     margin-top:1rem;
     margin-left:0rem;
@@ -471,7 +615,80 @@ body{
     display:none;
     position:absolute;  
 }
+.conocenos{
+    width: 0px;
+    height: 0px;
+}
+.conocenosPhone{
+    top: 7rem;
+    Width: 312px;
+    Height: 304px;
+    position: absolute;
+    left: 6rem;
+}
+.carrera-Biologia{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    position: absolute;
+    width: 15rem;
+    text-align: center;
+    left: 1rem;
+    top: 36rem;
+}
+.biologos{
+    width: 0px;
+    height: 0px;
+}
+.biologosPhone{
+    position: absolute;
+    left: 3.5rem;
+    top: 40rem;
+}
+.carrera-Diseño{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    position: absolute;
+    width: 15rem;
+    text-align: center;
+    left: 2rem;
+    top: 94.5rem;
+}
+.diseñadoras{
+    width: 0px;
+    height: 0px;
+}
+.diseñadorasPhone{
+    position: absolute;
+    left: 4rem;
+    top: 99rem;
 
+}
+.carrera-Compu{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    position: absolute;
+    width: 15rem;
+    text-align: center;
+    left: 4rem;
+    top: 136rem;
+
+
+}
+.programadores{
+    width: 0px;
+    height: 0px;
+}
+.programadoresPhone{
+    position: absolute;
+    top: 140rem;
+    left: 4rem;
+}
 /******************************/
 /***CONOCE LOS NUTRIENTES DE LOS ALIMENTOS***/
 .caja_bio_hola2{

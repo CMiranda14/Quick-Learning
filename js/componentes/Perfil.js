@@ -54,7 +54,7 @@ function Perfil(){
     '<img class="bio_holad2" id="bio_holad2" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/399fc1064af1fccdefebfa72baf0c77706134695/Nuestro%20equipo.svg"></img>'+
     '<img class="bio_hola2" id="bio_hola2" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/f8c6e0f287163cfabb84005764d6a343195da93d/Group%2032.svg"></img>'+
     '<img class="bio_hola222" id="bio_hola222" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/f8c6e0f287163cfabb84005764d6a343195da93d/conoce%20tu%20dieta%20ideal%20(2).svg"></img>'+
-    '<a href="https://docs.google.com/spreadsheets/d/1qZF0EUS5zI6uxAJ5bM_g6ShI916TV5f9/edit?usp=sharing&ouid=116979008908507859815&rtpof=true&sd=true"><img class="bio_hola3" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/4dac670d40d340a3e2335df5dfe964ab75a41b98/Pir%C3%A1mide.svg"></img></a>'+
+    '<a href="https://drive.google.com/file/d/1ZEMtmg64OPiRsEP9t2QlGEG8eL3SsgOz/view?usp=sharing" target="_blank"><img class="bio_hola3" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/4dac670d40d340a3e2335df5dfe964ab75a41b98/Pir%C3%A1mide.svg"></img></a>'+
     '<img class="bio_hola4" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/d2d440d00d14e0e480af03add483b276e4a7bae0/calor%C3%ADas.svg"></img>'+
 
 
@@ -1118,24 +1118,170 @@ function Perfil(){
 
 
        `<div class="caja_bio_holaa" id="caja_bio_holaa">
-        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holaa">X</h1>    
+        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holaa">X</h1> 
+
+        <div class="shapeUp">
+          <img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg" class="ShapeUp">
+        </div>
+
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/e77aedf360e1bfe0fd27c73f009feda75e43ce37/bioInicio.svg" class="BioFood">
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/16431c518a43e106cf65adc38aca9e24ef679145/LogoP.svg" class="BFphone">
+
+
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/8f04ed99588f4784986c1cf24709faa8b36651ed/fondo%20verdemancha%20abajo%20.svg" class="FondoV">
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/b530120bfb757684ee2af2d3189f8634b856970f/FondoVerdePhone.svg" class="FondoVPhone">
+
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/2188255d36f8c4109d9e618dd82c823eb92611cf/cientifica.svg" class="cientifica">
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/0fc957827b60a594d5464e3a61bd0f73ab680912/cientificaPhone.svg" class="cientificaPhone">
+
+
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/362a435b03a7f75e0833db3e1538134465929d31/disciplinada.svg" class="disciplinada">
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/4274414008389bcadcf680c41173d72125709748/disciplinadaPhone.svg" class="disciplinadaPhone">
+
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/79f04b2012dfed6d9ed9855ac1cac851fcbd3cb2/creativa.svg" class="creativa">
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/72b8187a8b36bf0626be9f1f9e3329542ddf50c9/CreativaPhone.svg" class="creativaPhone">
+
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/24f74b068e52930dc2c4e06f8afd60406a54d669/info.svg" class="info">
+        <img src="https://raw.githubusercontent.com/maria4Q/APS/7dced8eaa94fef91654578f24b5b99baf34dc454/infoPhone.svg" class="infoPhone">
+
         </div>`+
 
+
+
         `<div class="caja_bio_holab" id="caja_bio_holab">
-        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holab">X</h1>    
+            <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holab">X</h1>    
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg" class="Shape">
+        
+
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/51f0c552aedd3891fc812d4940d3c7733b50b3a0/imgBio.svg" class="BIOImg">
+        
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/3f8715672bdcc2e68ee72c7352762b80abe7fba4/BioimgPhone.svg" class="BIOImg-2">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/5c81140e872e08c1eefb03a3ea3f7da798d154bf/ShapeIzquier.svg" class="ShapeIzq">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/c7f8f7e6c4519c86533555cbf79c751b1bcef0d8/ShapeDerecha.svg" class="ShapeDerecha">
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/e6f86c037f316344524f0211663f832925ec0bcf/BIO.svg" class="BIO">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/5c75842a9f7f6bef4b81279a2f9aff91cfb2f22a/BioPhone.svg" class="BIO-2">
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/5fea77b05d46d35b34839f76cdf7e83741f75344/txtBIO.svg" class="txtPC">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/9a406d6dc7568d00cbce91a9425b4e481144dd74/txtinfoPhone.svg" class="txtPhone">
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/3b6b3a33c87a73979ffd00afc9bb56449e75e4f6/Shape%20down.svg" class="Down">
+
         </div>`+
 
         `<div class="caja_bio_holac" id="caja_bio_holac">
-        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holac">X</h1>    
+            <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holac">X</h1>  
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/69a95851249bdc0f40519755d11ed8311e8b2ee8/backgroudGreen.svg" class="fondoGreen">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/743346f6020bac7416f9cd67780673fe3578c7ff/Shape%20background%20green.svg" class="fondoPhone">
+
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/ef7805f7efde16eadbbd01ad49a02d387bf6c68a/objetivoBio.svg" class="objetivo">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/3c1cb0f7bd1d6df979c718626fd96510344877b9/ObjetivoPhone.svg" class="objetivoPhone">
+
         </div>`+
 
+
         `<div class="caja_bio_holad" id="caja_bio_holad">
-        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holad">X</h1>    
+            <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_holad">X</h1>  
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/65fa78f7dc831620de3494efa8c8aeaa8acec368/conocenos.svg" class="conocenos">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/54b559888057154ca2daa707ab06e23f974ef793/conocenosPhone.svg" class="conocenosPhone">
+
+
+            <p class="carrera-Biologia">BIÓLOGOS</p>
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/7fc3774d8b1eb86248ad03f19549613f9f8f7d75/biologos.svg" class="biologos">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/7617953707eb28a3d88633c9f9aa1262180ddc39/biologosPhone.svg" class="biologosPhone">
+
+            <p class="carrera-Diseño">DISEÑADORAS</p>
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/c5cbf50267c5b9c7909510e404a66f7c5c89e690/dise%C3%B1adoras.svg" class="diseñadoras">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/fbfdc0b6f775aeedcfd3bd9eedab5ce8755d0943/dise%C3%B1adoresPhone.svg" class="diseñadorasPhone">
+        
+            <p class="carrera-Compu">PROGRAMADORES</p>
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/35f72cd2885313adf73c5730941ab06b1594ccec/programadores.svg" class="programadores">
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/6a2cf7cbe72e5e3d02a3defa5c7e474f7dae3e08/programadoresPhone.svg" class="programadoresPhone">
+
         </div>`+
 
         `<div class="caja_bio_hola2" id="caja_bio_hola2">
-        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_hola2">X</h1>    
+            <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_hola2">X</h1>    
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/6265556c8c91f2c4464f0ecf1dfd06ebb1098868/shape.svg" class="Shape">
+
+            <img src="https://raw.githubusercontent.com/maria4Q/APS/0c33c970fbae5274cc3737b1aeb4b64a5b2ae5fa/Biohola.svg" class="BioF">
+
+            <p class="pregunta">¿Cuántos nutrientes estás consumiendo?</p>
+
+            <p class="fruits">FRUTAS Y VERDURAS</p>
+
+         
+            
+       
+           
+           
+    
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>`+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     '</div>';
 
@@ -2348,6 +2494,15 @@ function Perfil(){
 
 Perfil()
 
+    
+function showCheckboxes() {
+    var checkboxes = document.getElementById("checkboxes");
+    if(checkboxes.classList.contains("hide")) {
+        checkboxes.classList.remove("hide");
+    } else {
+        checkboxes.classList.add("hide");
+    }
+}
 
 /*-----------------Activaciones Caja Carbohidratos------------*/
 
