@@ -22,6 +22,7 @@ body{
    
 }
 
+
 .busqueda{
     position:absolute;
     margin-top:7rem;
@@ -377,7 +378,7 @@ body{
 .caja_bio_holaa{
     width: 1342px;
     height: 700px;
-    background-color: rgba(255, 255, 255, 0.936);
+    background-color: white;
     margin-top:0rem;
     margin-left:0rem;
 
@@ -387,23 +388,141 @@ body{
     display:none;
     position:absolute;  
 }
-
+.shapeUp{
+    width: 50%;
+    Height: 130.83px;
+    margin-left: 12rem;
+}
+.BioFood{
+    margin-left: 23rem;
+    Width: 480px;
+    Height:166px;
+}
+.BFphone{
+    width: 0px;
+    height: 0px;
+}
+.FondoV{
+    margin-top: 6.5rem;
+    Width:841px;
+    Height:337.95px;
+}
+.FondoVPhone{
+    width: 0px;
+    height: 0px;
+}
+.cientifica{
+    margin-left: -75rem;
+    Width: 236px;
+    Height: 314px;
+}
+.cientificaPhone{
+    width: 0px;
+    height: 0px;
+}
+.disciplinada{
+    margin-left: -2rem;
+    Width: 236px;
+    Height: 314px;
+}
+.disciplinadaPhone{
+    width: 0px;
+    height: 0px;
+}
+.creativa{
+    margin-left: -2rem;
+    Width: 236px;
+    Height: 314px;
+}
+.creativaPhone{
+    width: 0px;
+    height: 0px;
+}
+.info{
+    position: absolute;
+    top: -2rem;
+    left: 80.5rem;
+    Width: 358px;
+    height: 720px;
+}
+.infoPhone{
+    width: 0px;
+    height: 0px;
+}
 /******************************/
 /***¿QUIEN ES BIO?***/
 .caja_bio_holab{
     width: 1342px;
     height: 700px;
-    background-color: rgba(255, 255, 255, 0.936);
-    margin-top:0rem;
-    margin-left:0rem;
-
-    border-radius:40px;
-
-    z-index:7;
-    display:none;
-    position:absolute;  
+    background-color: #FBFBFB;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    border-radius: 40px;
+    z-index: 7;
+    display: none;
+    position: absolute;
 }
+.BIO{
+    Width: 471px;
+    Height: 339px;
+    left: 14.5rem;
+    top: 5rem;
+    position: absolute;
 
+}
+.BIO-2{
+    width: 0px;
+    height: 0px;
+
+}
+.Shape{
+    width: 100%;
+    Height: 130.83px;
+  
+    padding-left: 115rem;
+    /* background-color: #000000; */
+    margin-top: -10px;
+
+}
+.ShapeIzq{
+    width: 0px;
+    height: 0px;
+}
+.ShapeDerecha{
+    width: 0px;
+    height: 0px;
+}
+.BIOImg{
+    position: absolute;
+    left: 49rem;
+    Width: 653px;
+    Height: 653px;
+    top: 3rem;
+
+}
+.BIOImg-2{
+    width: 0px;
+    height: 0px;
+}
+.txtPC{
+    position: absolute;
+    left: 12rem;
+    top: 34rem;
+    Width: 531px;
+    Height: 276px;
+}
+.txtPhone{
+    width: 0px;
+    height: 0px;
+}
+.Down{
+    position: absolute;
+    left: 1rem;
+    /* background-color: black; */
+    top: 57rem;
+    Width: 25%;
+    Height: 130.83px;
+}
 /******************************/
 /***NUESTRO OBJETIVO***/
 .caja_bio_holac{
@@ -419,6 +538,36 @@ body{
     display:none;
     position:absolute;  
 }
+#boton_cerrar_caja_bio_holac{
+    position:absolute;
+    font-weight: 100;
+    font-size:25px;
+    margin-top:3rem;
+    margin-left:3rem;
+
+    cursor:pointer;
+}
+.fondoGreen{
+    width: 100%;
+    position: absolute;
+    top: 46rem;
+    height: 293.2px;
+}
+.fondoPhone{
+    width: 0px;
+    height: 0px;
+}
+.objetivo{
+    position: absolute;
+    left: 7.6rem;
+    top: -1.5rem;
+    Width: 1104px;
+    Height: 627px;
+}
+.objetivoPhone{
+    width: 0px;
+    height: 0px;
+}
 
 /******************************/
 /***NUESTRO EQUIPO***/
@@ -426,39 +575,95 @@ body{
     width: 1342px;
     height: 700px;
     background-color: rgba(255, 255, 255, 0.936);
-    margin-top:0rem;
-    margin-left:0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    border-radius: 40px;
+    z-index: 7;
+    display: none;
+    position: absolute;
+}
+.conocenos{
+    position: absolute;
+    left: 10rem;
+    top: 3rem;
+    Width: 506px;
+    Height: 633.57px;
+}
+.conocenosPhone{
+    width: 0px;
+    height: 0px;
+}
+.carrera-Biologia{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    position: absolute;
+    width: 15rem;
+    text-align: center;
+    left: 59rem;
+    top: 2rem;
+}
+.biologos{
+    position: absolute;
+    left: 62rem;
+    top: 6rem;
+    Width: 435px;
+    Height: 188px;
+}
+.biologosPhone{
+    width: 0px;
+    height: 0px;
+}
+.carrera-Diseño{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    position: absolute;
+    width: 15rem;
+    text-align: center;
+    left: 61rem;
+    top: 26.5rem;
 
-    border-radius:40px;
+}
+.diseñadoras{
+    position: absolute;
+    left: 62rem;
+    top: 29rem;
+    Width: 435px;
+    Height: 188px;
+}
+.diseñadorasPhone{
+    width: 0px;
+    height: 0px;
+}
 
-    z-index:7;
-    display:none;
-    position:absolute;  
+.carrera-Compu{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: #7C6BAF;
+    font-weight: 100;
+    position: absolute;
+    width: 15rem;
+    text-align: center;
+    left: 63rem;
+    top: 48rem;
+
+}
+.programadores{
+    position: absolute;
+    left: 62rem;
+    top: 50rem;
+    Width: 435px;
+    Height: 188px;
+}
+.programadoresPhone{
+    width: 0px;
+    height: 0x;
 }
 
 /******************************/
-/***CONOCE LOS NUTRIENTES DE LOS ALIMENTOS***/
-.caja_bio_hola2{
-    width: 1342px;
-    height: 700px;
-    background-color: rgba(255, 255, 255, 0.936);
-    margin-top:0rem;
-    margin-left:0rem;
-
-    border-radius:40px;
-
-    z-index:7;
-    display:none;
-    position:absolute;  
-}
-
-.hoja_excel{
-    margin-top:5rem;
-    margin-left:5rem;
-}
-
-
-
 
 /*******************************************/
             /***CARBOHIDRATOS***/ 
@@ -963,7 +1168,6 @@ body{
     top: 5.5rem;
     left: 8rem;
 }
-
 .title_frutas{
     position:absolute;
     margin-left:31rem;
@@ -1759,24 +1963,6 @@ body{
     margin-right: 2rem;
     padding: 0.7rem;
 
-}
-.vitaminas-AzP{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    top: 33rem;
-    left: 4rem;
-    position:absolute;
-    font-size: 12px;
-    /*top: 32rem;
-    left: 4rem;*/
-}
-.vitaminas-AzP p{
-    border: 1px solid #4AAEAD;
-    border-radius: 25px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    padding: 0.7rem;
 }
 
 /*------CAJA LACTEOS------*/
@@ -2671,4 +2857,5 @@ body{
     z-index:6;
     display:none;
 }
+
 
