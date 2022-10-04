@@ -10,7 +10,7 @@ import {matriz_video_proteinas, Guayaba, Aceitunas, Platano, matriz_video_carboh
 
 
 
-function Perfil(){
+export function Perfil(){
     let perfil = document.querySelector("#perfil");
 
     let div = '<div class="menu">'+     
@@ -1134,7 +1134,9 @@ function Perfil(){
         </div>`+
 
         `<div class="caja_bio_hola2" id="caja_bio_hola2">
-        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_hola2">X</h1>    
+        <h1 class="boton_cerrar_video_carbohidratos" id="boton_cerrar_caja_bio_hola2">X</h1>
+          
+         
         </div>`+
 
     '</div>';
@@ -3037,4 +3039,3 @@ function desactivar_caja_biohola2() {
 boton_cerrar_caja_bio_hola2.addEventListener('click' ,desactivar_caja_biohola2);
 
 /*****/
-
