@@ -52,8 +52,8 @@ export function Perfil(){
     '<img class="bio_holac" id="bio_holac" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/0ed42cad7d2047cdbcdca181955ec247e72e4bb6/Nuestro%20objetivodestock.svg"></img>'+
     '<img class="bio_holad" id="bio_holad" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/76ab15f67defda55681e42ccf87976c337fb56fa/Nuestro%20equipodestock.svg"></img>'+
     '<img class="bio_holad2" id="bio_holad2" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/399fc1064af1fccdefebfa72baf0c77706134695/Nuestro%20equipo.svg"></img>'+
-    '<a href="calculadora.html"><img class="bio_hola2" id="bio_hola2" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/f8c6e0f287163cfabb84005764d6a343195da93d/Group%2032.svg"></img></a>'+
-    '<a href="calculadora.html"><img class="bio_hola222" id="bio_hola222" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/f8c6e0f287163cfabb84005764d6a343195da93d/conoce%20tu%20dieta%20ideal%20(2).svg"></img></a>'+
+    '<a href="https://docs.google.com/spreadsheets/d/1qZF0EUS5zI6uxAJ5bM_g6ShI916TV5f9/edit?usp=sharing&ouid=116979008908507859815&rtpof=true&sd=true" target="_blank"><img class="bio_hola2" id="bio_hola2" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/f8c6e0f287163cfabb84005764d6a343195da93d/Group%2032.svg"></img></a>'+
+    '<a href="https://docs.google.com/spreadsheets/d/1qZF0EUS5zI6uxAJ5bM_g6ShI916TV5f9/edit?usp=sharing&ouid=116979008908507859815&rtpof=true&sd=true" target="_blank"><img class="bio_hola222" id="bio_hola222" src="https://raw.githubusercontent.com/CMiranda14/img_aps_lipidos/f8c6e0f287163cfabb84005764d6a343195da93d/conoce%20tu%20dieta%20ideal%20(2).svg"></img></a>'+
     '<a href="https://drive.google.com/file/d/1ZEMtmg64OPiRsEP9t2QlGEG8eL3SsgOz/view?usp=sharing" target="_blank"><img class="bio_hola3" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/4dac670d40d340a3e2335df5dfe964ab75a41b98/Pir%C3%A1mide.svg"></img></a>'+
     '<img class="bio_hola4" src="https://raw.githubusercontent.com/CMiranda14/img-aps-svg/d2d440d00d14e0e480af03add483b276e4a7bae0/calor%C3%ADas.svg"></img>'+
 

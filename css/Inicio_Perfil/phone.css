@@ -112,24 +112,17 @@ body{
 .vinculos1{
     font-size:0px;
     text-decoration:none;
-    margin-top:13rem;
+    margin-top:0rem;
     color:white;
     padding:0rem;
     font-weight: 800;
     transition:0.3s;
-    border-radius:5px;
+    border-radius:0px;
     padding-left:0rem;
     
     
 }
 
-.vinculos1:hover{
-    background-color: #C5D751;
-    border-radius:0px 30px 30px 0px;
-    padding:2rem;
-    transition:0.3s;
-    padding-left:0rem;
-}
 
 .logo{
     width: 0px;
