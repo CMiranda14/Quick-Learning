@@ -1018,6 +1018,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_cerales{
@@ -1136,6 +1137,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_frutas{
@@ -1222,6 +1224,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_legumbres{
@@ -1701,6 +1704,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 
@@ -1972,6 +1976,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_lacteos{
@@ -2049,6 +2054,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_pescados{
@@ -2092,6 +2098,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_FruVerd{
@@ -2780,6 +2787,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_aceites_lipidos{
@@ -2806,6 +2814,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_frutas_lipidos{
@@ -2818,38 +2827,5 @@ body{
     cursor:pointer;
 }
 
-/*******************************************/
-           /***VITAMINAS***/  
-/*******************************************/
-
-.caja_wireframes5{
-    width: 1342px;
-    height: 700px;
-    background-color: #fff;
-    margin-top:1rem;
-    margin-left:18rem;
-
-    border-radius:40px;
-
-    z-index:6;
-    display:none;
-}
-
-/*******************************************/
-        /***BY QUICK LEARNING***/  
-/*******************************************/
-
-.caja_wireframes6{
-    width: 1342px;
-    height: 700px;
-    background-color: #fff;
-    margin-top:1rem;
-    margin-left:18rem;
-
-    border-radius:40px;
-
-    z-index:6;
-    display:none;
-}
 
 

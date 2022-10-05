@@ -851,6 +851,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_video_carbohidratos{
@@ -1062,6 +1063,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_cerales{
@@ -1250,6 +1252,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 .papa{
     border-radius: 29px;
@@ -1325,6 +1328,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_legumbres{
@@ -1805,6 +1809,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_carne{
@@ -2005,6 +2010,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_lacteos{
@@ -2083,6 +2089,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_pescados{
@@ -2125,6 +2132,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_FruVerd{
@@ -2811,6 +2819,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_aceites_lipidos{
@@ -2835,6 +2844,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_frutas_lipidos{
@@ -2845,40 +2855,4 @@ body{
     margin-left:4rem;
 
     cursor:pointer;
-}
-
-/*******************************************/
-           /***VITAMINAS***/   
-/*******************************************/
-
-.caja_wireframes5{
-    position:absolute;
-    width: 375px;
-    height:1530px;
-    background-color: #fff;
-    margin-top:30rem;
-    margin-left:0rem;
-
-    border-radius:0px;
-
-    z-index:2;
-    display:none;
-}
-
-/*******************************************/
-        /***BY QUICK LEARNING***/   
-/*******************************************/
-
-.caja_wireframes6{
-    position:absolute;
-    width: 375px;
-    height:1530px;
-    background-color: #fff;
-    margin-top:30rem;
-    margin-left:0rem;
-
-    border-radius:0px;
-
-    z-index:2;
-    display:none;
 }
