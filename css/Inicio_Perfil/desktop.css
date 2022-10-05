@@ -122,13 +122,6 @@ body{
     
 }
 
-.vinculos1:hover{
-    background-color: #C5D751;
-    border-radius:0px 30px 30px 0px;
-    padding:2rem;
-    transition:0.3s;
-    padding-left:2.5rem;
-}
 
 .logo{
     width: 138px;
@@ -140,7 +133,7 @@ body{
 }
 
 .caja_wireframes{
-    width: 1152px;
+    width: 1342px;
     height: 700px;
     background-color: #fff;
     margin-top: 1rem;
@@ -375,7 +368,7 @@ body{
 /******************************/
 /***¿QUÉ ES BIO FOOD?***/
 .caja_bio_holaa{
-    width: 1152px;
+    width: 1342px;
     height: 700px;
     background-color: white;
     margin-top:0rem;
@@ -451,7 +444,7 @@ body{
 /******************************/
 /***¿QUIEN ES BIO?***/
 .caja_bio_holab{
-    width: 1159px;
+    width: 1342px;
     height: 700px;
     background-color: #FBFBFB;
     margin-top: 0rem;
@@ -525,7 +518,7 @@ body{
 /******************************/
 /***NUESTRO OBJETIVO***/
 .caja_bio_holac{
-    width: 1158px;
+    width: 1342px;
     height: 700px;
     background-color: rgba(255, 255, 255, 0.936);
     margin-top:0rem;
@@ -535,7 +528,8 @@ body{
 
     z-index:7;
     display:none;
-    position:absolute;  
+    position:absolute; 
+    overflow: scroll; 
 }
 #boton_cerrar_caja_bio_holac{
     position:absolute;
@@ -571,7 +565,7 @@ body{
 /******************************/
 /***NUESTRO EQUIPO***/
 .caja_bio_holad{
-    width: 1159px;
+    width: 1342px;
     height: 700px;
     background-color: rgba(255, 255, 255, 0.936);
     margin-top: 0rem;
@@ -663,61 +657,6 @@ body{
 }
 
 /******************************/
-/***CONOCE LOS NUTRIENTES DE LOS ALIMENTOS***/
-.caja_bio_hola2{
-    width: 1342px;
-    height: 700px;
-    background-color: white;
-    margin-top:0rem;
-    margin-left:0rem;
-
-    border-radius:40px;
-
-    z-index:7;
-    display:none;
-    position:absolute;  
-}
-.BioF{
-    position: absolute;
-    left: 13rem;
-    top: 4rem;
-}
-.pregunta{
-    height: 41px;
-    width: 698px;
-    left: 284px;
-    top: 98px;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 34px;
-    letter-spacing: 0em;
-    /* text-align: left; */
-    position: absolute;
-
-
-}
-.fruits{
-    position:absolute;
-    margin-left:10rem;
-    margin-top: 8rem;
-    font-size:30px;
-    font-family: 'Fredoka One', cursive;
-    color:#7C6BAF;
-    font-weight: 400;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*******************************************/
             /***CARBOHIDRATOS***/ 
@@ -1076,6 +1015,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_cerales{
@@ -1194,6 +1134,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_frutas{
@@ -1280,6 +1221,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_legumbres{
@@ -1759,6 +1701,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 
@@ -2030,6 +1973,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_lacteos{
@@ -2107,6 +2051,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_pescados{
@@ -2150,6 +2095,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_caja_FruVerd{
@@ -2838,6 +2784,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_aceites_lipidos{
@@ -2864,6 +2811,7 @@ body{
     z-index:7;
     display:none;
     position:absolute;
+    overflow: scroll; 
 }
 
 .boton_cerrar_frutas_lipidos{
@@ -2875,38 +2823,3 @@ body{
 
     cursor:pointer;
 }
-
-/*******************************************/
-           /***VITAMINAS***/  
-/*******************************************/
-
-.caja_wireframes5{
-    width: 1342px;
-    height: 700px;
-    background-color: #fff;
-    margin-top:1rem;
-    margin-left:18rem;
-
-    border-radius:40px;
-
-    z-index:6;
-    display:none;
-}
-
-/*******************************************/
-        /***BY QUICK LEARNING***/  
-/*******************************************/
-
-.caja_wireframes6{
-    width: 1342px;
-    height: 700px;
-    background-color: #fff;
-    margin-top:1rem;
-    margin-left:18rem;
-
-    border-radius:40px;
-
-    z-index:6;
-    display:none;
-}
-
