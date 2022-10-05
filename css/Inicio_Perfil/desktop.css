@@ -143,10 +143,9 @@ body{
     width: 1152px;
     height: 700px;
     background-color: #fff;
-    margin-top:1rem;
-    margin-left:18rem;
-
-    border-radius:40px;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    border-radius: 40px;
 }
 
 
@@ -725,16 +724,14 @@ body{
 /*******************************************/
 
 .caja_wireframes2{
-    width: 1342px;
+    width: 1146px;
     height: 700px;
     background-color: #fff;
-    margin-top:1rem;
-    margin-left:18rem;
-
-    border-radius:40px;
-
-    z-index:6;
-    display:none;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    border-radius: 40px;
+    z-index: 6;
+    display: none;
 }
 
 .capa7{
@@ -785,13 +782,13 @@ body{
 }
 
 .carbohidratos_cereales{
-    position:absolute;
+    position: absolute;
     width: 320.43px;
     height: 331px;
-    margin-top:6.5rem;
-    margin-left:68rem;
+    margin-top: 6.5rem;
+    margin-left: 60rem;
     cursor: pointer;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 .carbohidratos_cereales:hover{
@@ -805,13 +802,13 @@ body{
 }
 
 .carbohidratos_frutas{
-    position:absolute;
+    position: absolute;
     width: 193px;
     height: 331px;
-    margin-top:6.5rem;
-    margin-left:100rem;
+    margin-top: 6.5rem;
+    margin-left: 92rem;
     cursor: pointer;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 .carbohidratos_frutas:hover{
@@ -825,13 +822,13 @@ body{
 }
 
 .carbohidratos_legumbres{
-    position:absolute;
+    position: absolute;
     width: 537.49px;
     height: 291px;
-    margin-top:39rem;
-    margin-left:68rem;
+    margin-top: 39rem;
+    margin-left: 60rem;
     cursor: pointer;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 .carbohidratos_legumbres:hover{
