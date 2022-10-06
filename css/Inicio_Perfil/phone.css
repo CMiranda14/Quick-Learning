@@ -742,7 +742,7 @@ body{
 
 }
 
-.video_carbohidratos:hover{
+/*.video_carbohidratos:hover{
     width: 271px;
     height: 331px;
     margin-top:12rem;
@@ -751,7 +751,7 @@ body{
     cursor: pointer;
     transition:0.3s;
 
-}
+}*/
 
 
 
@@ -777,7 +777,7 @@ body{
 
 }
 
-.carbohidratos_cereales:hover{
+/*.carbohidratos_cereales:hover{
     position:absolute;
     width: 180.43px;
     height: 191px;
@@ -786,7 +786,7 @@ body{
     cursor: pointer;
     transition:0.3s;
 
-}
+}*/
 
 
 .carbohidratos_frutas{
@@ -800,7 +800,7 @@ body{
 
 }
 
-.carbohidratos_frutas:hover{
+/*.carbohidratos_frutas:hover{
     position:absolute;
     width: 118px;
     height: 199px;
@@ -809,7 +809,7 @@ body{
     cursor: pointer;
     transition:0.3s;
 
-}
+}*/
 
 
 
@@ -824,7 +824,7 @@ body{
 
 }
 
-.carbohidratos_legumbres:hover{
+/*.carbohidratos_legumbres:hover{
     position:absolute;
     width: 288px;
     height: 268px;
@@ -833,7 +833,7 @@ body{
     cursor: pointer;
     transition:0.3s;
 
-}
+}*/
 
 
 
@@ -1422,19 +1422,6 @@ body{
 
 }
 
-.video_proteinas:hover{
-    width: 271px;
-    height: 331px;
-    margin-top:12rem;
-    margin-left:5.5rem;
-    position:absolute;
-    cursor: pointer;
-    transition:0.3s;
-
-}
-
-
-
 .categorias_proteinas{
     position:absolute;
     font-size:15px;
@@ -1457,17 +1444,6 @@ body{
 
 }
 
-.proteinas_carne:hover{
-    position:absolute;
-    width: 180.43px;
-    height: 191px;
-    margin-top:49.5rem;
-    margin-left:4.5rem;
-    cursor: pointer;
-    transition:0.3s;
-
-}
-
 
 
 .proteinas_lacteos{
@@ -1480,19 +1456,6 @@ body{
     transition:0.3s;
 
 }
-
-.proteinas_lacteos:hover{
-    position:absolute;
-    width: 118px;
-    height: 199px;
-    margin-top:47.5rem;
-    margin-left:21.5rem;
-    cursor: pointer;
-    transition:0.3s;
-
-}
-
-
 .proteinas_pescado{
     position:absolute;
     width: 158px;
@@ -1503,19 +1466,6 @@ body{
     transition:0.3s;
 
 }
-
-.proteinas_pescado:hover{
-    position:absolute;
-    width: 168px;
-    height: 148px;
-    margin-top:69.5rem;
-    margin-left:4.3rem;
-    cursor: pointer;
-    transition:0.3s;
-
-}
-
-
 .proteinas_frutas{
     position:absolute;
     width: 183px;
@@ -1526,20 +1476,6 @@ body{
     transition:0.3s;
 
 }
-
-.proteinas_frutas:hover{
-    position:absolute;
-    width: 193px;
-    height: 190px;
-    margin-top:67.5rem;
-    margin-left:18rem;
-    cursor: pointer;
-    transition:0.3s;
-
-}
-
-
-
 
 /*----CAJA VIDEO PROTEINAS-----*/
 
@@ -1870,6 +1806,41 @@ body{
     width: 315px;
     height: 305px;
 }
+.chorizo{
+    border-radius: 29px;
+    position: absolute;
+    top: 131rem;
+    left: 4rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    width: 315px;
+    height: 305px;
+}
+.Longaniza{
+    border-radius: 29px;
+    position: absolute;
+    top: 165rem;
+    left: 3.5rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    width: 315px;
+    height: 305px;
+
+}
+.jamon{
+    border-radius: 29px;
+    position: absolute;
+    top: 200rem;
+    left: 3.5rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    width: 315px;
+    height: 305px;
+
+}
 .imgpollo-2{
     margin: 1rem;
     /* max-width: 100px; */
@@ -2073,6 +2044,28 @@ body{
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
 
+    width: 315px;
+    height: 305px;
+}
+.queso{
+    border-radius: 29px;
+    position: absolute;
+    top: 138rem;
+    left: 4rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    width: 315px;
+    height: 305px;
+}
+.qcrema{
+    border-radius: 29px;
+    position: absolute;
+    top: 172rem;
+    left: 3.5rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
     width: 315px;
     height: 305px;
 }
@@ -2534,33 +2527,12 @@ body{
     cursor: pointer;
     transition:0.3s;
 }
-
-.video_lipidos:hover{
-    width: 271px;
-    height: 331px;
-    margin-top:12.5rem;
-    margin-left:5rem;
-    position:absolute;
-    cursor: pointer;
-    transition:0.3s;
-}
-
 .lipidos_aceites{
     position:absolute;
     width: 363px;
     height: 202px;
     margin-top:50rem;
     margin-left:0.5rem;
-    cursor: pointer;
-    transition:0.3s;
-}
-
-.lipidos_aceites:hover{
-    position:absolute;
-    width: 373px;
-    height: 212px;
-    margin-top:49.5rem;
-    margin-left:0rem;
     cursor: pointer;
     transition:0.3s;
 }
@@ -2574,17 +2546,6 @@ body{
     cursor: pointer;
     transition:0.3s;
 }
-
-.lipidos_frutas:hover{
-    position:absolute;
-    width: 270px;
-    height: 272px;
-    margin-top:64.5rem;
-    margin-left:5.5rem;
-    cursor: pointer;
-    transition:0.3s;
-}
-
 /*----CAJA VIDEO LIPIDOS-----*/
 
 .caja_video_lipidos{
