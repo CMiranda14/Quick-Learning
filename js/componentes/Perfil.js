@@ -373,6 +373,7 @@ export function Perfil(){
                                     <p>`+papa[0].vitamina5+`</p>
                                     <p>`+papa[0].vitamina6+`</p>
                                 </div>
+                                
                             </div>
                 </div>`+
 
@@ -491,6 +492,7 @@ export function Perfil(){
                                     <p>`+lentejas[0].vitamina5+`</p>
                                     <p>`+lentejas[0].vitamina6+`</p>
                                 </div>
+                                
                             </div>
                 </div>`+
 
@@ -1109,6 +1111,8 @@ export function Perfil(){
             <p>`+Aguacate[0].vitamina5+`</p>
             <p>`+Aguacate[0].vitamina6+`</p>
         </div>
+        <img class="Demas_alimentos5" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/302b8aba95597e3d9d72cc40243a0bf8f1f49e2f/Group%2043.svg"></img>
+                <img class="Demas_alimentos6" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/ada213501df6b7cdb48828002a990d444ea5f390/Group%2044.svg"></img>
     </div>
 
 
@@ -1370,7 +1374,8 @@ export function Perfil(){
                                     <p>`+arroz[0].vitamina6+`</p>
                                 </div>
                             </div>
-
+                            <img class="Demas_alimentos" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/920d331be0e7021a423f38617dafa67fa39ddf69/Group%2039.svg"></img>
+                            <img class="Demas_alimentos1" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/05356da828f83c5d1b33c8bf1728bcdcfc0eea7e/Group%2039%20(3).svg"></img>
 
                 </div>
 
@@ -1492,6 +1497,8 @@ export function Perfil(){
                                     <p>`+papa[0].vitamina6+`</p>
                                 </div>
                             </div>
+                            <img class="Demas_alimentos2" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/d3bb57fe588464e3795f2e3fa276767697fb7904/Group%2040%20(1).svg"></img>
+                            <img class="Demas_alimentos3" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/49a8fdfb159bbca47b254f4fd2e879600770ff5e/Group%2040%20(2).svg"></img>
                 </div>
 
                 <div class="caja_video_legumbres" id="caja_video_legumbres">
@@ -1611,6 +1618,8 @@ export function Perfil(){
                                 </div>
                             </div>
 
+                            <img class="Demas_alimentos2" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/f1191ceb24ba6f5763d32eb416ab7ef1e72b00ac/Group%2042.svg"></img>
+                            <img class="Demas_alimentos4" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/113f28f857b93464ccf8bede81b1883f51a0cc98/Group%2041.svg"></img>
                 </div>
 
     </div>`;
@@ -2281,6 +2290,8 @@ export function Perfil(){
                     <p>`+AceiteOliva[0].vitamina3+`</p>
                     <p>`+AceiteOliva[0].vitamina4+`</p>
                 </div>
+                <img class="Demas_alimentos5" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/302b8aba95597e3d9d72cc40243a0bf8f1f49e2f/Group%2043.svg"></img>
+                <img class="Demas_alimentos6" src="https://raw.githubusercontent.com/CMiranda14/aps_imagenes_contribuidores/ada213501df6b7cdb48828002a990d444ea5f390/Group%2044.svg"></img>
             </div>
         </div>
 
@@ -2404,7 +2415,7 @@ export function Perfil(){
                 </div>
             </div>
 
-
+          
         </div>
 
     </div>`;

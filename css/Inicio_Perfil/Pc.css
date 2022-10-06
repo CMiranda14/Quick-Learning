@@ -531,6 +531,7 @@ body{
     display:none;
     position:absolute; 
     overflow: scroll; 
+    
 }
 #boton_cerrar_caja_bio_holac{
     position:absolute;
@@ -546,6 +547,7 @@ body{
     position: absolute;
     top: 46rem;
     height: 293.2px;
+    pointer-events: none;
 }
 .fondoPhone{
     width: 0px;
@@ -557,6 +559,7 @@ body{
     top: -1.5rem;
     Width: 1104px;
     Height: 627px;
+    pointer-events: none;
 }
 .objetivoPhone{
     width: 0px;
@@ -1283,6 +1286,62 @@ body{
     font-family: 'Fredoka One', cursive;
     color: #7C6BAF;
     font-weight: 400;
+}
+
+.Demas_alimentos{
+    width: 1358px;
+    height: 1697px;
+    margin-left:1rem;
+    margin-top:58rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos1{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos2{
+    width: 1108px;
+    height: 605px;
+    margin-left:9rem;
+    margin-top:60rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos3{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos4{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos5{
+    width: 589px;
+    height: 615px;
+    margin-left:-10rem;
+    margin-top:30rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos6{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
 }
 
 /*******************************************/

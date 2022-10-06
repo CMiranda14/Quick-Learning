@@ -1379,6 +1379,62 @@ body{
     position:absolute;
 }
 
+.Demas_alimentos{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos1{
+    width: 410px;
+    height:2356px;
+    margin-left:0rem;
+    margin-top:110rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos2{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos3{
+    width: 403px;
+    height: 669px;
+    margin-left:0rem;
+    margin-top:140rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos4{
+    width: 383px;
+    height: 649px;
+    margin-left:0rem;
+    margin-top:138rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos5{
+    width: 0px;
+    height: 0px;
+    margin-left:0rem;
+    margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos6{
+    width: 381px;
+    height: 324px;
+    margin-left:-3rem;
+    margin-top:100rem;
+    pointer-events: none;
+}
+
 /*******************************************/
            /***PROTEÌNAS***/   
 /*******************************************/
