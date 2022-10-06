@@ -236,6 +236,59 @@ export const res = [
         vitamina5: 'Biotina',
     }
 ]
+export const Chorizo = [
+    {
+        nombre: 'Chorizo de cerdo',
+        calorias: '278kcal - 126.21cal',
+        libras: '1 lb',
+        proteina: '15.8g',
+        lipidos:'22.8g',
+        carbohidratos: '1.1g',
+        vitamina: 'Tiamina',
+        vitamina1: 'Riboflavina',
+        vitamina2: 'Niacina',
+        vitamina3: 'Vitamina B6',
+        vitamina4: 'Vitamina B12',
+        vitamina5: 'Vitamina E',
+    }
+]
+
+export const Longaniza = [
+    {
+        nombre: 'Longaniza de cerdo',
+        calorias: '387kcal - 175.70cal',
+        libras: '1 lb',
+        proteina: '7.7g',
+        lipidos:'38.3g',
+        carbohidratos: '2.2g',
+        vitamina: 'Vitamina B1',
+        vitamina1: 'Vitamina B2',
+        vitamina2: 'Vitamina B3',
+        vitamina3: 'Vitamina B5',
+        vitamina4: 'Vitamina B9',
+        vitamina5: 'Vitamina K',
+    }
+]
+
+export const Jamón = [
+    {
+        nombre: 'Jamón de pavo',
+        calorias: '147kcal - 66.74cal',
+        libras: '1 lb',
+        proteina: '18.7g',
+        lipidos:'7.22g ',
+        carbohidratos: '0.53g',
+        vitamina: 'Vitamina B1',
+        vitamina1: 'Vitamina B2',
+        vitamina2: 'Vitamina B6',
+        vitamina3: 'Vitamina B12',
+        vitamina4: 'Ácido Fólico',
+        vitamina5: 'Biotina',
+    }
+]
+
+
+
 
 
 
@@ -291,6 +344,39 @@ export const Crema = [
         vitamina4: 'Vitamina B3',
         vitamina5: 'Vitamina B5',
         vitamina6: 'Vitamina B6',
+       
+    }
+]
+export const queso = [
+    {
+        nombre: 'Queso blanco fresco',
+        calorias: '264kcal - 119.86cal',
+        libras: '1 lb',
+        proteina: '17.5g',
+        lipidos:'20.1g ',
+        carbohidratos: '3.3g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B1',
+        vitamina3: 'Vitamina B2',
+        vitamina4: 'Vitamina B9 ',
+        vitamina5: 'Vitamina B12 ',
+        vitamina6: 'Vitamina D',
+       
+    }
+]
+export const quesoCrema = [
+    {
+        nombre: 'Queso crema',
+        calorias: '349kcal - 158.45cal',
+        libras: '1 lb',
+        proteina: '7.55g',
+        lipidos:'34.87g',
+        carbohidratos: '2.66g',
+        vitamina1: 'Vitamina A',
+        vitamina2: 'Vitamina B1',
+        vitamina3: 'Vitamina B2',
+        vitamina4: 'Vitamina B3 ',
+        vitamina5: 'Vitamina D',
        
     }
 ]
@@ -401,6 +487,24 @@ export const Guayaba = [
     }
 
 ]
+export const Espinaca = [
+    {
+        nombre: 'Espinaca',
+        calorias: '23kcal - 10.44cal',
+        libras: '1 lb',
+        proteina: '2.86g ',
+        lipidos:'0.39g',
+        carbohidratos: '3.63g',
+        vitaminas: 'Vitamina A',
+        vitamina2: 'Vitamina B12',
+        vitamina3: 'Vitamina C',
+        vitamina4: 'Vitamina E',
+
+
+    }
+
+]
+
 
 /***DATAS LIPIDOS ****/
 
