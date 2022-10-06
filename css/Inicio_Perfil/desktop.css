@@ -183,7 +183,7 @@ body{
 
 .bio_holaa:hover{
     margin-top:21rem;
-    margin-left:5rem;
+    margin-left:16rem;
     width: 204px;
     height:275.47px ;
     transition:0.3s;
@@ -532,6 +532,7 @@ body{
     display:none;
     position:absolute; 
     overflow: scroll; 
+    
 }
 #boton_cerrar_caja_bio_holac{
     position:absolute;
@@ -547,6 +548,7 @@ body{
     position: absolute;
     top: 46rem;
     height: 293.2px;
+    pointer-events: none;
 }
 .fondoPhone{
     width: 0px;
@@ -558,6 +560,7 @@ body{
     top: -1.5rem;
     Width: 1104px;
     Height: 627px;
+    pointer-events: none;
 }
 .objetivoPhone{
     width: 0px;
@@ -701,8 +704,6 @@ body{
     cursor: pointer;
     transition: 0.3s;
 }
-
-
 .categorias_carbohidratos{
     position:absolute;
     font-size:25px;
@@ -721,7 +722,6 @@ body{
     margin-top: 6.5rem;
     margin-left: 59rem;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .carbohidratos_frutas{
@@ -731,7 +731,6 @@ body{
     margin-top: 6.5rem;
     margin-left: 92rem;
     cursor: pointer;
-    transition: 0.3s;
 }
 .carbohidratos_legumbres{
     position: absolute;
@@ -742,6 +741,8 @@ body{
     cursor: pointer;
     transition: 0.3s;
 }
+
+
 /*----CAJA VIDEO CARBOHIDRATOS-----*/
 
 .caja_video_carbohidratos{
@@ -1227,8 +1228,8 @@ body{
 }
 
 .Demas_alimentos{
-    width: 1358px;
-    height: 1697px;
+    width: 1188px;
+    height: 1577px;
     margin-left:1rem;
     margin-top:58rem;
     pointer-events: none;
@@ -1243,9 +1244,9 @@ body{
 }
 
 .Demas_alimentos2{
-    width: 1108px;
-    height: 605px;
-    margin-left:9rem;
+    width: 1088px;
+    height: 585px;
+    margin-left:5rem;
     margin-top:60rem;
     pointer-events: none;
 }
@@ -1267,10 +1268,10 @@ body{
 }
 
 .Demas_alimentos5{
-    width: 1108px;
-    height: 605px;
-    margin-left:9rem;
-    margin-top:60rem;
+    width: 589px;
+    height: 615px;
+    margin-left:-10rem;
+    margin-top:30rem;
     pointer-events: none;
 }
 
@@ -1279,6 +1280,14 @@ body{
     height: 0px;
     margin-left:0rem;
     margin-top:0rem;
+    pointer-events: none;
+}
+
+.Demas_alimentos7{
+    width: 1088px;
+    height: 585px;
+    margin-left:5rem;
+    margin-top:65rem;
     pointer-events: none;
 }
 
@@ -1973,35 +1982,38 @@ body{
 
 .leche{
     border-radius: 29px;
-    position: absolute;
+    position:absolute;
     top: 2rem;
-    left: 52rem;
-    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    left: 55rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
-    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
     width: 602px;
     height: 300px;
 }
 .crema{
     border-radius: 29px;
-    position: absolute;
+    position:absolute;
     top: 36rem;
-    left: 52rem;
-    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    left: 55rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
-    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
     width: 602px;
     height: 300px;
 
 }
 .yogurt{
     border-radius: 29px;
-    position: absolute;
+    position:absolute;
     top: 22rem;
-    left: 4rem;
-    -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    left: 7rem;
+    -webkit-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
-    box-shadow: 1px 10px 13px 5px rgb(246 246 246);
+    box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
+
     width: 46rem;
     height: 44rem;
 }
@@ -2009,7 +2021,7 @@ body{
     border-radius: 29px;
     position: absolute;
     top: 70rem;
-    left: 4rem;
+    left: 7rem;
     -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     box-shadow: 1px 10px 13px 5px rgb(246 246 246);
@@ -2020,7 +2032,7 @@ body{
     border-radius: 29px;
     position: absolute;
     top: 70rem;
-    left: 52rem;
+    left: 53rem;
     -webkit-box-shadow: 1px 10px 13px 5px rgb(246 246 246);
     -moz-box-shadow: 1px 10px 13px 5px rgba(246,246,246,1);
     box-shadow: 1px 10px 13px 5px rgb(246 246 246);
